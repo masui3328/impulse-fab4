@@ -1615,11 +1615,12 @@ pre{
   letter-spacing:0.1em;
   font-size:0.85em;
 }
+
 .text-label{
-  text-transform:uppercase;
-  letter-spacing:0.1em;
-  font-size:0.55em;
+  font-size:calc(var(--typeBaseSize) - 2px);
+  letter-spacing:0.05em
 }
+
 label{
   display:block;
   margin-bottom:10px;
@@ -7662,6 +7663,10 @@ input[type=image]{
 .collection-sidebar__group .collapsible-content__inner{
     padding-bottom:5px;
   }
+
+.collection-sidebar__group .collapsible-content__inner .tag-list label:hover{
+  text-decoration:none;
+}
 
 .filter-form div:first-of-type .collection-sidebar__group{
   border-top:0;
