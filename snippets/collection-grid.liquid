@@ -12,6 +12,10 @@ Snippet Arguments
 {% endcomment %}
 
 {% liquid
+  if collection.products
+    assign count = collection.products_count
+    assign count_label = 'collections.general.items_with_count'
+  endif
 
   if collection.results
     assign count = collection.results_count
@@ -45,9 +49,7 @@ Snippet Arguments
     </div>
 
     <div class="collection-filter__item collection-filter__item--count small--hide">
-      {%- if enable_collection_count -%}
-        {{ count_label | t: count: count }}
-      {%- endif -%}
+
     </div>
 
     <div class="collection-filter__item collection-filter__item--sort">
