@@ -5093,18 +5093,19 @@ form+.footer__social{
   transform:translate3d(0px, -12px, 0px)
 }
 
-.side-nav--list{border:1px solid #ff0000;
+.side-nav--list{
   margin:0;
-  padding:0;
+  paddin:0;
   list-style:none;
   font-size:calc(var(--typeBaseSize) - 2px);
   letter-spacing:0.05em
 }
-@media only screen and (max-width:768px){
-.side-nav--list{
-      font-size:calc(var(--typeBaseSize) - 2px);
-  }
-    }
+
+.side-nav--list li ul{
+  margin:0 0 15px 30px;
+  padding:0;
+  text-rendering:optimizeLegibility;
+}
 
 .is-focused>.site-nav__dropdown,.site-nav--has-dropdown:hover .site-nav__dropdown{
     display:block;
