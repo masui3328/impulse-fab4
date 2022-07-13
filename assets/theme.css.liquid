@@ -7642,10 +7642,10 @@ input[type=image]{
 }
 
 .collection-sidebar__group{
-  border-top:1px solid;
-  border-top-color:{{ settings.color_drawer_border | default: "#343535" }};
-  border-top-color:var(--colorDrawerBorder);
-  padding-top:5px;
+  border-bottom:1px solid;
+  border-bottom-color:{{ settings.color_drawer_border | default: "#343535" }};
+  border-bottom-color:var(--colorDrawerBorder);
+  padding-bottom:5px;
   margin-top:5px;
   margin-bottom:5px;
   overflow:hidden
