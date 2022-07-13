@@ -49,7 +49,9 @@ Snippet Arguments
     </div>
 
     <div class="collection-filter__item collection-filter__item--count small--hide">
-
+      {%- if enable_collection_count -%}
+        {{ count_label | t: count: count }}
+      {%- endif -%}
     </div>
 
     <div class="collection-filter__item collection-filter__item--sort">
