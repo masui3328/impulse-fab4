@@ -2409,8 +2409,8 @@ button[disabled],html input[disabled]{
 
 .collapsible-trigger-btn{
   text-transform:uppercase;
-  letter-spacing:0.1em;
-  font-size:0.8em;
+  letter-spacing:0.05em;
+  font-size:calc(var(--typeBaseSize) - 2px);
   display:block;
   width:100%;
   padding:15px 10px 15px 0
@@ -7895,11 +7895,11 @@ label.tag__checkbox-wrapper{
     transition:transform 0.3s;
   }
 .variant-input-wrap label:hover{
-/*    opacity:0.6;
+    opacity:0.6;
     border-color:{{ settings.color_body_text | default: "#1c1d1d" | color_modify: "alpha", 0.05 }};
     border-bottom:1px {{ settings.color_body_text | default:"#1c1d1d" }};
     box-shadow:0 1px 0 0 {{ settings.color_body_text | default:"#1c1d1d" }};
-    box-shadow:0 1px 0 0 var(--colorTextBody);*/
+    box-shadow:0 1px 0 0 var(--colorTextBody);
   }
 
 [data-center-text=true] .variant-input-wrap label{
