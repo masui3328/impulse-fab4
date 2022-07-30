@@ -6681,7 +6681,7 @@ input[type=image]{
 
 @media only screen and (min-width:769px){
   .index-section{
-    margin:75px 0;
+    margin:75px 0;border:1px solid;
   }
 
   .index-section--small{
@@ -6693,7 +6693,7 @@ input[type=image]{
   }
 
   .index-section--faq{
-    margin:20px 0 37.5px;border:1px solid;
+    margin:75px 0 37.5px;
   }
 
   .newsletter-section{
