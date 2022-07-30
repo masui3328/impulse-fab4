@@ -6693,7 +6693,7 @@ input[type=image]{
   }
 
   .index-section--faq{
-    margin:20px 0 37.5px;
+    margin:20px 0 37.5px;boder:1px solid;
   }
 
   .newsletter-section{
