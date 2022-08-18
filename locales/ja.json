@@ -357,7 +357,8 @@
   "shopify": {
     "collections": {
       "sorting": {
-        "best_selling": "BEST SELLING"
+        "best_selling": "BEST SELLING",
+        "manual": "FEATURED"
       }
     }
   }
