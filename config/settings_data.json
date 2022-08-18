@@ -145,7 +145,7 @@
             "type": "newsletter",
             "settings": {
               "show_footer_title": false,
-              "title": "",
+              "title": "Sign up and save",
               "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
               "container_width": 36
             }
