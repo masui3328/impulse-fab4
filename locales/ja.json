@@ -353,5 +353,12 @@
   },
   "date_formats": {
     "month_day_year": "%m\/%d\/%Y"
+  },
+  "shopify": {
+    "collections": {
+      "sorting": {
+        "best_selling": "Best selling"
+      }
+    }
   }
 }
