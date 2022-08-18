@@ -357,8 +357,14 @@
   "shopify": {
     "collections": {
       "sorting": {
-        "best_selling": "BEST SELLING",
-        "manual": "FEATURED"
+        "best_selling": "Best Selling",
+        "manual": "Featured",
+        "az": "Alphabetically, A-Z",
+        "za": "Alphabetically, Z-A",
+        "price_ascending": "Price, low to high",
+        "price_descending": "Price, high to low",
+        "date_ascending": "Date, old to new",
+        "date_descending": "Date, new to old"
       }
     }
   }
