@@ -1,5 +1,21 @@
 {
   "sections": {
+    "1661157031576920fc": {
+      "type": "hero-video",
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "VIEW PRODUCTS",
+        "link": "shopify:\/\/collections",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e744ad0dfb9c49daa8abdad09f47987c.mp4",
+        "overlay_opacity": 0,
+        "section_height": "100vh",
+        "mobile_height": "auto"
+      }
+    },
     "16611436220fe789de": {
       "type": "background-video-text",
       "settings": {
@@ -413,6 +429,7 @@
     }
   },
   "order": [
+    "1661157031576920fc",
     "16611436220fe789de",
     "slideshow",
     "rich-text",
