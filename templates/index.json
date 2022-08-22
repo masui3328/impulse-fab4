@@ -317,7 +317,7 @@
       "settings": {
         "title": "collection",
         "home_featured_products": "category",
-        "per_row": 4,
+        "per_row": 5,
         "rows": 3,
         "mobile_scrollable": true,
         "view_all": true,
