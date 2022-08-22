@@ -1,5 +1,19 @@
 {
   "sections": {
+    "16611436220fe789de": {
+      "type": "background-video-text",
+      "settings": {
+        "subtitle": "Impressive",
+        "title": "Large video with text box",
+        "text": "<p>Pair large text with a full-width video to showcase your brand's lifestyle video or to describe and showcase an important detail of your products.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "video_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0638\/9199\/6887\/files\/FullSizeRender.mp4",
+        "color_border": "#f4f4f4",
+        "layout": "left",
+        "height": 750
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -399,6 +413,7 @@
     }
   },
   "order": [
+    "16611436220fe789de",
     "slideshow",
     "rich-text",
     "promo-grid",
