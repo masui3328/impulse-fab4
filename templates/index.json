@@ -18,6 +18,7 @@
     },
     "slideshow": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "slideshow-0": {
           "type": "image",
@@ -131,7 +132,7 @@
             "cta_link2": "",
             "image": "shopify:\/\/shop_images\/02.jpg",
             "video_url": "",
-            "width": "50",
+            "width": "100",
             "height": 800,
             "text_size": 200,
             "text_align": "vertical-center horizontal-center",
@@ -153,7 +154,7 @@
             "cta_link2": "",
             "image": "shopify:\/\/shop_images\/023.jpg",
             "video_url": "",
-            "width": "50",
+            "width": "100",
             "height": 800,
             "text_size": 200,
             "text_align": "vertical-center horizontal-center",
