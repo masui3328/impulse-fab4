@@ -164,22 +164,8 @@
             "framed": false
           }
         },
-        "a3067e62-e0b0-4254-bd7d-a7827c9e24f4": {
-          "type": "simple",
-          "settings": {
-            "link": "",
-            "text": "FURNITURE",
-            "image": "shopify:\/\/shop_images\/016.jpg",
-            "width": "100",
-            "height": 800,
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "framed": false
-          }
-        },
         "fb2b3275-96e6-4004-8082-dcee8323e952": {
           "type": "advanced",
-          "disabled": true,
           "settings": {
             "subheading": "Limited time",
             "heading": "Announce your promotion",
@@ -188,6 +174,7 @@
             "cta_link1": "",
             "cta_text2": "Shop All",
             "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/016.jpg",
             "video_url": "",
             "width": "100",
             "height": 500,
@@ -203,7 +190,6 @@
       "block_order": [
         "promo-0",
         "promo-1",
-        "a3067e62-e0b0-4254-bd7d-a7827c9e24f4",
         "fb2b3275-96e6-4004-8082-dcee8323e952"
       ],
       "settings": {
