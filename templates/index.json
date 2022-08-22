@@ -360,7 +360,7 @@
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
-        "title": "From the journal",
+        "title": "BLOG",
         "blog": "news",
         "post_limit": 3,
         "blog_show_tags": false,
