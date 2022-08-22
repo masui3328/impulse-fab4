@@ -1,4 +1,4 @@
-<ul class="side-nav--list">
+<ul class="side-nav--list level1">
     {%- for link in main_menu.links -%}
         {%- liquid
             assign has_dropdown = false
@@ -14,7 +14,7 @@
             <li >
                 <a href="{{ link.url }}">{{ link.title }}</a>
             </li>
-            <ul class="side-nav--list">
+            <ul class="side-nav--list level2">
                 {%- for childlink in link.links -%}
                     <li>
                         <a href="{{ childlink.url }}">{{ childlink.title }}</a>
