@@ -315,7 +315,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "collection",
         "home_featured_products": "category",
         "per_row": 4,
         "rows": 3,
