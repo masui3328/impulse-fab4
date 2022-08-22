@@ -16,20 +16,6 @@
         "mobile_height": "auto"
       }
     },
-    "16611436220fe789de": {
-      "type": "background-video-text",
-      "settings": {
-        "subtitle": "VIEW PRODUCTS",
-        "title": "",
-        "text": "<p>Pair large text with a full-width video to showcase your brand's lifestyle video or to describe and showcase an important detail of your products.<\/p>",
-        "button_label": "VIEW PRODUCTS",
-        "button_link": "shopify:\/\/collections",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e744ad0dfb9c49daa8abdad09f47987c.mp4",
-        "color_border": "#f4f4f4",
-        "layout": "right",
-        "height": 750
-      }
-    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -430,7 +416,6 @@
   },
   "order": [
     "1661157031576920fc",
-    "16611436220fe789de",
     "slideshow",
     "rich-text",
     "promo-grid",
