@@ -3,14 +3,14 @@
     "16611436220fe789de": {
       "type": "background-video-text",
       "settings": {
-        "subtitle": "Impressive",
-        "title": "Large video with text box",
+        "subtitle": "VIEW PRODUCTS",
+        "title": "",
         "text": "<p>Pair large text with a full-width video to showcase your brand's lifestyle video or to describe and showcase an important detail of your products.<\/p>",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "VIEW PRODUCTS",
+        "button_link": "shopify:\/\/collections",
         "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e744ad0dfb9c49daa8abdad09f47987c.mp4",
         "color_border": "#f4f4f4",
-        "layout": "left",
+        "layout": "right",
         "height": 750
       }
     },
@@ -32,7 +32,7 @@
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/024.jpg",
             "overlay_opacity": 0,
-            "focal_point": "20% 100%"
+            "focal_point": "center center"
           }
         },
         "slideshow-1": {
