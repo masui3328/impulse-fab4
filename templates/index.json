@@ -399,6 +399,64 @@
         "layout": "right",
         "divider": false
       }
+    },
+    "16613906970b9d292e": {
+      "type": "advanced-content",
+      "blocks": {
+        "1661390697aa8f6493-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "1661390697aa8f6493-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>FAB4 OSAKA<\/h2>\n<p>I Lhotse 5-1-15 Toyosaki Kita-ku Osaka city 531-0072<br>\n大阪府大阪市北区豊崎５丁目1-15 ローツェ I 101<\/p>\n<p>Open Hours : 13:00～21:00<br>\nClosed : Wednesday or Irregular<br>\n06 6940 7139<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1661390697aa8f6493-0",
+        "1661390697aa8f6493-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": false
+      }
+    },
+    "1661390776b378ab34": {
+      "type": "advanced-content",
+      "blocks": {
+        "1661390776fceadb95-0": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "1661390776fceadb95-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>FAB4 KOBE<\/h2><p>3F Thanks BLD 2-5-8 Sannomiyacho Kobe city<br>兵庫県神戸市中央区三宮町2丁目5-8 サンクスビル3F<\/p><p>Open Hours : 12:00～20:30<br>Closed : Irregular<br>078 327 8285<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1661390776fceadb95-0",
+        "1661390776fceadb95-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true
+      }
     }
   },
   "order": [
@@ -413,6 +471,8 @@
     "blog-posts",
     "map",
     "1661139257717989bd",
-    "1661139430bea7f075"
+    "1661139430bea7f075",
+    "16613906970b9d292e",
+    "1661390776b378ab34"
   ]
 }
