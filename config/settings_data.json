@@ -74,20 +74,20 @@
       "header": {
         "type": "header",
         "blocks": {
-          "1524770296206": {
-            "type": "announcement",
-            "settings": {
-              "text": "",
-              "link_text": "8\/15 Blog Update \"Permanent Vacation by Shun Komiyama\"",
-              "link": "shopify:\/\/blogs\/ニュース\/permanent-vacation-by-shun-komiyama"
-            }
-          },
           "1524770014057": {
             "type": "logo",
             "settings": {
               "logo": "shopify:\/\/shop_images\/logo.png",
               "desktop_logo_width": 100,
               "mobile_logo_width": 60
+            }
+          },
+          "1524770296206": {
+            "type": "announcement",
+            "settings": {
+              "text": "",
+              "link_text": "8\/15 Blog Update \"Permanent Vacation by Shun Komiyama\"",
+              "link": "shopify:\/\/blogs\/ニュース\/permanent-vacation-by-shun-komiyama"
             }
           },
           "1524770292306": {
@@ -101,8 +101,8 @@
           }
         },
         "block_order": [
-          "1524770296206",
           "1524770014057",
+          "1524770296206",
           "1524770292306"
         ],
         "settings": {
