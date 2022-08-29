@@ -95,6 +95,10 @@
     {%- endif -%}
   {%- endunless -%}
 
+  {%- unless overlay_header or section.settings.announcement_above_header -%}
+    {%- render 'announcement-bar', section: section -%}
+  {%- endunless -%}
+
   <div class="header-sticky-wrapper">
     <div id="HeaderWrapper" class="header-wrapper{% if overlay_header %} header-wrapper--sticky is-light{% endif %}">
 
@@ -218,9 +222,7 @@
     </div>
   </div>
 
-  {%- unless overlay_header or section.settings.announcement_above_header -%}
-    {%- render 'announcement-bar', section: section -%}
-  {%- endunless -%}
+
 </div>
 
 {% schema %}
