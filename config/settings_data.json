@@ -90,6 +90,14 @@
               "link": "shopify:\/\/blogs\/ニュース\/permanent-vacation-by-shun-komiyama"
             }
           },
+          "59b4bb25-cff7-4de8-9074-7e62b778a4f7": {
+            "type": "announcement",
+            "settings": {
+              "text": "Hassle-free returns",
+              "link_text": "30-day postage paid returns",
+              "link": ""
+            }
+          },
           "1524770292306": {
             "type": "announcement",
             "disabled": true,
@@ -103,6 +111,7 @@
         "block_order": [
           "1524770014057",
           "1524770296206",
+          "59b4bb25-cff7-4de8-9074-7e62b778a4f7",
           "1524770292306"
         ],
         "settings": {
