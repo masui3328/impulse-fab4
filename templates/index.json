@@ -323,7 +323,7 @@
         "title": "collection",
         "home_featured_products": "category",
         "per_row": 4,
-        "rows": 5,
+        "rows": 8,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
