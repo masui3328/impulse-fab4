@@ -322,7 +322,7 @@
       "settings": {
         "title": "collection",
         "home_featured_products": "category",
-        "per_row": 1,
+        "per_row": 4,
         "rows": 5,
         "mobile_scrollable": true,
         "view_all": true,
