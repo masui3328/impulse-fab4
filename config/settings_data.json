@@ -84,6 +84,7 @@
           },
           "1524770296206": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "",
               "link_text": "8\/15 Blog Update \"Permanent Vacation by Shun Komiyama\"",
