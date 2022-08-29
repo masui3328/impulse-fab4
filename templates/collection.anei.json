@@ -22,7 +22,8 @@
         "1661751345840eb70c-0": {
           "type": "image",
           "settings": {
-            "link": "",
+            "image": "shopify:\/\/shop_images\/ANEI-top.jpg",
+            "link": "shopify:\/\/collections\/anei",
             "width": "50%",
             "alignment": "top-middle"
           }
