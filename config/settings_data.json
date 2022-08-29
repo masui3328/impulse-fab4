@@ -92,6 +92,7 @@
           },
           "1524770292306": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Free shipping",
               "link_text": "On all orders over $100",
