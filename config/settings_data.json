@@ -74,6 +74,14 @@
       "header": {
         "type": "header",
         "blocks": {
+          "1524770296206": {
+            "type": "announcement",
+            "settings": {
+              "text": "",
+              "link_text": "8\/15 Blog Update \"Permanent Vacation by Shun Komiyama\"",
+              "link": "shopify:\/\/blogs\/ニュース\/permanent-vacation-by-shun-komiyama"
+            }
+          },
           "1524770014057": {
             "type": "logo",
             "settings": {
@@ -90,21 +98,12 @@
               "link_text": "On all orders over $100",
               "link": ""
             }
-          },
-          "1524770296206": {
-            "type": "announcement",
-            "disabled": true,
-            "settings": {
-              "text": "Hassle-free returns",
-              "link_text": "30-day postage paid returns",
-              "link": ""
-            }
           }
         },
         "block_order": [
+          "1524770296206",
           "1524770014057",
-          "1524770292306",
-          "1524770296206"
+          "1524770292306"
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
