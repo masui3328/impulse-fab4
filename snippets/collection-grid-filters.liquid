@@ -11,6 +11,8 @@
 {%- liquid
   assign main_menu = linklists.side-menu
 -%}
+{% assign collection = collections[section.settings.collection] %}
+
 
 {%- if enable_sidebar -%}
 <div id="CollectionSidebar" data-style="{{ filter_style }}">
