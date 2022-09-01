@@ -21,6 +21,8 @@
         {% comment %} {%- render 'collection-grid-filters-form', location: 'CollectionSidebar', filters: collection.filters, collapsed: collapsed, enable_color_swatches: enable_color_swatches -%} {% endcomment %}
         
         {%- render 'collection-side-nav' , main_menu: main_menu -%}
+
+{{ collection }}
         
     </div>
     {%- endif -%}  
