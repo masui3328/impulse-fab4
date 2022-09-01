@@ -32,10 +32,10 @@
         {% comment %} 
         {%- render 'collection-grid-filters-form', location: 'CollectionSidebar', filters: collection.filters, collapsed: collapsed, enable_color_swatches: enable_color_swatches -%}
 
-        {%- render 'collection-side-nav' , main_menu: main_menu -%}
+        {%- render 'collection-side-nav', main_menu: main_menu -%}
         {% endcomment %}
 
-        {%- render 'collection-side-nav', main_menu: 'CollectionSidebar', filters: collection.filters, collapsed: collapsed, enable_color_swatches: enable_color_swatches -%}
+        {%- render 'collection-side-nav', main_menu: main_menu, filters: collection.filters, collapsed: collapsed, enable_color_swatches: enable_color_swatches -%}
 
     </div>
     {%- endif -%}  
