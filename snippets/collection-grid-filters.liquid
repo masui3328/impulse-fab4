@@ -18,6 +18,10 @@
 {%- liquid
   assign main_menu = linklists.side-menu
 -%}
+{%- elseif collection.title == "MEN" -%}
+{%- liquid
+  assign main_menu = linklists.side-for-men
+-%}
 {%- else -%}  
 {%- liquid
   assign main_menu = linklists.side-menu
