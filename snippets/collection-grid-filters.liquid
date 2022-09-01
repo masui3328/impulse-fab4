@@ -36,7 +36,7 @@
 {%- if enable_sidebar -%}
 <div id="CollectionSidebar" data-style="{{ filter_style }}">
 
-
+{{collection.title}}
     {%- if filter_style == 'sidebar' -%}
     <div class="collection-sidebar small--hide">
         {% comment %} {%- render 'collection-grid-filters-form', location: 'CollectionSidebar', filters: collection.filters, collapsed: collapsed, enable_color_swatches: enable_color_swatches -%} {% endcomment %}
