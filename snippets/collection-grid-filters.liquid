@@ -8,35 +8,15 @@
 
 {%- assign animation_row = 1 -%}
 
-{% comment %}
 {%- liquid
   assign main_menu = linklists.side-menu
 -%}
-{% endcomment %}
-
-{% if collection.title == "MEN" %}
-{%- liquid
- assign main_menu = linklists.side-for-men 
--%}
-{% elseif collection.title == "WOMEN" %}
-{%- liquid
- assign main_menu = linklists.side-for-women 
--%}
-{% elseif collection.title == "UNISEX" %}
-{%- liquid
- assign main_menu = linklists.side-for-unisex 
--%}
-{% else %}  
-{%- liquid
- assign main_menu = linklists.side-menu
--%}
-{% endif %}  
-
 
 {%- if enable_sidebar -%}
 <div id="CollectionSidebar" data-style="{{ filter_style }}">
 
-{{collection.title}}
+{{ collection.title }}
+
     {%- if filter_style == 'sidebar' -%}
     <div class="collection-sidebar small--hide">
         {% comment %} {%- render 'collection-grid-filters-form', location: 'CollectionSidebar', filters: collection.filters, collapsed: collapsed, enable_color_swatches: enable_color_swatches -%} {% endcomment %}
