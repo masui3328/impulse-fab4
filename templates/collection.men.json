@@ -8,71 +8,34 @@
         "parallax": true
       }
     },
-    "promo-grid": {
-      "type": "promo-grid",
-      "disabled": true,
+    "16620157402d25124d": {
+      "type": "advanced-content",
       "blocks": {
-        "banner": {
-          "type": "banner",
+        "1662015740a49aaa98-1": {
+          "type": "liquid",
           "settings": {
-            "heading": "Banner promotion",
-            "text": "Add the details of your promotion in smaller text",
+            "code": "<h2>Custom content<\/h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.<\/p>",
+            "width": "50%",
+            "alignment": "top-middle"
+          }
+        },
+        "1662015740a49aaa98-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ANEI-top.jpg",
             "link": "",
-            "label": "Shop now",
-            "color_tint": "#e95454",
-            "color_tint_opacity": 8,
-            "framed": false
-          }
-        },
-        "advanced": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "",
-            "cta_text2": "Shop All",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "100",
-            "height": 500,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "7aacf2e2-bb1b-4642-b76c-e46c9c4d788f": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "subheading": "Limited time",
-            "heading": "Announce your product",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "link_label": "Learn more",
-            "label": "New",
-            "enable_price": true,
-            "width": "100",
-            "text_size": 100,
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "framed": false
+            "width": "50%",
+            "alignment": "center"
           }
         }
       },
       "block_order": [
-        "banner",
-        "advanced",
-        "7aacf2e2-bb1b-4642-b76c-e46c9c4d788f"
+        "1662015740a49aaa98-1",
+        "1662015740a49aaa98-0"
       ],
       "settings": {
         "full_width": false,
-        "gutter_size": 20,
-        "space_above": true,
-        "space_below": false
+        "space_around": true
       }
     },
     "main-collection": {
@@ -116,7 +79,7 @@
   },
   "order": [
     "collection-header",
-    "promo-grid",
+    "16620157402d25124d",
     "main-collection"
   ]
 }
