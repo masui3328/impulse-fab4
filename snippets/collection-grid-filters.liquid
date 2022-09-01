@@ -14,23 +14,23 @@
 -%}
 {% endcomment %}
 
-{%- if collection.title == "MEN" -%}
+{% if collection.title == "MEN" %}
 {%- liquid
  assign main_menu = linklists.side-for-men 
 -%}
-{%- elseif collection.title == "WOMEN" -%}
+{% elseif collection.title == "WOMEN" %}
 {%- liquid
  assign main_menu = linklists.side-for-women 
 -%}
-{%- elseif collection.title == "UNISEX" -%}
+{% elseif collection.title == "UNISEX" %}
 {%- liquid
  assign main_menu = linklists.side-for-unisex 
 -%}
-{%- else -%}  
+{% else %}  
 {%- liquid
  assign main_menu = linklists.side-menu
 -%}
-{%- endif -%}  
+{% endif %}  
 
 
 {%- if enable_sidebar -%}
