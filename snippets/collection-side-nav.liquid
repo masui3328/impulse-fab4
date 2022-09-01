@@ -12,13 +12,12 @@
         -%}
         {%- if  has_dropdown -%}
             <li >
-{{ link.title }}
-
                 <a href="{{ link.url }}">{{ link.title }}</a>
             </li>
             <ul class="side-nav--list level2">
                 {%- for childlink in link.links -%}
                     <li>
+{{ collection.title }}
                         <a href="{{ childlink.url }}">{{ childlink.title }}</a>
                     </li>
                 {%- endfor -%}
