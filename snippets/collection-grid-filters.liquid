@@ -8,6 +8,8 @@
 
 {%- assign animation_row = 1 -%}
 
+{% assign collection_name = collections[section.settings.collection] %}
+
 {% comment %} 
 {%- liquid
   assign main_menu = linklists.side-menu
@@ -19,6 +21,8 @@
 
 {%- if enable_sidebar -%}
 <div id="CollectionSidebar" data-style="{{ filter_style }}">
+        {% collection_name %} 
+
     {%- if filter_style == 'sidebar' -%}
     <div class="collection-sidebar small--hide">
         {% comment %} 
