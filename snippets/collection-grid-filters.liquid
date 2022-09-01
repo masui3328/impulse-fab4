@@ -8,16 +8,19 @@
 
 {%- assign animation_row = 1 -%}
 
-{% assign collection_name = collections[section.settings.collection] %}
+{%- liquid
+  assign collection_name = collections[section.settings.collection]
+-%}
 
-{% comment %} 
 {%- liquid
   assign main_menu = linklists.side-menu
 -%}
-{% endcomment %}
+
+{% comment %} 
 {%- liquid
   assign main_menu = linklists.side-for-men
 -%}
+{% endcomment %}
 
 {%- if enable_sidebar -%}
 <div id="CollectionSidebar" data-style="{{ filter_style }}">
