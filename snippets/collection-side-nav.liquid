@@ -16,8 +16,11 @@
             </li>
             <ul class="side-nav--list level2">
                 {%- for childlink in link.links -%}
+                    {%- if  collection.title==childlink.title -%}
+                    <li class="active">
+                    {%- else -%}
                     <li>
-{{ collection.title }}
+                    {%- endif -%}
                         <a href="{{ childlink.url }}">{{ childlink.title }}</a>
                     </li>
                 {%- endfor -%}
