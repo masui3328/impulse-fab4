@@ -44,11 +44,29 @@
             "boxed": false,
             "framed": false
           }
+        },
+        "7aacf2e2-bb1b-4642-b76c-e46c9c4d788f": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "subheading": "Limited time",
+            "heading": "Announce your product",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "link_label": "Learn more",
+            "label": "New",
+            "enable_price": true,
+            "width": "100",
+            "text_size": 100,
+            "color_tint": "#000000",
+            "color_tint_opacity": 0,
+            "framed": false
+          }
         }
       },
       "block_order": [
         "banner",
-        "advanced"
+        "advanced",
+        "7aacf2e2-bb1b-4642-b76c-e46c9c4d788f"
       ],
       "settings": {
         "full_width": false,
