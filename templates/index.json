@@ -353,6 +353,18 @@
         "divider": false
       }
     },
+    "1662796384b294e028": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "OTHER",
+        "home_featured_products": "other",
+        "per_row": 4,
+        "rows": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
     "background-image-text": {
       "type": "background-image-text",
       "disabled": true,
@@ -465,6 +477,7 @@
     "featured-collection",
     "1662795800f5ff1b5d",
     "16627960088f8fa8fa",
+    "1662796384b294e028",
     "background-image-text",
     "blog-posts",
     "map",
