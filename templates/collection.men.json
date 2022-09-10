@@ -8,37 +8,6 @@
         "parallax": true
       }
     },
-    "16620157402d25124d": {
-      "type": "advanced-content",
-      "disabled": true,
-      "blocks": {
-        "1662015740a49aaa98-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2>Custom content<\/h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.<\/p>",
-            "width": "50%",
-            "alignment": "top-middle"
-          }
-        },
-        "1662015740a49aaa98-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ANEI-top.jpg",
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "1662015740a49aaa98-1",
-        "1662015740a49aaa98-0"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    },
     "main-collection": {
       "type": "main-collection",
       "blocks": {
@@ -80,7 +49,6 @@
   },
   "order": [
     "collection-header",
-    "16620157402d25124d",
     "main-collection"
   ]
 }
