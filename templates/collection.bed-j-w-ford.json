@@ -2,6 +2,7 @@
   "sections": {
     "collection-header": {
       "type": "collection-header",
+      "disabled": true,
       "settings": {
         "enable": true,
         "collection_image_enable": true,
@@ -15,15 +16,16 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "Endless\npossibilities.",
-            "title_size": 80,
-            "subheading": "Bring your brand to life",
+            "title": "BED J.W. FORD",
+            "title_size": 40,
+            "subheading": "Designer : 山岸慎平 Shinpei Yamagishi",
             "link": "",
-            "link_text": "Optional button",
+            "link_text": "",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/aw2223_mv_1500x_025ca07c-f19a-415e-b6ef-f5def3e4a62e.webp",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
