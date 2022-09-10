@@ -320,10 +320,22 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "collection",
-        "home_featured_products": "category",
+        "title": "MEN",
+        "home_featured_products": "men",
         "per_row": 4,
-        "rows": 8,
+        "rows": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1662795800f5ff1b5d": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "men",
+        "per_row": 4,
+        "rows": 5,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
@@ -439,6 +451,7 @@
     "featured-collections",
     "promo-grid2",
     "featured-collection",
+    "1662795800f5ff1b5d",
     "background-image-text",
     "blog-posts",
     "map",
