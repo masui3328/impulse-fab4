@@ -332,10 +332,22 @@
     "1662795800f5ff1b5d": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "men",
+        "title": "WOMEN",
+        "home_featured_products": "women",
         "per_row": 4,
         "rows": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "16627960088f8fa8fa": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "UNISEX",
+        "home_featured_products": "unisex",
+        "per_row": 4,
+        "rows": 1,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
@@ -452,6 +464,7 @@
     "promo-grid2",
     "featured-collection",
     "1662795800f5ff1b5d",
+    "16627960088f8fa8fa",
     "background-image-text",
     "blog-posts",
     "map",
