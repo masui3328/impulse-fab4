@@ -320,7 +320,7 @@
     "featured-collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "MEN",
+        "title": "{{ section.settings.home_featured_products.title }}",
         "home_featured_products": "men",
         "per_row": 4,
         "rows": 5,
@@ -332,7 +332,7 @@
     "1662795800f5ff1b5d": {
       "type": "featured-collection",
       "settings": {
-        "title": "WOMEN",
+        "title": "{{ section.settings.home_featured_products.title }}",
         "home_featured_products": "women",
         "per_row": 4,
         "rows": 5,
@@ -344,7 +344,7 @@
     "16627960088f8fa8fa": {
       "type": "featured-collection",
       "settings": {
-        "title": "UNISEX",
+        "title": "{{ section.settings.home_featured_products.title }}",
         "home_featured_products": "unisex",
         "per_row": 4,
         "rows": 5,
@@ -356,7 +356,7 @@
     "1662796384b294e028": {
       "type": "featured-collection",
       "settings": {
-        "title": "OTHER",
+        "title": "{{ section.settings.home_featured_products.title }}",
         "home_featured_products": "other",
         "per_row": 4,
         "rows": 5,
