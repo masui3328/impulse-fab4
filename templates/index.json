@@ -365,22 +365,6 @@
         "divider": false
       }
     },
-    "background-image-text": {
-      "type": "background-image-text",
-      "disabled": true,
-      "settings": {
-        "subtitle": "Impressive",
-        "title": "Large image with text box",
-        "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
-        "button_label": "",
-        "button_link": "shopify:\/\/collections\/all",
-        "focal_point": "80% 0",
-        "layout": "left",
-        "height": 750,
-        "framed": false,
-        "parallax": true
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
@@ -465,18 +449,6 @@
         "full_width": true,
         "space_around": true
       }
-    },
-    "166294900328efd2a5": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "NEW",
-        "home_featured_products": "new-arrival",
-        "per_row": 4,
-        "rows": 5,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
     }
   },
   "order": [
@@ -490,11 +462,9 @@
     "1662795800f5ff1b5d",
     "16627960088f8fa8fa",
     "1662796384b294e028",
-    "background-image-text",
     "blog-posts",
     "map",
     "16613906970b9d292e",
-    "1661390776b378ab34",
-    "166294900328efd2a5"
+    "1661390776b378ab34"
   ]
 }
