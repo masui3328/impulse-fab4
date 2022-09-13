@@ -16,6 +16,10 @@
 {%- assign product_limit = per_row | times: section.settings.rows -%}
 {%- assign collection = collections[section.settings.home_featured_products] -%}
 
+
+{%- assign collection_test = collections[section.blocks[0].settings.collection] -%}
+<div>{{ collection_test.title }}</div>
+
 <div
   id="CollectionSection-{{ section.id }}"
   data-section-id="{{ section.id }}"
