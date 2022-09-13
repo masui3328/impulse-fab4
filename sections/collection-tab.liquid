@@ -1,7 +1,35 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "タブコレクション",
+    "settings": [],
+    "templates": ["index"],
+    "max_blocks": 6,
+    "blocks": [
+     {
+       "name": "コレクション",
+       "type": "collection",
+       "settings": [
+         {
+           "type": "collection",
+           "id": "collection",
+           "label": "コレクション"
+         }
+       ]
+     }
+    ],
+    "presets": [
+      {
+        "name": "タブコレクション",
+        "blocks": [
+          {
+            "type": "collection"
+          },
+          {
+            "type": "collection"
+          }
+        ]
+      }
+    ]
   }
 {% endschema %}
 
