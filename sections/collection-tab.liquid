@@ -1,4 +1,41 @@
+{%- comment -%} ----- stylesheet ----- {%- endcomment -%}
+<style>
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+.tab {
+  flex-grow: 1;
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+  margin: 0px 15px 5px;
+}
+.tab span {
+  cursor: pointer;
+  white-space: nowrap;
+}
+.hide_content {
+  display: none;
+}
+<style>
+
+{%- comment -%} ----- html ----- {%- endcomment -%}
 <div>Collection Tabs</div>
+
+<div>
+  <ul class="tabs">
+{% for block in section.blocks %}
+  <li class="tab"><span>{{  block.settings.id_collection_title }}</span></li>
+{% endfor %}
+  <li class="tab"><span>UNISEX</span></li>
+  <li class="tab"><span>OTHER</span></li>
+  <li class="tab"><span>FEATURED</span></li>
+  <li class="tab"><span>SALL</span></li>
+  </ul>
+</div>
 
 {% schema %}
   {
