@@ -2,6 +2,7 @@
 <h1 style="text-align: center;">Collection Tab</h1>
 {%- endcomment -%}
 
+{%- comment -%} ----- Tabs ----- {%- endcomment -%}
 <div>
   <ul class="tabs">
 {% for block in section.blocks -%}
@@ -10,6 +11,7 @@
   </ul>
 </div>
 
+{%- comment -%} ----- Featued collections ----- {%- endcomment -%}
 {%- assign per_row = section.settings.per_row -%}
 {%- assign product_limit = per_row | times: section.settings.rows -%}
 {%- assign collection = collections[section.settings.home_featured_products] -%}
