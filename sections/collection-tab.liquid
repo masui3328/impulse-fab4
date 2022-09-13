@@ -1,7 +1,37 @@
+<div>Collection Tabs</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "コレクションタブ",
+    "settings": [],
+    "templates": ["index"],
+    "max_blocks": 6,
+    "blocks": [
+     {
+       "name": "コレクション",
+       "type": "collection",
+       "settings": [
+         {
+           "type": "collection",
+           "id": "collection",
+           "label": "コレクション"
+         }
+       ]
+     }
+    ],
+    "presets": [
+      {
+        "name": "コレクションタブ",
+        "blocks": [
+          {
+            "type": "collection"
+          },
+          {
+            "type": "collection"
+          }
+        ]
+      }
+    ]
   }
 {% endschema %}
 
