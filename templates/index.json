@@ -365,6 +365,29 @@
         "divider": false
       }
     },
+    "1663034459c1f99afd": {
+      "type": "collection-tab",
+      "blocks": {
+        "16630344593ce4b1fb-0": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "16630344593ce4b1fb-1": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "16630344593ce4b1fb-0",
+        "16630344593ce4b1fb-1"
+      ],
+      "settings": {
+      }
+    },
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
@@ -462,6 +485,7 @@
     "1662795800f5ff1b5d",
     "16627960088f8fa8fa",
     "1662796384b294e028",
+    "1663034459c1f99afd",
     "blog-posts",
     "map",
     "16613906970b9d292e",
