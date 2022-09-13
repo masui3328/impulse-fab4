@@ -32,7 +32,13 @@
           {{ section.settings.title }}
         </h2>
         {%- if section.settings.view_all and section.settings.rows == 1 -%}
+{%- comment -%} ----- [HW][CHG] ----- 
           <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
+{%- endcomment -%}
+          <a href="{{ collections[section.blocks[0].settings.collection].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
+
+
+
         {%- endif -%}
       </div>
     </div>
