@@ -143,7 +143,44 @@
 {% schema %}
   {
     "name": "コレクションタブ",
-    "settings": [],
+    "settings": [
+      {
+        "type": "range",
+        "id": "per_row",
+        "label": "t:sections.featured-collection.settings.per_row.label",
+        "default": 4,
+        "min": 1,
+        "max": 5,
+        "step": 1
+      },
+      {
+        "type": "range",
+        "id": "rows",
+        "label": "t:sections.featured-collection.settings.rows.label",
+        "default": 1,
+        "min": 1,
+        "max": 5,
+        "step": 1
+      },
+      {
+        "type": "checkbox",
+        "id": "mobile_scrollable",
+        "label": "t:sections.featured-collection.settings.mobile_scrollable.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "view_all",
+        "label": "t:sections.featured-collection.settings.view_all.label",
+        "default": true
+      },
+      {
+        "type": "checkbox",
+        "id": "divider",
+        "label": "t:sections.featured-collection.settings.divider.label",
+        "default": false
+      }
+    ],
     "templates": ["index"],
     "max_blocks": 6,
     "blocks": [
@@ -155,36 +192,6 @@
             "type": "collection",
             "id": "collection",
             "label": "t:sections.featured-collection.settings.home_featured_products.label"
-          },
-          {
-            "type": "range",
-            "id": "per_row",
-            "label": "t:sections.featured-collection.settings.per_row.label",
-            "default": 4,
-            "min": 1,
-            "max": 5,
-            "step": 1
-          },
-          {
-            "type": "range",
-            "id": "rows",
-            "label": "t:sections.featured-collection.settings.rows.label",
-            "default": 1,
-            "min": 1,
-            "max": 5,
-            "step": 1
-          },
-          {
-            "type": "checkbox",
-            "id": "mobile_scrollable",
-            "label": "t:sections.featured-collection.settings.mobile_scrollable.label",
-            "default": true
-          },
-          {
-            "type": "checkbox",
-            "id": "view_all",
-            "label": "t:sections.featured-collection.settings.view_all.label",
-            "default": true
           }
         ]
       }
