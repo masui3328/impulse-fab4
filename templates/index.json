@@ -371,13 +371,13 @@
         "16630344593ce4b1fb-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "men"
           }
         },
         "16630344593ce4b1fb-1": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "women"
           }
         }
       },
