@@ -377,13 +377,41 @@
         "1663114070f50d221b-1": {
           "type": "collection",
           "settings": {
+            "collection": "women"
+          }
+        },
+        "4fbc708b-ab71-4fcd-a2b5-f47d86b4ea29": {
+          "type": "collection",
+          "settings": {
             "collection": "unisex"
+          }
+        },
+        "8fa249f4-3bc8-4a9c-8b5d-2ab7daafc768": {
+          "type": "collection",
+          "settings": {
+            "collection": "maison-1957-1990"
+          }
+        },
+        "6e2f7566-a4fa-4016-a7ad-6a5407386ba5": {
+          "type": "collection",
+          "settings": {
+            "collection": "vintage"
+          }
+        },
+        "b258cedc-f2d8-45e8-b90e-d761b1f816b4": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrival"
           }
         }
       },
       "block_order": [
         "1663114070f50d221b-0",
-        "1663114070f50d221b-1"
+        "1663114070f50d221b-1",
+        "4fbc708b-ab71-4fcd-a2b5-f47d86b4ea29",
+        "8fa249f4-3bc8-4a9c-8b5d-2ab7daafc768",
+        "6e2f7566-a4fa-4016-a7ad-6a5407386ba5",
+        "b258cedc-f2d8-45e8-b90e-d761b1f816b4"
       ],
       "settings": {
         "per_row": 4,
