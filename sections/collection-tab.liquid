@@ -134,8 +134,8 @@
   let collection_id_list = Array({{ section.blocks.size }});
 
 {% for block in section.blocks -%}
-  tab_id_list[forloop.index0] = "CollectionSectionTab-{{ block.id }}";
-  collection_id_list[forloop.index0] = "{{ block.id }}";
+  tab_id_list[{{ forloop.index0 }}] = "CollectionSectionTab-{{ block.id }}";
+  collection_id_list[{{ forloop.index0 }}] = "{{ block.id }}";
 {%- endfor %}
 
   console.log(tab_id_list);
