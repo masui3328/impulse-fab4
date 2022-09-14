@@ -140,7 +140,7 @@
   let index = 0;
   const tab_id_base = "CollectionSectionTab-{{ section.id }}-";
   for (index = 0; index < tabs.length; index++) {
-    const tab_id = tab_id_base + num.toString(index);
+    const tab_id = tab_id_base + String(index);
     tabs[index] = document.getElementById(tab_id);
     tabs[index].addEventListener('click', {index: index, handleEvent: tabSwitch}, false);
   }
