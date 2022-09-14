@@ -131,6 +131,10 @@
   console.log("Tab collection script run!");
   function tabSwitch(e) {
     console.log("Clicked tab is No." + this.index);
+    const collection_id = "CollectionSection-{{ section.id }}-" + String(this.index);
+    console.log("collection id: " + collection_id);
+    let sellected_collection = document.getElementById(collection_id);
+    console.log(sellected_collection);
   }
   let tabs = Array({{ section.blocks.size }});
   let index = 0;
