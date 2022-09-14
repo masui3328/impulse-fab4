@@ -14,7 +14,6 @@
 {%- comment -%} ----- Featued collections ----- {%- endcomment -%}
 {%- assign per_row = section.settings.per_row -%}
 {%- assign product_limit = per_row | times: section.settings.rows -%}
-{%- assign collection = collections[section.settings.home_featured_products] -%}
 
 {%- comment -%} ----- [SAMPEL]お試し ----- 
 {%- assign collection_test = collections[section.blocks[0].settings.collection] -%}
@@ -24,9 +23,7 @@
 
 
 {% for block in section.blocks -%}
-  
-
-
+{%- assign collection = collections[block.settings.collection] -%}
 <div
   id="CollectionSection-{{ section.id }}"
   data-section-id="{{ section.id }}"
