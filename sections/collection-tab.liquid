@@ -153,7 +153,8 @@
 
     let list_index = 0;
     for (list_index = 0; list_index < collection_id_list.length; list_index++) {
-      let collection_obj = document.getElementById(collection_id_list[index]);
+      console.log(collection_id_list[list_index]);
+      let collection_obj = document.getElementById(collection_id_list[list_index]);
       console.log(collection_obj);
       
       if (list_index === this.index) {
