@@ -2,7 +2,7 @@
 <div class="page-width">
   <ul class="tabs">
 {% for block in section.blocks -%}
-    <li class="tab"><span id="CollectionSectionTab-{{ section.id }}-{{ forloop.index0 }}" class="">{{  block.settings.collection.title }}</span></li>
+    <li class="tab"><span id="CollectionSectionTab-{{ block.id }}" class="">{{  block.settings.collection.title }}</span></li>
 {%- endfor %}
   </ul>
 </div>
@@ -129,10 +129,20 @@
 
 <script type="text/javascript">
   console.log("Tab collection script run!");
-  let variable_sample = 10;
-  function func_sample() {
-    console.log(variable_sample);
-  }
+
+  let tab_id_list = Array({{ section.blocks.size }});
+  let collection_id_list = Array({{ section.blocks.size }});
+
+{% for block in section.blocks -%}
+  tab_id_list[forloop.index0] = "CollectionSectionTab-{{ block.id }}";
+  collection_id_list[forloop.index0] = {{ block.id }};
+{%- endfor %}
+
+  console.log(tab_id_list);
+  console.log(collection_id_list);
+
+
+  
   function tabSwitch(e) {
     console.log("Clicked tab is No." + this.index);
     const collection_id = "CollectionSection-{{ section.id }}-" + String(this.index);
