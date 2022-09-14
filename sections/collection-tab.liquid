@@ -28,7 +28,7 @@
 {%- endif -%}
   
 <div
-  id="CollectionSection-{{ section.id }}"
+  id="CollectionSection-{{ section.id }}-{{ forloop.index0 }}"
   data-section-id="{{ section.id }}"
   data-section-type="collection-grid"
   class="{{ hide_class }}">
@@ -226,4 +226,5 @@
 {% endstylesheet %}
 
 {% javascript %}
+  console.log({{ section.id }});
 {% endjavascript %}
