@@ -25,7 +25,6 @@
   id="CollectionSection-{{ section.id }}"
   data-section-id="{{ section.id }}"
   data-section-type="collection-grid">
-  {%- if section.settings.title != blank -%}
     <div class="page-width">
       <div class="section-header{% if section.settings.view_all %}{% unless settings.type_headers_align_text %} section-header--with-link{% endunless %}{% endif %}">
         <h2 class="section-header__title">
@@ -36,13 +35,9 @@
           <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
 {%- endcomment -%}
           <a href="{{ collections[section.blocks[0].settings.collection].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
-
-
-
         {%- endif -%}
       </div>
     </div>
-  {%- endif -%}
 
   <div class="page-width{% if section.settings.mobile_scrollable %} page-width--flush-small{% endif %}">
     <div{% if section.settings.mobile_scrollable %} class="grid-overflow-wrapper"{% endif %}>
