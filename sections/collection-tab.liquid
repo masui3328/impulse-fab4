@@ -2,7 +2,7 @@
 <div class="page-width">
   <ul class="tabs">
 {% for block in section.blocks -%}
-    <li class="tab"><span class="">{{  block.settings.collection.title }}</span></li>
+    <li class="tab"><span id="CollectionSectionTab-{{ section.id }}-{{ forloop.index0 }}" class="">{{  block.settings.collection.title }}</span></li>
 {%- endfor %}
   </ul>
 </div>
@@ -128,10 +128,18 @@
 
 
 <script type="text/javascript">
-  console.log("{{ section.id }}");
+  let collection_id = "CollectionSection-{{ section.id }}-0";
+  console.log(collection_id);
+
+  let tabs = [];
+  {%- for block in section.blocks -%}
+    tabs[{{ forloop.index0 }}] = document.getElementById("CollectionSectionTab-{{ section.id }}-{{ forloop.index0 }}");;
+  {%- endfor -%}}
+
+  console.log(tabs);
 </script>
 
-{% schema %}
+{%- schema -%}
   {
     "name": "コレクションタブ",
     "settings": [
@@ -201,7 +209,7 @@
       }
     ]
   }
-{% endschema %}
+{%- endschema -%}
 
 {% stylesheet %}
 .tabs {
@@ -231,5 +239,4 @@
 {% endstylesheet %}
 
 {% javascript %}
-  console.log("Test.");
 {% endjavascript %}
