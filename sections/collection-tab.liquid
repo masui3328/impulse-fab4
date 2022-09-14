@@ -27,11 +27,11 @@
 
 
   {% if forloop.first == true %}
-      <div>First Content！</div>
+    {%- assign hide_class = "" -%}
   {% else %}
-      <div>Not first UnReact！</div>
+    {%- assign hide_class = "hide_content" -%}
   {% endif %}
-  {%- assign hide_class = "hide_content" -%}
+  
 
 
 
@@ -40,7 +40,8 @@
 <div
   id="CollectionSection-{{ section.id }}"
   data-section-id="{{ section.id }}"
-  data-section-type="collection-grid">
+  data-section-type="collection-grid"
+  class="{{ hide_class }}">
     <div class="page-width">
       <div class="section-header{% if section.settings.view_all %}{% unless settings.type_headers_align_text %} section-header--with-link{% endunless %}{% endif %}">
         <h2 class="section-header__title">
