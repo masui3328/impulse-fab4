@@ -22,7 +22,7 @@
 {%- assign collection = collections[block.settings.collection] -%}
 
 {%- if forloop.first == true -%}
-  {%- assign hide_class = "fadein_content" -%}
+  {%- assign hide_class = "display_content" -%}
 {%- else -%}
   {%- assign hide_class = "hide_content" -%}
 {%- endif -%}
@@ -146,28 +146,21 @@
     tab_obj.addEventListener('click', {index: index, handleEvent: tabSwitch}, false);
   }
   
-
-  
   function tabSwitch(e) {
-    console.log("Clicked tab is No." + this.index);
+    console.log("Clicked tab ID: " + this.index);
 
     let list_index = 0;
     for (list_index = 0; list_index < collection_id_list.length; list_index++) {
-      console.log(collection_id_list[list_index]);
       let collection_obj = document.getElementById(collection_id_list[list_index]);
-      console.log(collection_obj);
-      
       if (list_index === this.index) {
         collection_obj.classList.remove('hide_content');
-        collection_obj.classList.add('fadein_content');
+        collection_obj.classList.add('display_content');
       } else {
-        collection_obj.classList.remove('fadein_content');
+        collection_obj.classList.remove('display_content');
         collection_obj.classList.add('hide_content');
       }
     }
-
   }
-
 </script>
 
 {%- schema -%}
@@ -269,19 +262,6 @@
 }
 .display_content {
   display: block;
-}
-.fadein_content {
-  animation : fadeIn 0.3s;
-  animation-fill-mode: forwards;
-  display: block;
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 {% endstylesheet %}
 
