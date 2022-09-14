@@ -129,6 +129,10 @@
 
 <script type="text/javascript">
   console.log("Tab collection script run!");
+  let variable_sample = 10;
+  function func_sample() {
+    console.log(variable_sample);
+  }
   function tabSwitch(e) {
     console.log("Clicked tab is No." + this.index);
     const collection_id = "CollectionSection-{{ section.id }}-" + String(this.index);
@@ -144,6 +148,7 @@
     tabs[index] = document.getElementById(tab_id);
     tabs[index].addEventListener('click', {index: index, handleEvent: tabSwitch}, false);
   }
+  func_sample();
   console.log(tabs);
 </script>
 
