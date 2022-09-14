@@ -128,12 +128,16 @@
 
 
 <script type="text/javascript">
+  function tabSwitch(e) {
+    console.log("Tab is clicked.");
+  }
   let collection_id = "CollectionSection-{{ section.id }}-0";
   console.log(collection_id);
 
   let tabs = [];
   {%- for block in section.blocks -%}
     tabs[{{ forloop.index0 }}] = document.getElementById("CollectionSectionTab-{{ section.id }}-{{ forloop.index0 }}");
+    tabs[{{ forloop.index0 }}].addEventListener('click', {index: {{ forloop.index0 }}, handleEvent: tabSwitch}, false);
   {%- endfor -%}
 
   console.log(tabs);
