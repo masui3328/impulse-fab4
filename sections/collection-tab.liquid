@@ -1,7 +1,3 @@
-{%- comment -%} ----- html ----- 
-<h1 style="text-align: center;">Collection Tab</h1>
-{%- endcomment -%}
-
 {%- comment -%} ----- Tabs ----- {%- endcomment -%}
 <div class="page-width">
   <ul class="tabs">
@@ -11,7 +7,7 @@
   </ul>
 </div>
 
-{%- comment -%} ----- Featued collections ----- {%- endcomment -%}
+{%- comment -%} ----- Each collection ----- {%- endcomment -%}
 {%- assign per_row = section.settings.per_row -%}
 {%- assign product_limit = per_row | times: section.settings.rows -%}
 
@@ -25,17 +21,11 @@
 {% for block in section.blocks -%}
 {%- assign collection = collections[block.settings.collection] -%}
 
-
-  {% if forloop.first == true %}
-    {%- assign hide_class = "" -%}
-  {% else %}
-    {%- assign hide_class = "hide_content" -%}
-  {% endif %}
-  
-
-
-
-
+{%- if forloop.first == true -%}
+  {%- assign hide_class = "" -%}
+{%- else -%}
+  {%- assign hide_class = "hide_content" -%}
+{%- endif -%}
   
 <div
   id="CollectionSection-{{ section.id }}"
