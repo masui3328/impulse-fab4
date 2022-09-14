@@ -136,10 +136,14 @@
 
   let tabs = [];
   console.log("タブ数: " + {{ section.blocks.size }});
-  {%- for block in section.blocks -%}
-    tabs[{{ forloop.index0 }}] = document.getElementById("CollectionSectionTab-{{ section.id }}-{{ forloop.index0 }}");
-    tabs[{{ forloop.index0 }}].addEventListener('click', {index: {{ forloop.index0 }}, handleEvent: tabSwitch}, false);
-  {%- endfor -%}
+
+  let index = 0;
+  const tab_id_base = "CollectionSectionTab-{{ section.id }}-";
+  for (index = 0; index < tabs.length; index++) {
+    const tab_id = tab_id_base + num.toString(index);
+    tabs[index] = document.getElementById(tab_id);
+    tabs[index].addEventListener('click', {index: index, handleEvent: tabSwitch}, false);
+  }
 
   console.log(tabs);
 </script>
