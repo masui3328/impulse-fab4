@@ -131,12 +131,7 @@
   function tabSwitch(e) {
     console.log("Clicked tab is No." + this.index);
   }
-  let collection_id = "CollectionSection-{{ section.id }}-0";
-  console.log(collection_id);
-
   let tabs = Array({{ section.blocks.size }});
-  console.log("タブ数: " + tabs.length);
-
   let index = 0;
   const tab_id_base = "CollectionSectionTab-{{ section.id }}-";
   for (index = 0; index < tabs.length; index++) {
@@ -144,7 +139,6 @@
     tabs[index] = document.getElementById(tab_id);
     tabs[index].addEventListener('click', {index: index, handleEvent: tabSwitch}, false);
   }
-
   console.log(tabs);
 </script>
 
