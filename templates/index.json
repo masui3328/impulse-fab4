@@ -365,62 +365,6 @@
         "divider": false
       }
     },
-    "1663034459c1f99afd": {
-      "type": "collection-tab",
-      "blocks": {
-        "16630344593ce4b1fb-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "men"
-          }
-        },
-        "16630344593ce4b1fb-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "women"
-          }
-        },
-        "64e1b3f7-b06c-41cc-b460-bc1c226d7ea6": {
-          "type": "collection",
-          "settings": {
-            "collection": "unisex"
-          }
-        },
-        "d7ecae52-a4b5-4fa6-8b05-0741d6300e56": {
-          "type": "collection",
-          "settings": {
-            "collection": "other"
-          }
-        },
-        "02cff291-b8ee-4d9b-b498-1d51666ac8d2": {
-          "type": "collection",
-          "settings": {
-            "collection": "sale"
-          }
-        },
-        "3580e50b-cc3c-4c38-ada9-d236385d4b67": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-arrival"
-          }
-        }
-      },
-      "block_order": [
-        "16630344593ce4b1fb-0",
-        "16630344593ce4b1fb-1",
-        "64e1b3f7-b06c-41cc-b460-bc1c226d7ea6",
-        "d7ecae52-a4b5-4fa6-8b05-0741d6300e56",
-        "02cff291-b8ee-4d9b-b498-1d51666ac8d2",
-        "3580e50b-cc3c-4c38-ada9-d236385d4b67"
-      ],
-      "settings": {
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
@@ -518,7 +462,6 @@
     "1662795800f5ff1b5d",
     "16627960088f8fa8fa",
     "1662796384b294e028",
-    "1663034459c1f99afd",
     "blog-posts",
     "map",
     "16613906970b9d292e",
