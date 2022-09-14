@@ -142,27 +142,25 @@
   console.log(collection_id_list);
   let index = 0;
   for (index = 0; index < tab_id_list.length; index++) {
-    let tab = document.getElementById(tab_id_list[index]);
-    tab.addEventListener('click', {index: index, handleEvent: tabSwitch}, false);
+    let tab_obj = document.getElementById(tab_id_list[index]);
+    tab_obj.addEventListener('click', {index: index, handleEvent: tabSwitch}, false);
   }
   
 
   
   function tabSwitch(e) {
     console.log("Clicked tab is No." + this.index);
-    const collection_id = "CollectionSection-{{ section.id }}-" + String(this.index);
-    console.log("collection id: " + collection_id);
-    let sellected_collection = document.getElementById(collection_id);
-    console.log(sellected_collection);
 
     let list_index = 0;
     for (list_index = 0; list_index < collection_id_list.length; list_index++) {
+      let collection_obj = document.getElementById(collection_id_list[index]);
+
       if (list_index === this.index) {
-        collection_id_list[list_index].classList.remove('hide_content');
-        collection_id_list[list_index].classList.add('fadein_content');
+        collection_obj.classList.remove('hide_content');
+        collection_obj.classList.add('fadein_content');
       } else {
-        collection_id_list[list_index].classList.remove('fadein_content');
-        collection_id_list[list_index].classList.add('hide_content');
+        collection_obj.classList.remove('fadein_content');
+        collection_obj.classList.add('hide_content');
       }
     }
 
