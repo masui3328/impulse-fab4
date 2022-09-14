@@ -134,7 +134,7 @@
   let collection_id = "CollectionSection-{{ section.id }}-0";
   console.log(collection_id);
 
-  let tabs = [];
+  let tabs = [{{ section.blocks.size }}];
   console.log("タブ数: " + {{ section.blocks.size }});
 
   let index = 0;
