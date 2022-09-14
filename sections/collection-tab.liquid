@@ -133,8 +133,8 @@
 
   let tabs = [];
   {%- for block in section.blocks -%}
-    tabs[{{ forloop.index0 }}] = document.getElementById("CollectionSectionTab-{{ section.id }}-{{ forloop.index0 }}");;
-  {%- endfor -%}}
+    tabs[{{ forloop.index0 }}] = document.getElementById("CollectionSectionTab-{{ section.id }}-{{ forloop.index0 }}");
+  {%- endfor -%}
 
   console.log(tabs);
 </script>
