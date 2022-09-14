@@ -40,7 +40,7 @@
 {%- comment -%} ----- [HW][CHG] ----- 
           <a href="{{ collections[section.settings.home_featured_products].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
 {%- endcomment -%}
-          <a href="{{ collections[section.block.settings.collection].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
+          <a href="{{ collections[block.settings.collection].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
         {%- endif -%}
       </div>
     </div>
@@ -65,7 +65,7 @@
           endcase
         -%}
 
-        {%- if section.block.settings.collection == blank or collections[section.block.settings.collection].empty? or collections[section.block.settings.collection].products_count == 0 -%}
+        {%- if block.settings.collection == blank or collections[block.settings.collection].empty? or collections[block.settings.collection].products_count == 0 -%}
 
           {%- unless emptyState -%}
             {%- assign emptyState = true -%}
@@ -94,7 +94,7 @@
 
         {%- else -%}
 
-          {%- for product in collections[section.block.settings.collection].products limit: product_limit -%}
+          {%- for product in collections[block.settings.collection].products limit: product_limit -%}
             {%- render 'product-grid-item',
               product: product,
               collection: collection,
@@ -107,13 +107,13 @@
 
             {%- if section.settings.rows > 1 -%}
               <div class="grid__item text-center{% if section.settings.mobile_scrollable %} small--hide{% endif %}">
-                <a href="{{ collections[section.block.settings.collection].url }}" class="btn">{{ 'collections.general.all_of_collection' | t }}</a>
+                <a href="{{ collections[block.settings.collection].url }}" class="btn">{{ 'collections.general.all_of_collection' | t }}</a>
               </div>
             {%- endif -%}
 
             {%- if section.settings.mobile_scrollable -%}
               <div class="grid__item grid__item--view-all text-center {{ grid_item_width }} medium-up--hide">
-                <a href="{{ collections[section.block.settings.collection].url }}" class="grid-product__see-all">
+                <a href="{{ collections[block.settings.collection].url }}" class="grid-product__see-all">
                   {{ 'collections.general.view_all_products_html' | t: count: collection.products_count }}
                 </a>
               </div>
