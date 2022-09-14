@@ -70,7 +70,7 @@
           endcase
         -%}
 
-        {%- if section.settings.home_featured_products == blank or collections[section.settings.home_featured_products].empty? or collections[section.settings.home_featured_products].products_count == 0 -%}
+        {%- if section.blocks[0].settings.collection == blank or collections[section.blocks[0].settings.collection].empty? or collections[section.blocks[0].settings.collection].products_count == 0 -%}
 
           {%- unless emptyState -%}
             {%- assign emptyState = true -%}
