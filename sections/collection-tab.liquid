@@ -140,7 +140,7 @@
 
   console.log(tab_id_list);
   console.log(collection_id_list);
-
+  let index = 0;
   for (index = 0; index < tab_id_list.length; index++) {
     let tab = document.getElementById(tab_id_list[index]);
     tab.addEventListener('click', {index: index, handleEvent: tabSwitch}, false);
@@ -154,18 +154,19 @@
     console.log("collection id: " + collection_id);
     let sellected_collection = document.getElementById(collection_id);
     console.log(sellected_collection);
+
+    let list_index = 0;
+    for (list_index = 0; list_index < collection_id_list.length; list_index++) {
+      if (list_index === this.index) {
+        collection_id_list[list_index].classList.remove('hide_content');
+        collection_id_list[list_index].classList.add('fadein_content');
+      } else {
+        collection_id_list[list_index].classList.remove('fadein_content');
+        collection_id_list[list_index].classList.add('hide_content');
+      }
+    }
+
   }
-  /*
-  let tabs = Array({{ section.blocks.size }});
-  let index = 0;
-  const tab_id_base = "CollectionSectionTab-{{ section.id }}-";
-  for (index = 0; index < tabs.length; index++) {
-    const tab_id = tab_id_base + String(index);
-    tabs[index] = document.getElementById(tab_id);
-    tabs[index].addEventListener('click', {index: index, handleEvent: tabSwitch}, false);
-  }
-  console.log(tabs);
-  */
 
 </script>
 
@@ -265,6 +266,20 @@
 }
 .hide_content {
   display: none;
+}
+
+.fadein_content {
+  animation : fadeIn 0.3s;
+  animation-fill-mode: forwards;
+  display: block;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 {% endstylesheet %}
 
