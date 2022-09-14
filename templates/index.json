@@ -393,18 +393,6 @@
         "divider": false
       }
     },
-    "166311426219274c72": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "men",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "blog-posts": {
       "type": "blog-posts",
       "settings": {
@@ -503,7 +491,6 @@
     "16627960088f8fa8fa",
     "1662796384b294e028",
     "1663114070ccadecac",
-    "166311426219274c72",
     "blog-posts",
     "map",
     "16613906970b9d292e",
