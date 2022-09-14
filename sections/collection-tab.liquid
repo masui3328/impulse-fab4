@@ -11,13 +11,6 @@
 {%- assign per_row = section.settings.per_row -%}
 {%- assign product_limit = per_row | times: section.settings.rows -%}
 
-{%- comment -%} ----- [SAMPEL]お試し ----- 
-{%- assign collection_test = collections[section.blocks[0].settings.collection] -%}
-<div>{{ collection_test.title }}</div>
-<div>{{ collection_test.url }}</div>
-{%- endcomment -%}
-
-
 {% for block in section.blocks -%}
 {%- assign collection = collections[block.settings.collection] -%}
 
