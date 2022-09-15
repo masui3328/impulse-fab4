@@ -236,13 +236,22 @@
             "title": "",
             "focal_point": "center center"
           }
+        },
+        "93033776-c927-4111-97af-e19256f3c804": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
         "featured-collections-0",
         "featured-collections-1",
         "featured-collections-2",
-        "featured-collections-3"
+        "featured-collections-3",
+        "93033776-c927-4111-97af-e19256f3c804"
       ],
       "settings": {
         "title": "Shop by category",
@@ -269,8 +278,9 @@
       "blocks": {
         "1663114070f50d221b-0": {
           "type": "collection",
+          "disabled": true,
           "settings": {
-            "collection": "basicks"
+            "collection": "men"
           }
         },
         "1663114070f50d221b-1": {
