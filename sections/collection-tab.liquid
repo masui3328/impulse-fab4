@@ -243,6 +243,7 @@
   font-size: calc(var(--typeHeaderSize)*.73);
   cursor: pointer;
   white-space: nowrap;
+  position: relative;
 }
 .tab span:after {
   content:"";
@@ -257,7 +258,7 @@
   border-bottom-color: var(--colorNavText);
   transition: right 0.5s
 }
-.tab span:hover {
+.tab span:hover:after {
   right: 0;
 }
 .hide_content {
