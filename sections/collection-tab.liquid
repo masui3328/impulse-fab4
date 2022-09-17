@@ -2,7 +2,7 @@
 【メモ】
 
 {%- endcomment -%}
-<div>Test mode8</div>
+<div>Test mode9</div>
 
 {%- comment -%} ----- Tabs ----- {%- endcomment -%}
 <div class="page-width">
@@ -239,6 +239,8 @@
 :root {
   --collectionTab-underlineSize: 2px;
   --collectionTab-underlinePadding: 5px;
+  --collectionTab-sideMargin: 15px;
+  --collectionTab-bottomMargin: 5px;
 }
 .tab span {
   font-size: calc(var(--typeHeaderSize)*.73);
@@ -259,7 +261,7 @@
   list-style: none;
   text-align: center;
   padding: 0px;
-  margin: 0px 15px 5px;
+  margin: 0px var(--collectionTab-sideMargin) var(--collectionTab-bottomMargin);
 }
 .tab span {
   cursor: pointer;
