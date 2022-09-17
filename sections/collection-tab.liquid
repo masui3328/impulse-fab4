@@ -238,6 +238,7 @@
 {% stylesheet %}
 :root {
   --collectionTab-underlineSize: 2px;
+  --collectionTab-underlinePadding: 5px;
 }
 .tabs {
   display: flex;
@@ -257,6 +258,7 @@
   cursor: pointer;
   white-space: nowrap;
   position: relative;
+  padding: var(--collectionTab-underlinePadding);
 }
 .tab span:after {
   content:"";
