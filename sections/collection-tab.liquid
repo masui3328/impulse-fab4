@@ -2,7 +2,7 @@
 <div class="page-width">
   <ul class="tabs">
 {% for block in section.blocks -%}
-    <li class="tab"><span id="CollectionTabSection-Tab-{{ block.id }}" class="">{{  block.settings.collection.title }}</span></li>
+    <li class="tab"><span id="CollectionTabSection-Tab-{{ block.id }}" class="tab-active">{{  block.settings.collection.title }}</span></li>
 {%- endfor %}
   </ul>
 </div>
