@@ -2,7 +2,7 @@
 【メモ】
 
 {%- endcomment -%}
-<div>Test mode2</div>
+<div>Test mode3</div>
 {%- comment -%} ----- Tabs ----- {%- endcomment -%}
 <div class="page-width">
   <ul class="tabs">
@@ -232,7 +232,6 @@
 {% stylesheet %}
 :root {
   --collectionTab-underlineSize: 2px;
-  --collectionTab-underlineSizeOffset: -2px;
 }
 .tabs {
   display: flex;
@@ -258,7 +257,7 @@
   display: block;
   position: absolute;
   line-height: normal;
-  bottom: var(--collectionTab-underlineSizeOffset);
+  bottom: calc(0px - var(--collectionTab-underlineSize));
   left: 0;
   right: 100%;
   margin: 0 0px;
