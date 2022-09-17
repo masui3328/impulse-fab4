@@ -230,6 +230,9 @@
 {%- endschema -%}
 
 {% stylesheet %}
+:root {
+  --collectionTabUnderlineSize: 2px;
+}
 .tabs {
   display: flex;
   flex-wrap: wrap;
@@ -254,11 +257,11 @@
   display: block;
   position: absolute;
   line-height: normal;
-  top: 0;
+  bottom: -(var(--collectionTabUnderlineSize));
   left: 0;
   right: 100%;
   margin: 0 0px;
-  border-bottom: 2px solid;
+  border-bottom: var(--collectionTabUnderlineSize) solid;
   border-bottom-color: #808080;
   border-bottom-color: var(--colorTextBody);
   transition: right 0.5s
