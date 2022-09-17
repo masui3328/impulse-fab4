@@ -2,7 +2,7 @@
 【メモ】
 
 {%- endcomment -%}
-<div>Test mode</div>
+<div>Test mode2</div>
 {%- comment -%} ----- Tabs ----- {%- endcomment -%}
 <div class="page-width">
   <ul class="tabs">
@@ -231,7 +231,8 @@
 
 {% stylesheet %}
 :root {
-  --collectionTabUnderlineSize: 2px;
+  --collectionTab-underlineSize: 2px;
+  --collectionTab-underlineSizeOffset: -2px;
 }
 .tabs {
   display: flex;
@@ -257,11 +258,11 @@
   display: block;
   position: absolute;
   line-height: normal;
-  bottom: -(var(--collectionTabUnderlineSize));
+  bottom: var(--collectionTab-underlineSizeOffset);
   left: 0;
   right: 100%;
   margin: 0 0px;
-  border-bottom: var(--collectionTabUnderlineSize) solid;
+  border-bottom: var(--collectionTab-underlineSize) solid;
   border-bottom-color: #808080;
   border-bottom-color: var(--colorTextBody);
   transition: right 0.5s
