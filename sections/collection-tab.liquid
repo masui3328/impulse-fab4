@@ -7,9 +7,14 @@
 {%- comment -%} ----- Tabs ----- {%- endcomment -%}
 <div class="page-width">
   <ul class="tabs">
-{% for block in section.blocks -%}
-    <li class="tab"><span id="CollectionTabSection-Tab-{{ block.id }}" class="">{{  block.settings.collection.title }}</span></li>
-{%- endfor %}
+  {% for block in section.blocks -%}
+    {%- if forloop.first == true -%}
+      {%- assign sellected_tab_class = "tab-active" -%}
+    {%- else -%}
+      {%- assign sellected_tab_class = "" -%}
+    {%- endif -%}
+    <li class="tab"><span id="CollectionTabSection-Tab-{{ block.id }}" class="{{ sellected_tab_class }}">{{  block.settings.collection.title }}</span></li>
+  {%- endfor %}
   </ul>
 </div>
 
@@ -21,16 +26,16 @@
 {%- assign collection = collections[block.settings.collection] -%}
 
 {%- if forloop.first == true -%}
-  {%- assign sellected_tab_class = "display_content tab-active" -%}
+  {%- assign sellected_collection_class = "display_content" -%}
 {%- else -%}
-  {%- assign sellected_tab_class = "hide_content" -%}
+  {%- assign sellected_collection_class = "hide_content" -%}
 {%- endif -%}
 
 <div
   id="CollectionTabSection-Collection-{{ block.id }}"
   data-section-id="{{ section.id }}"
   data-section-type="collection-grid"
-  class="{{ sellected_tab_class }}">
+  class="{{ sellected_collection_class }}">
     <div class="page-width">
       <div class="section-header{% if section.settings.view_all %}{% unless settings.type_headers_align_text %} section-header--with-link{% endunless %}{% endif %}">
         <h2 class="section-header__title">
