@@ -2,7 +2,7 @@
 【メモ】
 
 {%- endcomment -%}
-<div>Test mode6</div>
+<div>Test mode7</div>
 
 {%- comment -%} ----- Tabs ----- {%- endcomment -%}
 <div class="page-width">
@@ -240,13 +240,13 @@
   --collectionTab-underlineSize: 2px;
   --collectionTab-underlinePadding: 5px;
 }
+.tab span {
+  font-size: calc(var(--typeHeaderSize)*.73);
+}
 @media only screen and (min-width:769px){
   .tab span {
     font-size:calc(var(--typeHeaderSize)*0.85);
   }
-}
-.tab span {
-  font-size: calc(var(--typeHeaderSize)*.73);
 }
 .tabs {
   display: flex;
