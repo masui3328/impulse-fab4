@@ -132,8 +132,9 @@
 
 <script type="text/javascript">
   console.log("[HoriWorks][DBG] Collection Tab script run!");
-  let tab_id_list = Array({{ section.blocks.size }});
-  let collection_id_list = Array({{ section.blocks.size }});
+  const num_of_tabs = {{ section.blocks.size }};
+  let tab_id_list = Array(num_of_tabs);
+  let collection_id_list = Array(num_of_tabs);
 
   {%- for block in section.blocks %}
   tab_id_list[{{ forloop.index0 }}] = "CollectionTabSection-Tab-{{ block.id }}";
@@ -143,21 +144,23 @@
   let index = 0;
   for (index = 0; index < tab_id_list.length; index++) {
     let tab_obj = document.getElementById(tab_id_list[index]);
-    tab_obj.addEventListener('click', {index: index, handleEvent: tabSwitch}, false);
+    tab_obj.addEventListener('click', {index: index, handleEvent: switchActiveTab}, false);
   }
-  
-  function tabSwitch(e) {
-    console.log("Clicked tab index: " + this.index);
+
+  function switchActiveTab(e) {
+    console.log("Clicked tab index: " + this.index); // [DBG]
 
     let list_index = 0;
-    for (list_index = 0; list_index < collection_id_list.length; list_index++) {
+    for (list_index = 0; list_index < num_of_tabs; list_index++) {
       let collection_obj = document.getElementById(collection_id_list[list_index]);
       if (list_index === this.index) {
         collection_obj.classList.remove('hide_content');
         collection_obj.classList.add('display_content');
+        tab_obj.firstElementChild.classList.add('tab_active');
       } else {
         collection_obj.classList.remove('display_content');
         collection_obj.classList.add('hide_content');
+        tab_obj.firstElementChild.classList.remove('tab_active');
       }
     }
   }
@@ -288,7 +291,7 @@
 .tab span:hover {
   border: 0;
 }
-.tab-active {
+.tab_active {
   border-bottom: var(--collectionTab-underlineSize) solid;
 }
 .hide_content {
