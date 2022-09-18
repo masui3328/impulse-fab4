@@ -11,7 +11,7 @@
   --collectionTab-fontSize-mobile: タブ名のフォントサイズ (スマホ)
 
 {%- endcomment -%}
-<div>Debug mode 09</div>
+<div>Debug mode 10</div>
 
 {%- comment -%} ----- Tabs ----- {%- endcomment -%}
 <div class="page-width">
@@ -296,9 +296,7 @@
   border-bottom: var(--collectionTab-underlineSize) solid;
   border-bottom-color: #808080;
   border-bottom-color: var(--colorTextBody);
-  transition-property: right;
-  transition-duration: var(--collectionTab-underlineDuration);
-  transition-delay: 0s;
+  transition: right var(--collectionTab-underlineDuration);
 }
 .collection-tab_tab span:hover:after {
   right: 0;
