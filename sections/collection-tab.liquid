@@ -2,7 +2,7 @@
 【メモ】
 
 {%- endcomment -%}
-<div>Debug mode 01</div>
+<div>Debug mode 02</div>
 
 {%- comment -%} ----- Tabs ----- {%- endcomment -%}
 <div class="page-width">
@@ -144,12 +144,11 @@
   let index = 0;
   for (index = 0; index < tab_id_list.length; index++) {
     let tab_obj = document.getElementById(tab_id_list[index]);
-    tab_obj.addEventListener('click', {index: index, handleEvent: switchActiveTab}, false);
+//    tab_obj.addEventListener('click', {index: index, handleEvent: switchActiveTab}, false);
+    tab_obj.addEventListener('click', {index: index, handleEvent: sampleFunc}, false);
   }
 
   function switchActiveTab(e) {
-    console.log("Clicked tab index: " + this.index); // [DBG]
-
     let list_index = 0;
     for (list_index = 0; list_index < num_of_tabs; list_index++) {
       let collection_obj = document.getElementById(collection_id_list[list_index]);
@@ -304,4 +303,9 @@
 {% endstylesheet %}
 
 {% javascript %}
+
+  function sampleFunc() {
+    let sample_text = "abced";
+    console.log(sample_text);
+  }
 {% endjavascript %}
