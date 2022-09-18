@@ -154,18 +154,14 @@
     for (list_index = 0; list_index < num_of_tabs; list_index++) {
       let collection_obj = document.getElementById(collection_id_list[list_index]);
       let tab_obj = document.getElementById(tab_id_list[list_index]);
-
-console.log(tab_obj);
-console.log(tab_obj.firstElementChild);
-      
       if (list_index === this.index) {
         collection_obj.classList.remove('hide_content');
         collection_obj.classList.add('display_content');
-        tab_obj.firstElementChild.classList.add('tab_active');
+        tab_obj.classList.add('tab_active');
       } else {
         collection_obj.classList.remove('display_content');
         collection_obj.classList.add('hide_content');
-        tab_obj.firstElementChild.classList.remove('tab_active');
+        tab_obj.classList.remove('tab_active');
       }
     }
   }
