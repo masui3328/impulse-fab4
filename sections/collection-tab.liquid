@@ -132,22 +132,22 @@
 
 <script type="text/javascript">
   console.log("[HoriWorks][DBG] Collection Tab script run!");
+
+  // Prepare an ID list of tabs and collections
   const num_of_tabs = {{ section.blocks.size }};
   let tab_id_list = Array(num_of_tabs);
   let collection_id_list = Array(num_of_tabs);
-
   {%- for block in section.blocks %}
   tab_id_list[{{ forloop.index0 }}] = "CollectionTabSection-Tab-{{ block.id }}";
   collection_id_list[{{ forloop.index0 }}] = "CollectionTabSection-Collection-{{ block.id }}";
   {%- endfor %}
-
+  // Set click event listener on tabs
   let index = 0;
-  for (index = 0; index < tab_id_list.length; index++) {
+  for (index = 0; index < num_of_tabs; index++) {
     let tab_obj = document.getElementById(tab_id_list[index]);
-//    tab_obj.addEventListener('click', {index: index, handleEvent: switchActiveTab}, false);
-    tab_obj.addEventListener('click', {index: index, handleEvent: sampleFunc}, false);
+    tab_obj.addEventListener('click', {index: index, handleEvent: switchActiveTab}, false);
   }
-
+  // Function to switch between tab underline and collection display
   function switchActiveTab(e) {
     let list_index = 0;
     for (list_index = 0; list_index < num_of_tabs; list_index++) {
@@ -303,9 +303,4 @@
 {% endstylesheet %}
 
 {% javascript %}
-
-  function sampleFunc() {
-    let sample_text = "abced";
-    console.log(sample_text);
-  }
 {% endjavascript %}
