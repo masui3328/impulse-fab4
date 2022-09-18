@@ -1,17 +1,20 @@
 {%- comment -%}
-【メモ】
-・タブのレイアウトは、"" の中にある ":root {}" 内の値でカスタマイズできます。
+【本ファイルについて】
+・このファイルは、コレクションをタブ表示するためのセクションを定義しているliquidファイルです。
+・このliquidファイルの最下部でCSSを定義してあります。
+・CSS定義の":root{}"において、下記のパラメータのカスタマイズができます。
   --collectionTab-underlineSize: 下線の太さ
   --collectionTab-underlinePadding: タブ名と下線の間隔
- 　--collectionTab-underlineColor: 下線の色
- 　--collectionTab-underlineTime: 下線のアニメーション時間
+ 　--collectionTab-underlineTime: 下線アニメーション時間
   --collectionTab-sideMargin: タブ間の左右の間隔
   --collectionTab-bottomMargin: タブ間の上下の間隔
-  --collectionTab-fontSize-pc: タブ名のフォントサイズ (PC)
-  --collectionTab-fontSize-mobile: タブ名のフォントサイズ (スマホ)
-
+  --collectionTab-fontSize-pc: タブ名のフォントサイズ_PC (ヘッダーサイズに対する倍率)
+  --collectionTab-fontSize-mobile: タブ名のフォントサイズ_スマホ (ヘッダーサイズに対する倍率)
+・上記以外のパラメータに関しても自由にカスタマイズできます。
+・カスタマイズによって起きた問題には責任を負いかねます。バックアップなどを取り、注意して操作してください。
+©️　IT工房 HoriWorks - 2022年09月xx日
 {%- endcomment -%}
-<div>Debug mode 10</div>
+<div>Debug mode 11</div>
 
 {%- comment -%} ----- Tabs ----- {%- endcomment -%}
 <div class="page-width">
@@ -251,7 +254,6 @@
 :root {
   --collectionTab-underlineSize: 2px;
   --collectionTab-underlinePadding: 5px;
-  --collectionTab-underlineColor: var(--colorTextBody);
   --collectionTab-underlineDuration: 0.5s;
   --collectionTab-fontSize-pc: 0.85;
   --collectionTab-fontSize-mobile: 0.73;
@@ -292,10 +294,9 @@
   bottom: calc(0px - var(--collectionTab-underlineSize));
   left: 0;
   right: 100%;
-  margin: 0 0px;
+  margin: 0;
   border-bottom: var(--collectionTab-underlineSize) solid;
-  border-bottom-color: #808080;
-  border-bottom-color: var(--colorTextBody);
+  border-bottom-color: var(--colorTextBody, #808080);
   transition: right var(--collectionTab-underlineDuration);
 }
 .collection-tab_tab span:hover:after {
