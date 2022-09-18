@@ -6,14 +6,14 @@
 
 {%- comment -%} ----- Tabs ----- {%- endcomment -%}
 <div class="page-width">
-  <ul class="tabs">
+  <ul class="collection-tab_tab-wrapper">
   {% for block in section.blocks -%}
     {%- if forloop.first == true -%}
-      {%- assign sellected_tab_class = "tab_active" -%}
+      {%- assign sellected_tab_class = "collection-tab_tab-active" -%}
     {%- else -%}
       {%- assign sellected_tab_class = "" -%}
     {%- endif -%}
-    <li class="tab"><span id="CollectionTabSection-Tab-{{ block.id }}" class="{{ sellected_tab_class }}">{{  block.settings.collection.title }}</span></li>
+    <li class="collection-tab_tab"><span id="CollectionTabSection-Tab-{{ block.id }}" class="{{ sellected_tab_class }}">{{  block.settings.collection.title }}</span></li>
   {%- endfor %}
   </ul>
 </div>
@@ -26,9 +26,9 @@
 {%- assign collection = collections[block.settings.collection] -%}
 
 {%- if forloop.first == true -%}
-  {%- assign sellected_collection_class = "display_content" -%}
+  {%- assign sellected_collection_class = "collection-tab_content-display" -%}
 {%- else -%}
-  {%- assign sellected_collection_class = "hide_content" -%}
+  {%- assign sellected_collection_class = "collection-tab_content-hide" -%}
 {%- endif -%}
 
 <div
@@ -155,13 +155,13 @@
       let collection_obj = document.getElementById(collection_id_list[list_index]);
       let tab_obj = document.getElementById(tab_id_list[list_index]);
       if (list_index === this.index) {
-        collection_obj.classList.remove('hide_content');
-        collection_obj.classList.add('display_content');
-        tab_obj.classList.add('tab_active');
+        collection_obj.classList.remove('collection-tab_content-hide');
+        collection_obj.classList.add('collection-tab_content-display');
+        tab_obj.classList.add('collection-tab_tab-active');
       } else {
-        collection_obj.classList.remove('display_content');
-        collection_obj.classList.add('hide_content');
-        tab_obj.classList.remove('tab_active');
+        collection_obj.classList.remove('collection-tab_content-display');
+        collection_obj.classList.add('collection-tab_content-hide');
+        tab_obj.classList.remove('collection-tab_tab-active');
       }
     }
   }
@@ -246,33 +246,33 @@
   --collectionTab-sideMargin: 15px;
   --collectionTab-bottomMargin: 15px;
 }
-.tab span {
+.collection-tab_tab span {
   font-size: calc(var(--typeHeaderSize)*.73);
 }
 @media only screen and (min-width:769px){
-  .tab span {
+  .collection-tab_tab span {
     font-size:calc(var(--typeHeaderSize)*0.85);
   }
 }
-.tabs {
+.collection-tab_tab-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
 }
-.tab {
+.collection-tab_tab {
   list-style: none;
   text-align: center;
   padding: 0px;
   margin: 0px var(--collectionTab-sideMargin) var(--collectionTab-bottomMargin);
 }
-.tab span {
+.collection-tab_tab span {
   cursor: pointer;
   white-space: nowrap;
   position: relative;
   padding: var(--collectionTab-underlinePadding);
 }
-.tab span:after {
+.collection-tab_tab span:after {
   content:"";
   display: block;
   position: absolute;
@@ -286,19 +286,19 @@
   border-bottom-color: var(--colorTextBody);
   transition: right 0.5s
 }
-.tab span:hover:after {
+.collection-tab_tab span:hover:after {
   right: 0;
 }
-.tab span:hover {
+.collection-tab_tab span:hover {
   border: 0;
 }
-.tab_active {
+.collection-tab_tab-active {
   border-bottom: var(--collectionTab-underlineSize) solid;
 }
-.hide_content {
+.collection-tab_content-hide {
   display: none;
 }
-.display_content {
+.collection-tab_content-display {
   display: block;
 }
 {% endstylesheet %}
