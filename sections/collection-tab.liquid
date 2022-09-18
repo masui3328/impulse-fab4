@@ -252,7 +252,7 @@
   --collectionTab-underlineSize: 2px;
   --collectionTab-underlinePadding: 5px;
  　--collectionTab-underlineColor: var(--colorTextBody);
- 　--collectionTab-underlineTime: 0.5s;
+ 　--collectionTab-underlineDuration: 0.5s;
   --collectionTab-fontSize-pc: 0.85;
   --collectionTab-fontSize-mobile: 0.73;
   --collectionTab-sideMargin: 15px;
@@ -296,7 +296,9 @@
   border-bottom: var(--collectionTab-underlineSize) solid;
   border-bottom-color: #808080;
   border-bottom-color: var(--collectionTab-underlineColor);
-  transition: right var(--collectionTab-underlineTime);
+  transition-property: right;
+  transition-duration: var(--collectionTab-underlineDuration);
+  transition-delay: 0s;
 }
 .collection-tab_tab span:hover:after {
   right: 0;
