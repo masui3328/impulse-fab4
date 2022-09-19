@@ -262,7 +262,6 @@
     },
     "featured-collection": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "{{ section.settings.home_featured_products.title }}",
         "home_featured_products": "men",
