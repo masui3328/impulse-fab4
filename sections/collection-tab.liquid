@@ -291,7 +291,7 @@
   bottom: calc(0px - var(--collectionTab-underlineSize));
   left: 0;
   right: 100%;
-  margin: 0 15px;
+  margin: 0;
   border-bottom: var(--collectionTab-underlineSize) solid;
   border-bottom-color: var(--colorTextBody, #808080);
   transition: right var(--collectionTab-underlineDuration);
@@ -304,19 +304,6 @@
 }
 .collection-tab_tab-active {
   border-bottom: var(--collectionTab-underlineSize) solid;
-}
-.collection-tab_tab-active:after {
-  content:"";
-  display: block;
-  position: absolute;
-  line-height: normal;
-  bottom: calc(0px - var(--collectionTab-underlineSize));
-  left: 0;
-  right: 100%;
-  margin: 0 15px;
-  border-bottom: var(--collectionTab-underlineSize) solid;
-  border-bottom-color: var(--colorTextBody, #808080);
-  transition: right var(--collectionTab-underlineDuration);
 }
 .collection-tab_content-hide {
   display: none;
