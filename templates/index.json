@@ -260,19 +260,6 @@
         "enable_gutter": true
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "{{ section.settings.home_featured_products.title }}",
-        "home_featured_products": "men",
-        "per_row": 4,
-        "rows": 5,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
     "1663114070ccadecac": {
       "type": "collection-tab",
       "blocks": {
@@ -294,12 +281,6 @@
             "collection": "unisex"
           }
         },
-        "8fa249f4-3bc8-4a9c-8b5d-2ab7daafc768": {
-          "type": "collection",
-          "settings": {
-            "collection": "maison-1957-1990"
-          }
-        },
         "6e2f7566-a4fa-4016-a7ad-6a5407386ba5": {
           "type": "collection",
           "settings": {
@@ -308,8 +289,16 @@
         },
         "b258cedc-f2d8-45e8-b90e-d761b1f816b4": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "new-arrival"
+          }
+        },
+        "8fa249f4-3bc8-4a9c-8b5d-2ab7daafc768": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "basicks"
           }
         }
       },
@@ -317,13 +306,65 @@
         "1663114070f50d221b-0",
         "1663114070f50d221b-1",
         "4fbc708b-ab71-4fcd-a2b5-f47d86b4ea29",
-        "8fa249f4-3bc8-4a9c-8b5d-2ab7daafc768",
         "6e2f7566-a4fa-4016-a7ad-6a5407386ba5",
-        "b258cedc-f2d8-45e8-b90e-d761b1f816b4"
+        "b258cedc-f2d8-45e8-b90e-d761b1f816b4",
+        "8fa249f4-3bc8-4a9c-8b5d-2ab7daafc768"
       ],
       "settings": {
         "per_row": 4,
-        "rows": 2,
+        "rows": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "{{ section.settings.home_featured_products.title }}",
+        "home_featured_products": "men",
+        "per_row": 4,
+        "rows": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1662795800f5ff1b5d": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "{{ section.settings.home_featured_products.title }}",
+        "home_featured_products": "women",
+        "per_row": 4,
+        "rows": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "16627960088f8fa8fa": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "{{ section.settings.home_featured_products.title }}",
+        "home_featured_products": "unisex",
+        "per_row": 4,
+        "rows": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "1662796384b294e028": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "{{ section.settings.home_featured_products.title }}",
+        "home_featured_products": "other",
+        "per_row": 4,
+        "rows": 5,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
@@ -393,45 +434,6 @@
         "gutter_size": 20,
         "space_above": false,
         "space_below": false
-      }
-    },
-    "1662795800f5ff1b5d": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "{{ section.settings.home_featured_products.title }}",
-        "home_featured_products": "women",
-        "per_row": 4,
-        "rows": 5,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "16627960088f8fa8fa": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "{{ section.settings.home_featured_products.title }}",
-        "home_featured_products": "unisex",
-        "per_row": 4,
-        "rows": 5,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "1662796384b294e028": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "{{ section.settings.home_featured_products.title }}",
-        "home_featured_products": "other",
-        "per_row": 4,
-        "rows": 5,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
       }
     },
     "blog-posts": {
@@ -526,12 +528,12 @@
     "rich-text",
     "promo-grid",
     "featured-collections",
-    "featured-collection",
     "1663114070ccadecac",
-    "promo-grid2",
+    "featured-collection",
     "1662795800f5ff1b5d",
     "16627960088f8fa8fa",
     "1662796384b294e028",
+    "promo-grid2",
     "blog-posts",
     "map",
     "16613906970b9d292e",
