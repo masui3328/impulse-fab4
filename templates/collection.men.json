@@ -28,7 +28,7 @@
           "settings": {
             "enable_collection_count": true,
             "per_row": 4,
-            "rows_per_page": 3,
+            "rows_per_page": 10,
             "mobile_flush_grid": false
           }
         }
@@ -40,7 +40,7 @@
       ],
       "settings": {
         "enable_sidebar": true,
-        "collapsed": false,
+        "collapsed": true,
         "filter_style": "sidebar",
         "enable_color_swatches": false,
         "enable_sort": true
