@@ -105,22 +105,7 @@ Snippet Arguments
 {% endstyle %}
 {%- endif -%}
 
-{%- if enable_sidebar == false or collection.filters.size == 0 -%}
-{% comment %}
-    Disable sidebar & filter features
-{% endcomment %}
-{% style %}
-.collection-filter__item--drawer {
-  display: none;
-}
-.collection-filter__item--count {
-  text-align: left;
-}
-html[dir="rtl"] .collection-filter__item--count {
-  text-align: right;
-}
-{% endstyle %}
-{%- endif -%}
+
 
 {%- unless enable_sort -%}
 {% style %}
