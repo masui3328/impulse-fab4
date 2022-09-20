@@ -250,7 +250,7 @@
 {% stylesheet %}
 :root {
   --collectionTab-underlineSize: 2px;
-  --collectionTab-underlinePadding: 5px 0;
+  --collectionTab-underlinePadding: 5px;
   --collectionTab-underlineDuration: 0.5s;
   --collectionTab-sideMargin: 30px;
   --collectionTab-bottomMargin: 30px;
@@ -291,7 +291,7 @@
   bottom: calc(0px - var(--collectionTab-underlineSize));
   left: 0;
   right: 100%;
-  margin: 0;
+  margin: 0 15px;
   border-bottom: var(--collectionTab-underlineSize) solid;
   border-bottom-color: var(--colorTextBody, #808080);
   transition: right var(--collectionTab-underlineDuration);
