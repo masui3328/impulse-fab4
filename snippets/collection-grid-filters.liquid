@@ -31,13 +31,12 @@
     <div class="collection-sidebar small--hide">
         {% comment %} 
         {%- render 'collection-grid-filters-form', location: 'CollectionSidebar', filters: collection.filters, collapsed: collapsed, enable_color_swatches: enable_color_swatches -%}
-
         {% endcomment %}
 
         {%- render 'collection-side-nav', main_menu: main_menu -%}
 
     </div>
-    {%- endif -%}  
+    {%- endif -%}
 
     <div id="FilterDrawer" class="drawer drawer--left">
       <div class="drawer__contents">
@@ -58,7 +57,7 @@
 
         {%- assign animation_row = animation_row | plus: 1 -%}
         <div class="drawer__scrollable appear-animation appear-delay-{{ animation_row }}">
-          {% comment %} {%- render 'collection-grid-filters-form', location: 'SidebarDrawer', filters: collection.filters, collapsed: collapsed, enable_color_swatches: enable_color_swatches -%} {% endcomment %}
+          {% comment %}{%- render 'collection-grid-filters-form', location: 'SidebarDrawer', filters: collection.filters, collapsed: collapsed, enable_color_swatches: enable_color_swatches -%}{% endcomment %}
           {%- render 'collection-side-nav' , main_menu: main_menu -%}
         </div>
       </div>
