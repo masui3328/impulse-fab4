@@ -27,7 +27,6 @@
 
 {%- if enable_sidebar -%}
 <div id="CollectionSidebar" data-style="{{ filter_style }}">
-    {%- if filter_style == 'sidebar' -%}
     <div class="collection-sidebar small--hide">
         {% comment %} 
         {%- render 'collection-grid-filters-form', location: 'CollectionSidebar', filters: collection.filters, collapsed: collapsed, enable_color_swatches: enable_color_swatches -%}
@@ -38,6 +37,8 @@
         {%- render 'collection-side-nav', main_menu: main_menu -%}
 
     </div>
+    {%- if filter_style == 'sidebar' -%}
+
     {%- endif -%}  
 
     <div id="FilterDrawer" class="drawer drawer--left">
