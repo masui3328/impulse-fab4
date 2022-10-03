@@ -201,65 +201,6 @@
         "space_below": true
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
-      "disabled": true,
-      "blocks": {
-        "featured-collections-0": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "93033776-c927-4111-97af-e19256f3c804": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        }
-      },
-      "block_order": [
-        "featured-collections-0",
-        "featured-collections-1",
-        "featured-collections-2",
-        "featured-collections-3",
-        "93033776-c927-4111-97af-e19256f3c804"
-      ],
-      "settings": {
-        "title": "Shop by category",
-        "divider": false,
-        "per_row": 4,
-        "enable_gutter": true
-      }
-    },
     "1663114070ccadecac": {
       "type": "collection-tab",
       "blocks": {
@@ -313,58 +254,6 @@
       "settings": {
         "per_row": 4,
         "rows": 8,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "{{ section.settings.home_featured_products.title }}",
-        "home_featured_products": "men",
-        "per_row": 4,
-        "rows": 5,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "1662795800f5ff1b5d": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "{{ section.settings.home_featured_products.title }}",
-        "home_featured_products": "women",
-        "per_row": 4,
-        "rows": 5,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "16627960088f8fa8fa": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "{{ section.settings.home_featured_products.title }}",
-        "home_featured_products": "unisex",
-        "per_row": 4,
-        "rows": 5,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "1662796384b294e028": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "{{ section.settings.home_featured_products.title }}",
-        "home_featured_products": "other",
-        "per_row": 4,
-        "rows": 5,
         "mobile_scrollable": true,
         "view_all": true,
         "divider": false
@@ -434,21 +323,6 @@
         "gutter_size": 20,
         "space_above": false,
         "space_below": false
-      }
-    },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-        "title": "BLOG",
-        "blog": "ニュース",
-        "post_limit": 3,
-        "blog_show_tags": false,
-        "blog_show_date": true,
-        "blog_show_comments": false,
-        "blog_show_author": false,
-        "view_all": true,
-        "blog_image_size": "landscape",
-        "divider": false
       }
     },
     "map": {
@@ -527,14 +401,8 @@
     "slideshow",
     "rich-text",
     "promo-grid",
-    "featured-collections",
     "1663114070ccadecac",
-    "featured-collection",
-    "1662795800f5ff1b5d",
-    "16627960088f8fa8fa",
-    "1662796384b294e028",
     "promo-grid2",
-    "blog-posts",
     "map",
     "16613906970b9d292e",
     "1661390776b378ab34"
