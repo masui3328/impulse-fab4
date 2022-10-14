@@ -224,7 +224,6 @@
         },
         "6e2f7566-a4fa-4016-a7ad-6a5407386ba5": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "other"
           }
