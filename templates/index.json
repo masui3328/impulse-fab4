@@ -219,7 +219,7 @@
         "4fbc708b-ab71-4fcd-a2b5-f47d86b4ea29": {
           "type": "collection",
           "settings": {
-            "collection": "unisex"
+            "collection": "new-arrival"
           }
         },
         "6e2f7566-a4fa-4016-a7ad-6a5407386ba5": {
@@ -232,7 +232,7 @@
           "type": "collection",
           "disabled": true,
           "settings": {
-            "collection": "new-arrival"
+            "collection": "anei"
           }
         },
         "8fa249f4-3bc8-4a9c-8b5d-2ab7daafc768": {
