@@ -275,17 +275,16 @@
             "collection": "women"
           }
         },
+        "6e2f7566-a4fa-4016-a7ad-6a5407386ba5": {
+          "type": "collection",
+          "settings": {
+            "collection": "other"
+          }
+        },
         "4fbc708b-ab71-4fcd-a2b5-f47d86b4ea29": {
           "type": "collection",
           "settings": {
-            "collection": "new-arrival"
-          }
-        },
-        "6e2f7566-a4fa-4016-a7ad-6a5407386ba5": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "other"
+            "collection": "vintage"
           }
         },
         "b258cedc-f2d8-45e8-b90e-d761b1f816b4": {
@@ -306,8 +305,8 @@
       "block_order": [
         "1663114070f50d221b-0",
         "1663114070f50d221b-1",
-        "4fbc708b-ab71-4fcd-a2b5-f47d86b4ea29",
         "6e2f7566-a4fa-4016-a7ad-6a5407386ba5",
+        "4fbc708b-ab71-4fcd-a2b5-f47d86b4ea29",
         "b258cedc-f2d8-45e8-b90e-d761b1f816b4",
         "8fa249f4-3bc8-4a9c-8b5d-2ab7daafc768"
       ],
@@ -316,7 +315,7 @@
         "rows": 8,
         "mobile_scrollable": true,
         "view_all": true,
-        "divider": false
+        "divider": true
       }
     },
     "promo-grid2": {
