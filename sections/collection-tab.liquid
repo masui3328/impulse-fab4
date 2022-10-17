@@ -260,19 +260,25 @@
 .collection-tab_tab span {
   font-size: calc(var(--typeHeaderSize)*var(--collectionTab-fontSize-mobile));
 }
-@media only screen and (min-width:769px) {
-  .collection-tab_tab span {
-    font-size:calc(var(--typeHeaderSize)*var(--collectionTab-fontSize-pc));
-  }
-}
 .collection-tab_tab-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 100px 0 30px;
-  margin: 50px 0 0 0;
+  padding: 50px 0 20px;
+  margin: 20px 0 0 0;
   border-top: 1px solid #e8e8e1;
 }
+@media only screen and (min-width:769px) {
+  .collection-tab_tab span {
+    font-size:calc(var(--typeHeaderSize)*var(--collectionTab-fontSize-pc));
+  }
+  .collection-tab_tab-wrapper {
+    padding: 100px 0 30px;
+    margin: 50px 0 0 0;
+    border-top: 1px solid #e8e8e1;
+  }
+}
+
 .collection-tab_tab {
   list-style: none;
   text-align: center;
