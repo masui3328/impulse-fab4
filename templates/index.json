@@ -1,5 +1,62 @@
 {
   "sections": {
+    "190dc58f-52f8-4336-b91a-37415cc02272": {
+      "type": "promo-grid",
+      "blocks": {
+        "template--16206098628823__190dc58f-52f8-4336-b91a-37415cc02272-166599190933ecb46e-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "template--16206098628823__190dc58f-52f8-4336-b91a-37415cc02272-166599190933ecb46e-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Limited time",
+            "heading": "Announce your promotion",
+            "textarea": "Include the smaller details of your promotion in text below the title.",
+            "cta_text1": "Shop This",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16206098628823__190dc58f-52f8-4336-b91a-37415cc02272-166599190933ecb46e-0",
+        "template--16206098628823__190dc58f-52f8-4336-b91a-37415cc02272-166599190933ecb46e-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
+      }
+    },
     "1661157031576920fc": {
       "type": "hero-video",
       "settings": {
@@ -398,6 +455,7 @@
     }
   },
   "order": [
+    "190dc58f-52f8-4336-b91a-37415cc02272",
     "1661157031576920fc",
     "slideshow",
     "rich-text",
