@@ -38,10 +38,10 @@
         "template--16394118562007__65854dd6-b73f-4b0b-9b02-e45e75ff9899-1666399124888ccfbf-0"
       ],
       "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": true,
-        "space_below": true
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
+        "space_below": false
       }
     },
     "main-collection": {
