@@ -60,6 +60,7 @@
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
     "social_instagram_link": "https:\/\/instagram.com\/shopify",
+    "search_type": "product,article,page,collection",
     "show_breadcrumbs": true,
     "show_breadcrumbs_collection_link": true,
     "checkout_logo_position": "left",
