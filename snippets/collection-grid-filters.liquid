@@ -18,8 +18,6 @@
     {% liquid  assign main_menu = linklists.side-for-men %}
 {% elsif collection.title == "WOMEN" %}
     {% liquid  assign main_menu = linklists.side-for-women %}
-{% elsif collection.title == "UNISEX" %}
-    {% liquid  assign main_menu = linklists.side-for-unisex %}
 {% else %}
     {% liquid  assign main_menu = linklists.side-menu %}
 {% endif %}
