@@ -371,16 +371,9 @@
         },
         "51a3f01a-a562-421f-b614-f9f9626c4a4a": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "maison-1957-1990",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "5df11873-254b-45dc-9e40-7fc2df308e3d": {
-          "type": "collection",
-          "settings": {
-            "collection": "nowhaw",
             "title": "",
             "focal_point": "center center"
           }
@@ -464,6 +457,14 @@
             "title": "",
             "focal_point": "center center"
           }
+        },
+        "5df11873-254b-45dc-9e40-7fc2df308e3d": {
+          "type": "collection",
+          "settings": {
+            "collection": "nowhaw",
+            "title": "",
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
@@ -474,7 +475,6 @@
         "920ad78e-0a42-4046-9c9a-5581a69da35f",
         "a2f44680-2c1e-47c9-bff4-53e858112f15",
         "51a3f01a-a562-421f-b614-f9f9626c4a4a",
-        "5df11873-254b-45dc-9e40-7fc2df308e3d",
         "a1e027fe-129a-47fd-a5be-f57361084827",
         "9e17e32d-a70d-4c9c-b325-001cabad14fc",
         "d8635f6f-8899-4984-9c0c-37f99ed6ac52",
@@ -484,7 +484,8 @@
         "6df9fcd9-a452-493a-b73c-ac823f776333",
         "ee6dbe4e-8e38-491b-b942-7a2a9ffc8ff7",
         "e43ea799-73c6-4406-8e9a-d3b6d77879b3",
-        "55e57b0e-71e7-4f79-9003-3281dc84d8b2"
+        "55e57b0e-71e7-4f79-9003-3281dc84d8b2",
+        "5df11873-254b-45dc-9e40-7fc2df308e3d"
       ],
       "settings": {
         "title": "PICK UP BRAND",
