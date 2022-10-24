@@ -119,7 +119,7 @@
           {%- if section.settings.view_all -%}
 
             {%- if section.settings.rows > 1 -%}
-              <div class="grid__item text-center{% if section.settings.mobile_scrollable %} small--hide{% endif %}">
+              <div class="grid__item text-center page-content--bottom{% if section.settings.mobile_scrollable %} small--hide{% endif %}">
                 <a href="{{ collections[block.settings.collection].url }}" class="btn">{{ 'collections.general.all_of_collection' | t }}</a>
               </div>
             {%- endif -%}
@@ -267,7 +267,6 @@
   padding: 50px 0 0 0;
   margin: 20px 0 0 0;
   border-top: 1px solid #e8e8e1;
-  border-bottom: 1px solid #e8e8e1;
 }
 @media only screen and (min-width:769px) {
   .collection-tab_tab span {
