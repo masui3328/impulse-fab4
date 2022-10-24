@@ -534,7 +534,7 @@
         "1661390697aa8f6493-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>FAB4 OSAKA<\/h2>\n<p>I Lhotse 5-1-15 Toyosaki Kita-ku Osaka city 531-0072<br>\n大阪府大阪市北区豊崎５丁目1-15 ローツェ I 101<\/p>\n<p>Open Hours : 13:00～21:00<br>\nClosed : Wednesday or Irregular<br>\n06 6940 7139<\/p>\n\n<div class=\"appear-delay-2\">\n  <a target=\"_blank\" href=\"https:\/\/www.google.co.jp\/maps\/place\/%E3%80%92531-0072+%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E5%8C%97%E5%8C%BA%E8%B1%8A%E5%B4%8E%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%E2%88%92%EF%BC%91%EF%BC%95\/@34.706818,135.4906692,15.67z\/data=!4m5!3m4!1s0x6000e69a4338abf5:0xb676ac3bc4b1792c!8m2!3d34.7115801!4d135.499915\" class=\"btn btn--secondary btn--small\">MAP<\/a>\n<\/div>",
+            "code": "<h2>FAB4 OSAKA<\/h2>\n<p>I Lhotse 5-1-15 Toyosaki Kita-ku Osaka city 531-0072<br>\n大阪府大阪市北区豊崎５丁目1-15 ローツェ I 101<\/p>\n<p>Open Hours : 13:00～21:00<br>\nClosed : Wednesday or Irregular<br>\n06 6940 7139<\/p>\n\n<div>\n  <a target=\"_blank\" href=\"https:\/\/www.google.co.jp\/maps\/place\/%E3%80%92531-0072+%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E5%8C%97%E5%8C%BA%E8%B1%8A%E5%B4%8E%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%E2%88%92%EF%BC%91%EF%BC%95\/@34.706818,135.4906692,15.67z\/data=!4m5!3m4!1s0x6000e69a4338abf5:0xb676ac3bc4b1792c!8m2!3d34.7115801!4d135.499915\" class=\"btn btn--secondary btn--small\">MAP<\/a>\n<\/div>",
             "width": "50%",
             "alignment": "center"
           }
