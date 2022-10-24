@@ -496,7 +496,7 @@
     "b6257d87-1311-4921-be36-1e09782d149e": {
       "type": "blog-posts",
       "settings": {
-        "title": "Blog posts",
+        "title": "Blog",
         "blog": "ニュース",
         "post_limit": 3,
         "blog_show_tags": false,
