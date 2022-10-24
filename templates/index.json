@@ -493,6 +493,21 @@
         "enable_gutter": true
       }
     },
+    "b6257d87-1311-4921-be36-1e09782d149e": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Blog posts",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "wide",
+        "divider": false
+      }
+    },
     "map": {
       "type": "map",
       "disabled": true,
@@ -572,6 +587,7 @@
     "promo-grid",
     "1663114070ccadecac",
     "991c52e9-6076-4e0a-ba3e-e4a69d71a97f",
+    "b6257d87-1311-4921-be36-1e09782d149e",
     "map",
     "16613906970b9d292e",
     "1661390776b378ab34"
