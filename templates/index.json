@@ -563,7 +563,7 @@
         "1661390776fceadb95-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>FAB4 KOBE<\/h2><p>3F Thanks BLD 2-5-8 Sannomiyacho Kobe city<br>兵庫県神戸市中央区三宮町2丁目5-8 サンクスビル3F<\/p><p>Open Hours : 12:00～20:30<br>Closed : Irregular<br>078 327 8285<\/p>\n<a target=\"_blank\" href=\"https:\/\/www.google.co.jp\/maps\/place\/Fab4\/@34.6912243,135.1909088,16.79z\/data=!4m5!3m4!1s0x0:0xca27fa313406fed!8m2!3d34.69058!4d135.191613\" class=\"btn btn--tertiary section-header__link\">MAP<\/a>",
+            "code": "<h2>FAB4 KOBE<\/h2><p>3F Thanks BLD 2-5-8 Sannomiyacho Kobe city<br>兵庫県神戸市中央区三宮町2丁目5-8 サンクスビル3F<\/p><p>Open Hours : 12:00～20:30<br>Closed : Irregular<br>078 327 8285<\/p>\n<a target=\"_blank\" href=\"https:\/\/www.google.co.jp\/maps\/place\/Fab4\/@34.6912243,135.1909088,16.79z\/data=!4m5!3m4!1s0x0:0xca27fa313406fed!8m2!3d34.69058!4d135.191613\" class=\"btn btn--secondary btn--small\">MAP<\/a>",
             "width": "50%",
             "alignment": "center"
           }
