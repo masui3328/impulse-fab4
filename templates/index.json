@@ -442,6 +442,15 @@
           }
         }
       },
+        "6df9fcd9-a452-493a-b73c-ac823f776333": {
+          "type": "collection",
+          "settings": {
+            "collection": "uru2",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
       "block_order": [
         "template--16206098628823__991c52e9-6076-4e0a-ba3e-e4a69d71a97f-1666576381ef214e13-0",
         "template--16206098628823__991c52e9-6076-4e0a-ba3e-e4a69d71a97f-1666576381ef214e13-1",
