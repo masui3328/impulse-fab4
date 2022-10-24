@@ -318,70 +318,152 @@
         "divider": true
       }
     },
-    "promo-grid2": {
-      "type": "promo-grid",
-      "disabled": true,
+    "991c52e9-6076-4e0a-ba3e-e4a69d71a97f": {
+      "type": "featured-collections",
       "blocks": {
-        "promo2-0": {
-          "type": "advanced",
+        "template--16206098628823__991c52e9-6076-4e0a-ba3e-e4a69d71a97f-1666576381ef214e13-0": {
+          "type": "collection",
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
-            "cta_link1": "shopify:\/\/collections\/all",
-            "cta_text2": "Shop All",
-            "cta_link2": "",
-            "video_url": "",
-            "width": "100",
-            "height": 720,
-            "text_size": 120,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "80% 50%",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
+            "collection": "anei",
+            "title": "",
+            "focal_point": "center center"
           }
         },
-        "promo2-1": {
-          "type": "sale_collection",
+        "template--16206098628823__991c52e9-6076-4e0a-ba3e-e4a69d71a97f-1666576381ef214e13-1": {
+          "type": "collection",
           "settings": {
-            "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
-            "width": "50",
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "boxed": false,
-            "framed": true
+            "collection": "basicks",
+            "title": "",
+            "focal_point": "center center"
           }
         },
-        "promo2-2": {
-          "type": "sale_collection",
+        "template--16206098628823__991c52e9-6076-4e0a-ba3e-e4a69d71a97f-1666576381ef214e13-2": {
+          "type": "collection",
           "settings": {
-            "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
-            "width": "50",
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "boxed": false,
-            "framed": true
+            "collection": "bed-j-w-ford",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--16206098628823__991c52e9-6076-4e0a-ba3e-e4a69d71a97f-1666576381ef214e13-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "danner-s",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "920ad78e-0a42-4046-9c9a-5581a69da35f": {
+          "type": "collection",
+          "settings": {
+            "collection": "kearny",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "a2f44680-2c1e-47c9-bff4-53e858112f15": {
+          "type": "collection",
+          "settings": {
+            "collection": "kheiki",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "51a3f01a-a562-421f-b614-f9f9626c4a4a": {
+          "type": "collection",
+          "settings": {
+            "collection": "maison-1957-1990",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "5df11873-254b-45dc-9e40-7fc2df308e3d": {
+          "type": "collection",
+          "settings": {
+            "collection": "nowhaw",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "a1e027fe-129a-47fd-a5be-f57361084827": {
+          "type": "collection",
+          "settings": {
+            "collection": "pheeny",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "9e17e32d-a70d-4c9c-b325-001cabad14fc": {
+          "type": "collection",
+          "settings": {
+            "collection": "product-twelve",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "d8635f6f-8899-4984-9c0c-37f99ed6ac52": {
+          "type": "collection",
+          "settings": {
+            "collection": "sulvam",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "95de332d-d178-4c92-9812-5cace769785a": {
+          "type": "collection",
+          "settings": {
+            "collection": "thee",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "add7098b-3538-4bef-b9a5-2933248bcb38": {
+          "type": "collection",
+          "settings": {
+            "collection": "thraw",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "8749286f-3951-4a87-9470-2db7798ed842": {
+          "type": "collection",
+          "settings": {
+            "collection": "unused",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "6df9fcd9-a452-493a-b73c-ac823f776333": {
+          "type": "collection",
+          "settings": {
+            "collection": "uru",
+            "title": "",
+            "focal_point": "center center"
           }
         }
       },
       "block_order": [
-        "promo2-0",
-        "promo2-1",
-        "promo2-2"
+        "template--16206098628823__991c52e9-6076-4e0a-ba3e-e4a69d71a97f-1666576381ef214e13-0",
+        "template--16206098628823__991c52e9-6076-4e0a-ba3e-e4a69d71a97f-1666576381ef214e13-1",
+        "template--16206098628823__991c52e9-6076-4e0a-ba3e-e4a69d71a97f-1666576381ef214e13-2",
+        "template--16206098628823__991c52e9-6076-4e0a-ba3e-e4a69d71a97f-1666576381ef214e13-3",
+        "920ad78e-0a42-4046-9c9a-5581a69da35f",
+        "a2f44680-2c1e-47c9-bff4-53e858112f15",
+        "51a3f01a-a562-421f-b614-f9f9626c4a4a",
+        "5df11873-254b-45dc-9e40-7fc2df308e3d",
+        "a1e027fe-129a-47fd-a5be-f57361084827",
+        "9e17e32d-a70d-4c9c-b325-001cabad14fc",
+        "d8635f6f-8899-4984-9c0c-37f99ed6ac52",
+        "95de332d-d178-4c92-9812-5cace769785a",
+        "add7098b-3538-4bef-b9a5-2933248bcb38",
+        "8749286f-3951-4a87-9470-2db7798ed842",
+        "6df9fcd9-a452-493a-b73c-ac823f776333"
       ],
       "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": false,
-        "space_below": false
+        "title": "PICK UP BRAND",
+        "divider": false,
+        "per_row": 4,
+        "enable_gutter": true
       }
     },
     "map": {
@@ -462,7 +544,7 @@
     "rich-text",
     "promo-grid",
     "1663114070ccadecac",
-    "promo-grid2",
+    "991c52e9-6076-4e0a-ba3e-e4a69d71a97f",
     "map",
     "16613906970b9d292e",
     "1661390776b378ab34"
