@@ -1911,7 +1911,7 @@ button[disabled],html input[disabled]{
   font-size:calc(var(--typeBaseSize) - 4px);
   font-size:max(calc(var(--typeBaseSize) - 4px), 13px);
   font-weight:700;
-/*  text-transform:uppercase;*/
+  text-transform:uppercase;
   letter-spacing:0.1em;
 
   display:inline-block;
@@ -7665,6 +7665,11 @@ input[type=image]{
   padding-right:10px;
   margin-bottom:20px;
 }
+
+.collection-sidebar btn,.collection-sidebar .rte .btn{
+  text-transform:none;
+}
+
 
 @media only screen and (min-width:769px){
   .grid__item--sidebar{
