@@ -16,6 +16,7 @@
 {%- endcomment -%}
 
 {%- comment -%} ----- Tabs ----- {%- endcomment -%}
+<div class="section--divider">
 <div class="page-width">
   <ul class="collection-tab_tab-wrapper">
   {% for block in section.blocks -%}
@@ -27,6 +28,7 @@
     <li class="collection-tab_tab"><span id="CollectionTabSection-Tab-{{ block.id }}" class="{{ sellected_tab_class }}">{{  block.settings.collection.title }}</span></li>
   {%- endfor %}
   </ul>
+</div>
 </div>
 
 {%- comment -%} ----- Each collection ----- {%- endcomment -%}
