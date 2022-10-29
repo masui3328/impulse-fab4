@@ -2185,30 +2185,6 @@ button[disabled],html input[disabled]{
     border-bottom-color:var(--colorBorder)
 }
 
-[data-button_style=angled] .btn--quaternary:after,[data-button_style=angled] .btn--quaternary:before,[data-button_style=angled] .rte .btn--quaternary:after,[data-button_style=angled] .rte .btn--quaternary:before{
-      background-color:transparent;
-      top:-1px;
-      bottom:-1px;
-    }
-
-[data-button_style=angled] .btn--quaternary:before,[data-button_style=angled] .rte .btn--quaternary:before{
-      border-left:1px solid;
-      border-left-color:{{ settings.color_borders | default: "#1c1d1d" }};
-      border-left-color:var(--colorBorder);
-      border-bottom:1px solid;
-      border-bottom-color:{{ settings.color_borders | default: "#1c1d1d" }};
-      border-bottom-color:var(--colorBorder);
-    }
-
-[data-button_style=angled] .btn--quaternary:after,[data-button_style=angled] .rte .btn--quaternary:after{
-      border-top:1px solid;
-      border-top-color:{{ settings.color_borders | default: "#1c1d1d" }};
-      border-top-color:var(--colorBorder);
-      border-right:1px solid;
-      border-right-color:{{ settings.color_borders | default: "#1c1d1d" }};
-      border-right-color:var(--colorBorder);
-    }
-
 .btn--quaternary:hover,.rte .btn--quaternary:hover{
     color:{{ settings.color_body_text | default: "#1c1d1d" }};
     color:var(--colorTextBody);
