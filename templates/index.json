@@ -489,7 +489,7 @@
       ],
       "settings": {
         "title": "PICK UP BRAND",
-        "divider": false,
+        "divider": true,
         "per_row": 4,
         "enable_gutter": true
       }
