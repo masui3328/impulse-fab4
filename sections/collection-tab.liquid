@@ -122,7 +122,7 @@
 
             {%- if section.settings.rows > 1 -%}
               <div class="grid__item text-center return-link{% if section.settings.mobile_scrollable %} small--hide{% endif %}">
-                <a href="{{ collections[block.settings.collection].url }}" class="btn btn--secondary section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
+                <a href="{{ collections[block.settings.collection].url }}" class="btn btn--secondary">{{ 'collections.general.all_of_collection' | t }}</a>
               </div>
             {%- endif -%}
 
