@@ -2182,6 +2182,7 @@ button[disabled],html input[disabled]{
     transition:0.3s ease
   }
 
+
 .btn--body{
   border:1px solid;
   border-color:{{ settings.color_borders | default: "#1c1d1d" }};
@@ -7876,7 +7877,7 @@ input[type=image]{
     transform:translateY(-50%);
     pointer-events:none;
     color:{{ settings.color_button_text | default: "#808080" }};
-    color:#808080;
+    color:var(--colorTextBody);
   }
 
 .tag-list--swatches{
