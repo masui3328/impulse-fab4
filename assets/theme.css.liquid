@@ -2174,17 +2174,6 @@ button[disabled],html input[disabled]{
   background-color:transparent
 }
 
-[data-button_style=angled] .btn--quaternary,[data-button_style=angled] .rte .btn--quaternary{
-    border-left:0;
-    border-right:0;
-    border-top:1px solid;
-    border-bottom:1px solid;
-    border-top-color:{{ settings.color_borders | default: "#1c1d1d" }};
-    border-top-color:var(--colorBorder);
-    border-bottom-color:{{ settings.color_borders | default: "#1c1d1d" }};
-    border-bottom-color:var(--colorBorder)
-}
-
 .btn--quaternary:hover,.rte .btn--quaternary:hover{
     color:{{ settings.color_body_text | default: "#1c1d1d" }};
     color:var(--colorTextBody);
