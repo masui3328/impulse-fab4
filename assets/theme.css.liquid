@@ -2182,7 +2182,8 @@ button[disabled],html input[disabled]{
     color:#ffffff !important;
     border-color:{{ settings.color_body_text | default: "#1c1d1d" }};
     border-color:var(--colorTextBody);
-    background-color:{{ settings.color_body_text | default: "#1c1d1d" }};
+    background-color:#000;
+/*    background-color:{{ settings.color_body_text | default: "#1c1d1d" }};*/
     transition:border 0.3s ease
   }
 
