@@ -2163,6 +2163,61 @@ button[disabled],html input[disabled]{
     background:var(--colorBtnPrimary);
   }
 
+/*ボタンデザイン追加▼*/
+.btn--quaternary,.rte .btn--quaternary{
+  font-weight:400;
+  text-transform:none;
+  letter-spacing:normal;
+  background-color:transparent;
+  border:1px solid;
+  border-color:{{ settings.color_borders | default: "#1c1d1d" }};
+  border-color:var(--colorBorder);
+  color:{{ settings.color_body_text | default: "#1c1d1d" }};
+  color:var(--colorTextBody);
+  padding:8px 10px;
+  white-space:nowrap
+}
+
+.btn--quaternary:hover,.rte .btn--quaternary:hover{
+    background-color:transparent;
+    color:{{ settings.color_body_text | default: "#1c1d1d" }};
+    color:var(--colorTextBody);
+  }
+
+.btn--quaternary.disabled,.btn--quaternary[disabled],.rte .btn--quaternary.disabled,.rte .btn--quaternary[disabled]{
+    cursor:default;
+    color:#b6b6b6;
+    background-color:#f6f6f6;
+    border-color:#b6b6b6;
+  }
+
+[data-button_style=angled] .btn--quaternary,[data-button_style=angled] .rte .btn--quaternary{
+    margin-left:0;
+    margin-right:0
+}
+
+[data-button_style=angled] .btn--quaternary:after,[data-button_style=angled] .btn--quaternary:before,[data-button_style=angled] .rte .btn--quaternary:after,[data-button_style=angled] .rte .btn--quaternary:before{
+      content:none;
+    }
+
+.btn--quaternary-active{
+  color:{{ settings.color_button_text | default: "#fff" }};
+  color:var(--colorBtnPrimaryText);
+  background:{{ settings.color_button | default: "#000" }};
+  background:var(--colorBtnPrimary);
+  border-color:{{ settings.color_button | default: "#000" }};
+  border-color:var(--colorBtnPrimary)
+}
+
+.btn--quaternary-active:hover{
+    color:{{ settings.color_button_text | default: "#fff" }};
+    color:var(--colorBtnPrimaryText);
+    background:{{ settings.color_button | default: "#000" }};
+    background:var(--colorBtnPrimary);
+  }
+/*ボタンデザイン追加▲*/
+
+
 .btn--body{
   border:1px solid;
   border-color:{{ settings.color_borders | default: "#1c1d1d" }};
@@ -11790,3 +11845,5 @@ html[dir=rtl] .product-single__meta .rte{
   }
 }
  .product-block p {margin: 0;}
+
+.btn--quaternary
