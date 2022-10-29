@@ -2286,6 +2286,47 @@ button[disabled],html input[disabled]{
     background-color:transparent;
   }
 
+[data-button_style=angled] .btn--inverse{
+    border-left:0;
+    border-right:0;
+    border-top:1px solid;
+    border-bottom:1px solid
+}
+
+[data-button_style=angled] .btn--inverse:after,[data-button_style=angled] .btn--inverse:before{
+      background-color:transparent;
+      border-color:#fff;
+      top:-1px;
+      bottom:-1px;
+    }
+
+[data-button_style=angled] .btn--inverse:before{
+      border-left:1px solid;
+      border-bottom:1px solid;
+    }
+
+[data-button_style=angled] .btn--inverse:after{
+      border-top:1px solid;
+      border-right:1px solid;
+    }
+
+.hero__link .btn--inverse{
+    color:{{ settings.color_image_text | default: "#fff" }};
+    color:var(--colorHeroText);
+    border-color:{{ settings.color_image_text | default: "#fff" }};
+    border-color:var(--colorHeroText)
+}
+
+[data-button_style=angled] .hero__link .btn--inverse:before{
+        border-color:{{ settings.color_image_text | default: "#fff" }};
+        border-color:var(--colorHeroText);
+      }
+
+[data-button_style=angled] .hero__link .btn--inverse:after{
+        border-color:{{ settings.color_image_text | default: "#fff" }};
+        border-color:var(--colorHeroText);
+      }
+
 .btn--loading{
   position:relative;
   text-indent:-9999px;
