@@ -7997,6 +7997,10 @@ label.tag__checkbox-wrapper{
       transform:rotate(45deg);*/
     }
 
+.variant-input-wrap label.disabled:after{
+      border-left:none !important;
+    }
+
 .variant-input-wrap input[type=radio]:focus+label{
     border-color:{{ settings.color_body_text | default: "#1c1d1d" | color_modify: "alpha", 0.05 }};
     border-bottom:1px {{ settings.color_body_text | default:"#1c1d1d" }};
