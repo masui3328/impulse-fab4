@@ -55,7 +55,7 @@
           {{ section.settings.title }}
         </h2>
         {%- if section.settings.view_all and section.settings.rows == 1 -%}
-          <a href="{{ collections[block.settings.collection].url }}" class="btn btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
+          <a href="{{ collections[block.settings.collection].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
         {%- endif -%}
       </div>
     </div>
@@ -122,7 +122,7 @@
 
             {%- if section.settings.rows > 1 -%}
               <div class="grid__item text-center return-link{% if section.settings.mobile_scrollable %} small--hide{% endif %}">
-                <a href="{{ collections[block.settings.collection].url }}" class="btn">{{ 'collections.general.all_of_collection' | t }}</a>
+                <a href="{{ collections[block.settings.collection].url }}" class="btn btn--secondary btn--small section-header__link">{{ 'collections.general.all_of_collection' | t }}</a>
               </div>
             {%- endif -%}
 
