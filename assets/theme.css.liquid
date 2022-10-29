@@ -2166,8 +2166,11 @@ button[disabled],html input[disabled]{
 /*btn--quaternaryÅ•*/
 
 .btn--quaternary,.rte .btn--quaternary{
+  padding:8px 14px;
+  min-width:90px;
+  font-size:calc(var(--typeBaseSize) - 6px);
+  font-size:max(calc(var(--typeBaseSize) - 6px), 12px)
   color:{{ settings.color_body_text | default: "#1c1d1d" }};
-  color:var(--colorTextBody);
   border:1px solid;
   border-color:{{ settings.color_borders | default: "#1c1d1d" }};
   border-color:var(--colorBorder);
