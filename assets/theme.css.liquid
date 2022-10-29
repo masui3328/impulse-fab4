@@ -2163,25 +2163,6 @@ button[disabled],html input[disabled]{
     background:var(--colorBtnPrimary);
   }
 
-.btn--quaternary,.rte .btn--quaternary{
-  padding:12px 20px;
-  min-width:100px;
-  text-transform: uppercase;
-  font-size:calc(var(--typeBaseSize) - 5px);
-  font-size:max(calc(var(--typeBaseSize) - 55px), 12px)
-  color:{{ settings.color_body_text | default: "#1c1d1d" }};
-  border:1px solid #808080;
-  background-color:transparent
-}
-
-.btn--quaternary:hover,.rte .btn--quaternary:hover{
-    color:#ffffff !important;
-    border-color:{{ settings.color_body_text | default: "#1c1d1d" }};
-    border-color:var(--colorTextBody);
-    background-color:{{ settings.color_body_text | default: "#1c1d1d" }};
-    transition:0.3s ease
-  }
-
 .btn--body{
   border:1px solid;
   border-color:{{ settings.color_borders | default: "#1c1d1d" }};
