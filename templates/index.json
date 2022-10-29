@@ -506,7 +506,7 @@
         "blog_show_author": false,
         "view_all": true,
         "blog_image_size": "landscape",
-        "divider": false
+        "divider": true
       }
     },
     "map": {
