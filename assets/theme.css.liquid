@@ -2175,9 +2175,8 @@ button[disabled],html input[disabled]{
 }
 
 .btn--quaternary:hover,.rte .btn--quaternary:hover{
-    color:{{ settings.color_body_text | default: "#1c1d1d" }};
-    color:transparent;
-    border-color:transparent;
+    color:#ffffff;
+    border-color:{{ settings.color_body_text | default: "#1c1d1d" }};
     border-color:var(--colorTextBody);
     background-color:{{ settings.color_body_text | default: "#1c1d1d" }};
     transition:border 0.3s ease
