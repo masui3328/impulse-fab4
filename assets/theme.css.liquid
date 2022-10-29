@@ -2163,33 +2163,6 @@ button[disabled],html input[disabled]{
     background:var(--colorBtnPrimary);
   }
 
-/*btn--quaternaryÅ•*/
-
-.btn--quaternary,.rte .btn--quaternary{
-  padding:10px 16px;
-  min-width:100px;
-  text-transform: uppercase;
-  font-size:calc(var(--typeBaseSize) - 6px);
-  font-size:max(calc(var(--typeBaseSize) - 6px), 12px)
-  color:{{ settings.color_body_text | default: "#1c1d1d" }};
-  border:1px solid;
-  border-color:{{ settings.color_borders | default: "#1c1d1d" }};
-  border-color:var(--colorBorder);
-  background-color:transparent
-}
-
-.btn--quaternary:hover,.rte .btn--quaternary:hover{
-    color:#ffffff !important;
-    border-color:{{ settings.color_body_text | default: "#1c1d1d" }};
-    border-color:var(--colorTextBody);
-    background-color:{{ settings.color_body_text | default: "#1c1d1d" }};
-    transition:border 0.3s ease
-  }
-
-
-/*btn--quaternaryÅ£*/
-
-
 .btn--body{
   border:1px solid;
   border-color:{{ settings.color_borders | default: "#1c1d1d" }};
@@ -11817,5 +11790,3 @@ html[dir=rtl] .product-single__meta .rte{
   }
 }
  .product-block p {margin: 0;}
-
-.btn--quaternary
