@@ -2172,9 +2172,9 @@ button[disabled],html input[disabled]{
   font-size:calc(var(--typeBaseSize) - 5px);
   font-size:max(calc(var(--typeBaseSize) - 55px), 12px)
   color:{{ settings.color_body_text | default: "#1c1d1d" }};
-  border:1px solid #000;
-/*  border-color:{{ settings.color_borders | default: "#1c1d1d" }};
-  border-color:var(--colorBorder);*/
+  border:1px solid;
+  border-color:{{ settings.color_borders | default: "#1c1d1d" }};
+  border-color:var(--colorBorder);
   background-color:transparent
 }
 
@@ -2182,9 +2182,8 @@ button[disabled],html input[disabled]{
     color:#ffffff !important;
     border-color:{{ settings.color_body_text | default: "#1c1d1d" }};
     border-color:var(--colorTextBody);
-    background-color:#000;
-/*    background-color:{{ settings.color_body_text | default: "#1c1d1d" }};*/
-    transition:border 0.3s ease
+    background-color:{{ settings.color_body_text | default: "#1c1d1d" }};
+    transition:0.3s ease
   }
 
 /*btn--quaternaryÅ£*/
