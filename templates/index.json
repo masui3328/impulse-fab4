@@ -225,11 +225,10 @@
         },
         "fb2b3275-96e6-4004-8082-dcee8323e952": {
           "type": "advanced",
-          "disabled": true,
           "settings": {
             "subheading": "",
             "heading": "",
-            "textarea": "BED j.w. FORD",
+            "textarea": "BED j.w. FORD 23SS",
             "cta_text1": "VIEW PRODUCTS",
             "cta_link1": "shopify:\/\/collections\/bed-j-w-ford",
             "cta_text2": "",
