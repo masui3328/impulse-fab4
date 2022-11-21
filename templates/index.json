@@ -62,14 +62,14 @@
     "1661157031576920fc": {
       "type": "hero-video",
       "settings": {
-        "title": "",
-        "title_size": 80,
+        "title": "BASICKS SEASON4",
+        "title_size": 40,
         "subheading": "",
         "link_text": "VIEW PRODUCTS",
-        "link": "shopify:\/\/collections",
+        "link": "shopify:\/\/collections\/basicks",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e744ad0dfb9c49daa8abdad09f47987c.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=FjCsSiv2D4Y",
         "overlay_opacity": 0,
         "section_height": "100vh",
         "mobile_height": "auto"
