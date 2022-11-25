@@ -145,6 +145,14 @@
               "container_width": 20
             }
           },
+          "04c104ec-8fc4-41e6-b206-8d3015d8e01a": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": false,
+              "menu": "footer-1",
+              "container_width": 20
+            }
+          },
           "87506852-f985-49d5-bdfb-5076204934f8": {
             "type": "custom",
             "settings": {
@@ -152,14 +160,6 @@
               "title": "MEDIA",
               "text": "<p><a href=\"https:\/\/www.instagram.com\/fab4.inc\/\" target=\"_blank\" title=\"FAB4 (FAB4KOBE \/ FAB4OSAKA)  STORE INSTAGRAM\">- INSTAGRAM<\/a><\/p><p><a href=\"https:\/\/lin.ee\/wVjE4ZH\" target=\"_blank\" title=\"FAB4 (FAB4KOBE \/ FAB4OSAKA) OFFCIAL LINE ACCOUNT\">- OFFCIAL LINE ACCOUNT<\/a><\/p><p><\/p>",
               "container_width": 23
-            }
-          },
-          "04c104ec-8fc4-41e6-b206-8d3015d8e01a": {
-            "type": "menu",
-            "settings": {
-              "show_footer_title": false,
-              "menu": "footer-1",
-              "container_width": 20
             }
           },
           "1494292487693": {
@@ -181,8 +181,8 @@
         },
         "block_order": [
           "1494301487049",
-          "87506852-f985-49d5-bdfb-5076204934f8",
           "04c104ec-8fc4-41e6-b206-8d3015d8e01a",
+          "87506852-f985-49d5-bdfb-5076204934f8",
           "1494292487693",
           "1494301487048"
         ],
