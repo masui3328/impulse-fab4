@@ -83,7 +83,7 @@
         "contact": {
           "type": "contact",
           "settings": {
-            "title": "Ask a question",
+            "title": "Ask a question(お問い合わせ)",
             "phone": false
           }
         },
