@@ -145,12 +145,13 @@
               "container_width": 20
             }
           },
-          "9db7b42d-60e3-41c7-8342-ad3622719df1": {
-            "type": "menu",
+          "87506852-f985-49d5-bdfb-5076204934f8": {
+            "type": "custom",
             "settings": {
               "show_footer_title": false,
-              "menu": "media",
-              "container_width": 20
+              "title": "MEDIA",
+              "text": "<p><a href=\"https:\/\/murayama-store.myshopify.com\/pages\/fab4-store-instagram\" target=\"_blank\" title=\"FAB4 (FAB4KOBE \/ FAB4OSAKA)  STORE INSTAGRAM\">- INSTAGRAM<\/a><\/p><p><a href=\"https:\/\/murayama-store.myshopify.com\/pages\/fab4-fab4kobe-fab4osaka-offcial-line-account\" target=\"_blank\" title=\"FAB4 (FAB4KOBE \/ FAB4OSAKA)  STORE INSTAGRAM\">- OFFCIAL LINE ACCOUNT<\/a><\/p><p><\/p>",
+              "container_width": 23
             }
           },
           "04c104ec-8fc4-41e6-b206-8d3015d8e01a": {
@@ -180,7 +181,7 @@
         },
         "block_order": [
           "1494301487049",
-          "9db7b42d-60e3-41c7-8342-ad3622719df1",
+          "87506852-f985-49d5-bdfb-5076204934f8",
           "04c104ec-8fc4-41e6-b206-8d3015d8e01a",
           "1494292487693",
           "1494301487048"
