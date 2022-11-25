@@ -145,6 +145,14 @@
               "container_width": 20
             }
           },
+          "9db7b42d-60e3-41c7-8342-ad3622719df1": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": false,
+              "menu": "media",
+              "container_width": 20
+            }
+          },
           "04c104ec-8fc4-41e6-b206-8d3015d8e01a": {
             "type": "menu",
             "settings": {
@@ -172,6 +180,7 @@
         },
         "block_order": [
           "1494301487049",
+          "9db7b42d-60e3-41c7-8342-ad3622719df1",
           "04c104ec-8fc4-41e6-b206-8d3015d8e01a",
           "1494292487693",
           "1494301487048"
