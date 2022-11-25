@@ -10,6 +10,7 @@
         },
         "2345d1ab-b5be-41ab-8782-740db23fa6b6": {
           "type": "custom",
+          "disabled": true,
           "settings": {
             "code": "<div class=\"product__policies rte small--text-center\">Tax included. <a href=\"\/policies\/shipping-policy\">Shipping<\/a> calculated at checkout.<\/div>"
           }
