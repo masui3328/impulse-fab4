@@ -140,7 +140,7 @@
           "1494301487049": {
             "type": "menu",
             "settings": {
-              "show_footer_title": true,
+              "show_footer_title": false,
               "menu": "footer",
               "container_width": 20
             }
@@ -148,7 +148,7 @@
           "04c104ec-8fc4-41e6-b206-8d3015d8e01a": {
             "type": "menu",
             "settings": {
-              "show_footer_title": true,
+              "show_footer_title": false,
               "menu": "footer-1",
               "container_width": 44
             }
