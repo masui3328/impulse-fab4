@@ -75,7 +75,7 @@
         "tab": {
           "type": "tab",
           "settings": {
-            "title": "Payment Methods(お支払い方法)",
+            "title": "Payment Methods(お支払い)",
             "content": "",
             "page": "payment-methods決済方法について"
           }
