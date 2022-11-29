@@ -64,7 +64,7 @@
         "a8dd6701-368b-48b1-ba52-7fdfa13a03f0": {
           "type": "custom",
           "settings": {
-            "code": "<div class=\"product__policies rte small--text-center\"><a href=\"..\/pages\/size-guide\">SIZE GUIDE<\/a> <\/div>"
+            "code": "<div class=\"product__policies rte small--text-center\"><a href=\"\/pages\/size-guide\">SIZE GUIDE<\/a> <\/div>"
           }
         },
         "ee6a1353-faea-428a-87a5-b0bb97d4c0ef": {
