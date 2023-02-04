@@ -281,6 +281,7 @@
         },
         "4fbc708b-ab71-4fcd-a2b5-f47d86b4ea29": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "vintage"
           }
