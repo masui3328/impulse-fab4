@@ -63,6 +63,7 @@
     "social_facebook_link": "https:\/\/www.facebook.com\/FAB4OSA",
     "social_twitter_link": "https:\/\/twitter.com\/FAB4_inc",
     "social_instagram_link": "https:\/\/instagram.com\/shopify",
+    "favicon": "shopify:\/\/shop_images\/logo-Favicon.png",
     "search_type": "product,article,page,collection",
     "show_breadcrumbs": true,
     "show_breadcrumbs_collection_link": true,
