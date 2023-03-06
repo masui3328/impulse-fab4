@@ -215,16 +215,16 @@
           "reminder-block"
         ],
         "settings": {
-          "mode": false,
+          "mode": true,
           "disable_for_account_holders": true,
           "popup_seconds": 5,
           "popup_days": 30,
-          "popup_title": "Sign up and save",
-          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+          "popup_title": "FAB4 ONLINE STORE",
+          "popup_text": "<p>各ブランド発売日の事前告知や、新入荷・予約に関する最新情報などを、ニュースレターにてお届けします。 ご登録がまだの方は、ぜひご登録ください。<\/p>",
           "image_position": "left",
           "show_social_icons": false,
           "enable_newsletter": true,
-          "button_label": "Optional button",
+          "button_label": "登録する",
           "button_link": ""
         }
       },
