@@ -216,8 +216,8 @@
         ],
         "settings": {
           "mode": true,
-          "disable_for_account_holders": false,
-          "popup_seconds": 5,
+          "disable_for_account_holders": true,
+          "popup_seconds": 3,
           "popup_days": 30,
           "popup_title": "FAB4 ONLINE STORE",
           "popup_text": "<p>各ブランド発売日の事前告知や、新入荷・予約に関する最新情報などを、ニュースレターにてお届けします。 ご登録がまだの方は、ぜひご登録ください。<\/p>",
