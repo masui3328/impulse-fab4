@@ -495,6 +495,7 @@
     },
     "b6257d87-1311-4921-be36-1e09782d149e": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "title": "Blog",
         "blog": "ニュース",
@@ -522,6 +523,7 @@
     },
     "16613906970b9d292e": {
       "type": "advanced-content",
+      "disabled": true,
       "blocks": {
         "1661390697aa8f6493-0": {
           "type": "image",
@@ -551,6 +553,7 @@
     },
     "1661390776b378ab34": {
       "type": "advanced-content",
+      "disabled": true,
       "blocks": {
         "1661390776fceadb95-0": {
           "type": "image",
