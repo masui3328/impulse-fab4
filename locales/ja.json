@@ -116,7 +116,7 @@
       "title": "Cart",
       "remove": "Remove",
       "note": "Order note",
-      "subtotal": "Subtotal",
+      "subtotal": "Total:",
       "discounts": "Discounts",
       "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",
       "update": "Update cart",
