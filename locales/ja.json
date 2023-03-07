@@ -262,8 +262,8 @@
     },
     "register": {
       "title": "新規会員登録",
-      "first_name": "First Name",
-      "last_name": "Last Name",
+      "first_name": "名 First Name",
+      "last_name": "姓  Last Name",
       "email": "Email",
       "password": "Password",
       "submit": "Create",
