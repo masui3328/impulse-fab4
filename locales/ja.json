@@ -261,7 +261,7 @@
       "submit": "Reset Password"
     },
     "register": {
-      "title": "新規会員登録",
+      "title": "Create account",
       "first_name": "First Name",
       "last_name": "Last Name",
       "email": "Email",
