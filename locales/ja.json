@@ -210,7 +210,7 @@
       "title": "Login",
       "email": "Email",
       "password": "Password",
-      "forgot_password": "パスワード忘れましたか？",
+      "forgot_password": "パスワードを忘れましたか？",
       "sign_in": "Sign In",
       "cancel": "Return to Store",
       "guest_title": "Continue as a guest",
