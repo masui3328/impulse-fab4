@@ -118,7 +118,7 @@
       "note": "Order note",
       "subtotal": "Subtotal:",
       "discounts": "Discounts",
-      "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",
+      "shipping_at_checkout": "送料は決済画面で再計算されます。¥15,000以上ご購入で送料無料。Shipping, taxes, and discount codes calculated at checkout.",
       "update": "Update cart",
       "checkout": "Check out",
       "empty": "Your cart is currently empty.",
