@@ -266,7 +266,7 @@
       "last_name": "姓  Last Name",
       "email": "Email",
       "password": "Password",
-      "submit": "Create",
+      "submit": "会員登録する",
       "cancel": "Return to Store"
     }
   },
