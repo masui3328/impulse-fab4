@@ -801,9 +801,120 @@
           "location": {
             "ascending": "位置（A-Z）",
             "descending": "位置（Z-A）"
+          },
+          "order_number": {
+            "ascending": "订单号（升序）",
+            "descending": "订单号（降序）"
+          },
+          "order_total": {
+            "ascending": "订单总计（升序）",
+            "descending": "订单总计（降序）"
           }
-        }
-      }
+        },
+        "table_view": "显示表视图",
+        "one_images_accessibility_label": "订单包含{{lineItemName1}}",
+        "two_images_accessibility_label": "订单包含{{lineItemName1}}和{{lineItemName2}}",
+        "three_images_accessibility_label": "订单包括{{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}}",
+        "four_images_accessibility_label": "订单包括{{lineItemName1}} , {{lineItemName2}} , {{lineItemName3}} , {{lineItemName4}}",
+        "no_filtered_results_description": "删除或调整过滤器并确认订单",
+        "no_filtered_results_title": "无优化结果",
+        "estimated_shortform": "预计日期： {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "逾期付款",
+            "due": "付款截止日期： {{date}}",
+            "due_today": "今天到期付款",
+            "due_without_date": "付款日期",
+            "due_on_fulfillment": "付款应在履行时到期",
+            "pay_to_confirm": "付款并确认",
+            "payment_not_due": "未付"
+          },
+          "table_view": {
+            "overdue": "逾期",
+            "due": "截止日期： {{date}}",
+            "due_today": "今天截止",
+            "paid": "有薪酬的",
+            "due_without_date": "未付",
+            "due_on_fulfillment": "履行时间",
+            "pay_to_confirm": "付款并确认",
+            "payment_not_due": "未付"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "当前排序： {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "订单包含数量{{lineItemQuantity1}} {{lineItemName1}} }",
+          "two_products_accessibility_label": "订单包含{{lineItemName1}}数量{{lineItemQuantity1}} , {{lineItemName2}}数量{{lineItemQuantity2}}",
+          "three_products_accessibility_label": "订单包含{{lineItemName1}}的{{lineItemQuantity1}} ， {{lineItemName2}}的 {{lineItemQuantity2 {{lineItemQuantity2}} ， {{lineItemName3}}的{{lineItemQuantity3}}",
+          "four_products_accessibility_label": "订单包括{{lineItemName1}}数量{{lineItemQuantity1}} ， {{lineItemName2}}数量{{lineItemQuantity2}} ， {{lineItemName3}}数量{{lineItemQuantity3}} ， {{lineItemName4}}数量包含{{lineItemQuantity4}}",
+          "five_products_accessibility_label": "订单包括{{lineItemName1}}数量{{lineItemQuantity1}} ， {{lineItemName2}}数量{{lineItemQuantity2}} ， {{lineItemName3}}数量{{lineItemQuantity3}} ， {{lineItemName4}}数量{{lineItemQuantity4}} ，其中包含数量 {{lineItemQuantity5 {{lineItemName5}} {{lineItemQuantity5}}",
+          "six_products_accessibility_label": "订单包括{{lineItemName1}}数量{{lineItemQuantity1}} ， {{lineItemName2}}数量{{lineItemQuantity2}} ， {{lineItemName3}}数量{{lineItemQuantity3}} ， {{lineItemName4}}数量包含{{lineItemQuantity4}} , {{lineItemName5}}数量{{lineItemQuantity5}} , {{lineItemName6}}数量{{lineItemQuantity6}}",
+          "six_and_more_products_accessibility_label": "订单包括{{lineItemName1}}数量{{lineItemQuantity1}} ， {{lineItemName2}}数量{{lineItemQuantity2}} ， {{lineItemName3}}数量{{lineItemQuantity3}} ， {{lineItemName4}}数量包括{{lineItemQuantity4}} , {{lineItemName5}}数量{{lineItemQuantity5}} , {{lineItemName6}}数量{{lineItemQuantity6}}等",
+          "view_order_details": "查看订单详情",
+          "next": "到下一个"
+        },
+        "show_order_actions_accessibility_label": "查看订单 ( {{name}} ) 的订单操作",
+        "empty_state_title_for_pending_orders": "没有挂单",
+        "more_than_four_products_accessibility_label": "该订单有超过{{lineItemName1}} 、 {{lineItemName2}} 、 {{lineItemName3}}和{{numberOfAdditionalProducts}}产品。",
+        "plus_more_products": "超过{{numberOfAdditionalProducts}}产品",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "查看订单详情",
+            "estimated_delivery": "预计交货日期： {{date}}",
+            "last_updated": "最后更新： {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "预计交货日期： {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "该订单有{{lineItemName1}} 、 {{lineItemName2}}和{{numberOfAdditionalProducts}}产品。",
+        "plus_more": "+ {{numberOfAdditionalProducts}}"
+      },
+      "order_status": {
+        "canceled_description": "您的订单已于{{date}}取消。",
+        "canceled_label": "取消",
+        "canceled_title": "订单已取消",
+        "come_back": "请查看此页面以了解运输状态。",
+        "company_tracking_number": "{{company}}的追踪号码：",
+        "confirmed_label": "确认的",
+        "confirmed_title": "订单已确认",
+        "delivered_description": "此包裹已送达。",
+        "delivered_label": "发表",
+        "delivered_title": "您的包裹已送达",
+        "estimated_delivery": "预计交货日期： {{date}}",
+        "in_review_description": "如果我们需要更多信息或您的订单得到确认，我们会通知您。",
+        "in_review_label": "确认",
+        "in_review_title": "确认您的订单",
+        "no_tracking_number": "此包裹没有追踪号码。",
+        "on_its_way_label": "交货中",
+        "on_its_way_title": "您的产品正在交付中",
+        "out_for_delivery_label": "交货中",
+        "out_for_delivery_title": "您的包裹正在派送中",
+        "resume_tracking": "恢复跟踪",
+        "submitted_label": "发送",
+        "track_shipment": "跟踪您的包裹",
+        "request_return": "退货要求",
+        "attempted_delivery_label": "缺席收回",
+        "attempted_delivery_description": "无法交付。",
+        "confirmed_description": "您的订单已收到。",
+        "on_its_way_description": "这个包裹正在送达。",
+        "out_for_delivery_description": "这个包裹正在送达。",
+        "preparing_for_shipping_label": "准备发货",
+        "preparing_for_shipping_description": "这些物品目前正在准备装运。",
+        "ready_for_pickup_label": "准备取货",
+        "ready_for_pickup_description": "您现在可以拿起这些物品。",
+        "picked_up_label": "在商店取货",
+        "picked_up_description": "我们收到了这些物品。",
+        "submitted_description": "请检查您的订单和付款方式。",
+        "last_updated": "最后更新： {{date}}",
+        "multiple_shipments_label": "多次发货",
+        "view_order_for_details": "查看订单详情"
+      },
+      "status_mark_as_delivered": "标记为已送达",
+      "status_title": "订单状态",
+      "buy_again": "回购",
+      "buy_again_accessibility_label": "回购订单 ( {{orderId}} )",
+      "manage_accessiblity_label": "管理订单 ( {{orderId}} )",
+      "group_title_label": "{{groupTitle}}的一部分"
     },
     "payment_methods": {
       "add_payment_method": {
@@ -919,7 +1030,8 @@
     "order_details": {
       "payment": {
         "status_unpaid": "到期付款： {{date}}",
-        "title": "沉降"
+        "title": "沉降",
+        "status_in_review": "确认后付款期限"
       },
       "shipping": {
         "address": "收件地址",
@@ -970,7 +1082,14 @@
         "hide_events_accessibility_label": "隐藏订单发货详情"
       },
       "show_order_summary": "查看订单摘要",
-      "hide_order_summary": "隐藏订单摘要"
+      "hide_order_summary": "隐藏订单摘要",
+      "addresses_section_title": "计费和运输",
+      "billing_address": "帐单地址",
+      "card_ending_with": "最后 4 位数字{{lastDigits}}",
+      "contact": "联系地址",
+      "hide_items": "隐藏项目",
+      "loading": "加载订单详情",
+      "loading_finished_accessibility_message": "已加载订单详情"
     },
     "addresses": {
       "add_button": "添加地址",
