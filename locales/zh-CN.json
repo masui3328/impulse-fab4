@@ -830,7 +830,16 @@
       "empty": "您的购物车目前是空的。",
       "continue_browsing_html": "<a href=\"&lt;span%20class=\" notranslate>{{ url }} '&gt;继续购物<\/a>",
       "close_cart": "关闭购物车",
-      "reduce_quantity": "将物品数量减少一个"
+      "reduce_quantity": "将物品数量减少一个",
+      "increase_quantity": "将物品数量增加一",
+      "terms": "我同意条款和条件",
+      "terms_html": "我同意<a href=\"&lt;span%20class=\" notranslate>{{ url }} ' target='_blank'&gt;条款和条件<\/a>",
+      "terms_confirm": "您必须同意销售条款和条件才能结帐"
+    },
+    "label": {
+      "price": "价格",
+      "quantity": "数量",
+      "total": "全部的"
     }
   },
   "customer": {
@@ -842,6 +851,96 @@
       "password": "密码",
       "submit": "注册会员",
       "cancel": "返回商店"
+    },
+    "account": {
+      "title": "我的账户",
+      "details": "帐户详细资料",
+      "view_addresses": "查看地址",
+      "return": "返回账户"
+    },
+    "activate_account": {
+      "title": "激活账户",
+      "subtext": "创建密码以激活您的帐户。",
+      "password": "密码",
+      "password_confirm": "确认密码",
+      "submit": "激活账户",
+      "cancel": "拒绝邀请"
+    },
+    "addresses": {
+      "title": "地址",
+      "default": "默认",
+      "add_new": "添加地址",
+      "edit_address": "修改地址",
+      "first_name": "名",
+      "last_name": "姓",
+      "company": "公司",
+      "address1": "地址1",
+      "address2": "地址2",
+      "city": "城市",
+      "country": "国家",
+      "province": "省份",
+      "zip": "邮政编码",
+      "phone": "电话",
+      "set_default": "设为默认地址",
+      "add": "添加地址",
+      "update": "更新地址",
+      "cancel": "取消",
+      "edit": "编辑",
+      "delete": "删除",
+      "delete_confirm": "您确定要删除此地址吗？"
+    },
+    "login": {
+      "title": "登录",
+      "email": "电子邮件",
+      "password": "密码",
+      "forgot_password": "点击此处重置您的密码",
+      "sign_in": "登入",
+      "cancel": "返回商店",
+      "guest_title": "以访客身份继续",
+      "guest_continue": "继续"
+    },
+    "orders": {
+      "title": "订单历史",
+      "order_number": "命令",
+      "date": "日期",
+      "payment_status": "支付状态",
+      "fulfillment_status": "履行状态",
+      "total": "全部的",
+      "none": "您还没有下任何订单。"
+    },
+    "order": {
+      "title": "订单{{ name }}",
+      "date_html": "放置于{{ date }}",
+      "cancelled_html": "订单于{{ date }}取消",
+      "cancelled_reason": "原因： {{ reason }}",
+      "billing_address": "帐单地址",
+      "payment_status": "支付状态",
+      "shipping_address": "收件地址",
+      "fulfillment_status": "履行状态",
+      "discount": "折扣",
+      "shipping": "船运",
+      "tax": "税收",
+      "product": "产品",
+      "price": "价格",
+      "quantity": "数量",
+      "total": "全部的",
+      "fulfilled_at_html": "完成{{ date }}",
+      "subtotal": "小计"
+    },
+    "recover_password": {
+      "title": "重置你的密码",
+      "email": "电子邮件",
+      "submit": "提交",
+      "cancel": "取消",
+      "subtext": "我们将向您发送一封电子邮件以重置您的密码。",
+      "success": "我们已向您发送一封电子邮件，其中包含更新密码的链接。"
+    },
+    "reset_password": {
+      "title": "重置账户密码",
+      "subtext": "输入{{ email }}的新密码",
+      "password": "密码",
+      "password_confirm": "确认密码",
+      "submit": "重设密码"
     }
   },
   "home_page": {
@@ -920,6 +1019,38 @@
       "shop_link": "开始购物",
       "print": "打印",
       "add_to_apple_wallet": "添加到苹果钱包"
+    }
+  },
+  "collections": {
+    "general": {
+      "catalog_title": "目录",
+      "all_of_collection": "查看全部",
+      "view_all_products_html": "查看全部<br>{{ count }}产品",
+      "see_more": "展示更多",
+      "see_less": "显示较少",
+      "no_matches": "抱歉，该集合中没有产品。",
+      "items_with_count": {
+        "one": "{{ count }}产品",
+        "other": "{{ count }}产品"
+      }
+    },
+    "sorting": {
+      "title": "种类"
+    },
+    "filters": {
+      "title_tags": "筛选",
+      "all_tags": "所有产品",
+      "categories_title": "类别"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "姓名",
+      "email": "电子邮件",
+      "phone": "电话号码",
+      "message": "信息",
+      "send": "发送",
+      "post_success": "感谢您联系我们。我们会尽快回复您。"
     }
   }
 }
