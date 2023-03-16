@@ -809,12 +809,92 @@
       "add_payment_method": {
         "billing_address": {
           "choose_billing_address_from_list_button_accessibility_label": "请从列表中选择您的账单地址",
-          "missing_billing_address_error_message": "请指定您的账单地址"
-        }
+          "missing_billing_address_error_message": "请指定您的账单地址",
+          "title": "帐单地址",
+          "add_billing_address_button": "添新",
+          "add_billing_address_button_accessibility_label": "添加新的账单地址",
+          "choose_billing_address_from_list_button": "从列表中选择"
+        },
+        "title": "添加付款方式",
+        "payment_method_added_confirmation": "添加付款方式"
       },
       "expires_soon": "此卡即将过期",
       "expired": "此卡已过期",
-      "card_update_consent": "此付款方式将被保存以供将来购买。"
+      "card_update_consent": "此付款方式将被保存以供将来购买。",
+      "title": "付款方式",
+      "add_payment_method_button": "添加付款方式",
+      "payment_details": {
+        "title": "付款方式详情",
+        "payment_method_expiring_on": "到期日： {{expiryDate}}",
+        "preauthorized_payments": "预核准付款",
+        "close_payment_modal": "关闭",
+        "close_payment_modal_accessibility_label": "关闭付款方式详细信息模式",
+        "payment_method_not_found_error": "找不到付款方式",
+        "payment_details_loading": "加载付款方式详细信息",
+        "pre_authorized_payments": "预核准付款",
+        "total_amount_of_subscription_line_items_left": "还有{{total}}",
+        "total_amount_of_subscription_line_items_left_accessibility_label": "显示{{totalItems}}个项目， {{totalItemsToDisplay}}个项目。",
+        "next_payment_due": "下次付款到期： {{dueDateInMonthDayYear}}",
+        "edit_payment_method_button": "编辑",
+        "edit_payment_method_button_accessibility_label": "修改以{{lastDigits}}结尾的付款方式",
+        "credit_card_details_accessibility_label": "卡片末尾的数字： {{lastDigits}}",
+        "billing_title": "帐单地址",
+        "card_info_title": "卡信息",
+        "payment_method_expired_on": "于{{expiryDate}}过期"
+      },
+      "delete_payment_method_button": "删除",
+      "delete_payment_method_button_accessibility_label": "删除{{paymentMethodName}}",
+      "back_button": "返回",
+      "back_button_accessibility_label": "返回{{paymentMethodStepTitle}}",
+      "generic_card": "卡片",
+      "payment_delete": {
+        "title": "移除付款方式",
+        "description_without_replacement": "此付款方式将不再适用于未来的购买。",
+        "description_with_replacement": "删除此付款方式将影响预先核准的付款。要继续接收未来的订单，您可以选择更改为另一种付款方式。",
+        "payment_method_selector_placeholder": "选择其他付款方式（可选）",
+        "replace_method_with_new_method_description": "{{currentPaymentMethodName}}将被删除并更改为{{newPaymentMethodName}} 。",
+        "error_when_deleting": "抱歉，出了点问题，我们无法删除此付款方式。请稍后重试或刷新页面。",
+        "delete_and_replace_button": "删改",
+        "delete_and_replace_button_accessibility_label": "删除{{currentPaymentMethodName}}并将其更改为{{newPaymentMethodName}} 。",
+        "deleted_successfully": "付款方式已成功删除。",
+        "payment_method_selector_no_alternative_payment": "别无选择",
+        "loading_available_payment_methods_accessibility_label": "加载可用的付款方式"
+      },
+      "edit_payment_method": {
+        "title": "修改付款方式",
+        "save_payment_method_button": "保持",
+        "cancel_edit_payment_method_button": "取消",
+        "payment_method_updated_toast": "付款方式已更新",
+        "billing_address": "帐单地址",
+        "billing_address_add_new": "添新",
+        "billing_address_choose_from_list": "从列表中选择",
+        "future_purchases_notice": "此付款方式将被保存以供将来购买。"
+      },
+      "card_fields": {
+        "card_number_label": "卡号",
+        "card_number_placeholder": "卡号",
+        "name_on_card_label": "持卡人",
+        "name_on_card_placeholder": "持卡人",
+        "card_expiry_label": "有效期（月\/年）",
+        "card_expiry_placeholder": "有效期（月\/年）",
+        "card_verification_value_label": "安全码",
+        "card_verification_value_placeholder": "安全码",
+        "card_start_label": "发行日期（月\/年）",
+        "card_start_placeholder": "发行日期（月\/年）",
+        "tooltip": {
+          "tooltip_accessibility_label": "细节",
+          "card_verification_value_explanation_amex": "卡正面的4位数字代码",
+          "card_verification_value_explanation_other": "卡背面的3位安全码",
+          "card_verification_value_explanation": "卡背面的 3 位安全码。美国运通卡正面有 4 位代码。",
+          "card_security_notice": "所有交易都是安全和加密的。"
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "请输入名片上显示的姓名",
+          "credit_card_number_invalid": "请输入有效的卡号",
+          "credit_card_expiry_invalid": "请输入有效的卡有效期",
+          "credit_card_verification_value_blank": "输入您卡的 CVV 或安全码"
+        }
+      }
     },
     "payment_method_brands": {
       "visa": "签证",
@@ -1101,9 +1181,73 @@
         "subtitle": "发送日期： {{date}}",
         "title": "订单（ {{name}} ）",
         "order_timeline": {
-          "expand_events_label": "查看详情"
+          "expand_events_label": "查看详情",
+          "expand_events_accessibility_label": "查看草稿订单详细信息",
+          "hide_events_label": "隐藏细节",
+          "hide_events_accessibility_label": "隐藏草稿订单详情"
+        }
+      },
+      "payment_methods": {
+        "payment_delete": {
+          "description_without_replacement": "此付款方式将不再适用于以后从此位置购买的商品。",
+          "description_with_replacement": "删除此付款方式将影响此地点的预核准付款。要继续接收未来的订单，请更改为其他付款方式。"
         }
       }
+    },
+    "errors": {
+      "address_deletion_error": {
+        "description": "删除此地址时出现问题。请重试或刷新页面。"
+      },
+      "addresses_loading_issue": {
+        "description": "连接错误。请检查您的互联网连接并重试。"
+      },
+      "banner_title": {
+        "one": "有{{count}}错误",
+        "other": "有{{count}}个错误"
+      },
+      "failed_address_creation": {
+        "description": "创建地址时出现问题。请刷新此页面或检查您的互联网连接。"
+      },
+      "failed_address_update": {
+        "description": "更新您的地址时出现问题。请刷新此页面或检查您的互联网连接。"
+      },
+      "no_access": {
+        "back_to_authentication_link": "登录到另一个帐户",
+        "description": "您未在{{shopName}}注册为 B2B 客户",
+        "title": "无法访问"
+      },
+      "no_access_to_locations": {
+        "description": "无法访问任何位置"
+      },
+      "not_found": {
+        "description": "请检查 URL 或稍后重试。",
+        "title": "加载此页面时出现问题"
+      },
+      "order_not_found": {
+        "description": "此订单不存在或您无权查看订单。",
+        "title": "找不到订单"
+      },
+      "profile_update_error": {
+        "description": "更新您的个人资料时出现问题。请刷新此页面或检查您的互联网连接。"
+      },
+      "retry_action_label": "重试",
+      "load_orders_error": {
+        "title": "无法加载订单",
+        "description": "请重试或稍后再回来。",
+        "retry_button": "重试"
+      },
+      "load_paypal_error": {
+        "description": "加载贝宝时出现问题。请再试一次。"
+      }
+    },
+    "shop_policies": {
+      "legal_notice": "基于特定商业交易法的符号",
+      "privacy_policy": "隐私政策",
+      "refund_policy": "退款政策",
+      "shipping_policy": "运输政策",
+      "subscription_policy": "订阅政策",
+      "terms_of_sale": "销售条款",
+      "terms_of_service": "服务条款"
     }
   },
   "sections": {
