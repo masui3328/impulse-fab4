@@ -229,7 +229,30 @@
           "order_contains_subscriptions": "订阅",
           "order_contains_fixed_selling_plans": "总价可能不包括税费、运费、滞纳金和一些折扣。我们将继续查看今天要支付的金额。"
         },
-        "purchase_options_agreement_label_html": "我了解我购物车中的一件或多件商品是后付费购买或订阅。通过继续我得到\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%%7Bpolicy_href%7D\">取消政策<\/a>\n我同意，我将按照本页所示的价格、时间和日期使用所选的付款方式向我收费，直到订单完成，或者，如果允许，由我取消。我接受。\n"
+        "purchase_options_agreement_label_html": "我了解我购物车中的一件或多件商品是后付费购买或订阅。通过继续我得到\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%%7Bpolicy_href%7D\">取消政策<\/a>\n我同意，我将按照本页所示的价格、时间和日期使用所选的付款方式向我收费，直到订单完成，或者，如果允许，由我取消。我接受。\n",
+        "amazon_payments_label": "亚马逊支付",
+        "amazon_payments_login_hint": "需要登录亚马逊。单击“完成订单”并在下一页输入您的信息。",
+        "amazon_payments_logout": "注销亚马逊支付",
+        "amazon_payments_failed_mfa_challenge": "所选的付款方式不可用。请选择其他方法或联系您的银行或发卡机构。",
+        "amazon_payments_abandoned_mfa_challenge": "您的付款无法完成。请尝试其他付款方式或联系您的银行或发卡机构。",
+        "amazon_payments_could_not_enqueue_authorize": "处理您的付款时出现问题。请重试或使用其他付款方式。",
+        "title": "支付",
+        "amount_left_to_pay_label": "付款截止日期：",
+        "discount_button_action_label": "使用优惠券代码",
+        "gift_card_code_label": "礼品卡代码",
+        "apply_gift_card_button_label": "申请",
+        "gift_card_balance_label": "平衡：",
+        "supported_card_brands_more_label": "这样的",
+        "detected_card_brand": "检测到的卡片品牌：{brand}",
+        "card_number_label": "卡号",
+        "card_number_placeholder": "卡号",
+        "card_pay_with": "付款方式：",
+        "card_security_notice": "所有交易都是安全和加密的。",
+        "name_on_card_label": "持卡人",
+        "name_on_card_placeholder": "持卡人",
+        "card_expiry_label": "有效期（月\/年）",
+        "card_expiry_placeholder": "有效期（月\/年）",
+        "card_verification_value_label": "安全码"
       },
       "thank_you": {
         "missing_shipping_address_banner": {
@@ -507,6 +530,111 @@
         "bank_deposit_label": "银行转帐",
         "cash_on_delivery_label": "货到付款",
         "money_order_label": "邮政汇票"
+      },
+      "order_summary": {
+        "percent_off_shipping": "%{percent}% 运费折扣",
+        "amount_off_shipping": "运费减 %{amount}",
+        "payment_terms_totals": {
+          "due_today": "总付款（今天）",
+          "due_later": "到期总计：%{due_at}",
+          "due_later_checkout_to_draft": "总付款（日后）",
+          "due_on_fulfillment": "履行时的总付款"
+        },
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong>不能与现有折扣一起使用。已经有更好的组合。",
+        "maximum_discount_code_limit_reached": "已达到发放优惠券代码的最大数量。请删除现有代码并使用<strong style=\"text-transform:uppercase\">%{code}<\/strong> 。",
+        "order_total_label": "合计订单",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong>当前不工作。请联系我们，我们将为您提供帮助。"
+      },
+      "shipping": {
+        "title": "送货",
+        "shipping_method_title": "邮寄方式",
+        "waiting_on_rate_notice": "加载可用运费",
+        "waiting_on_pickup_location_notice": "正在检索可用的取件地点…",
+        "no_rates_for_cart_or_destination_notice": "没有适用于您的购物车或地址的送货方式",
+        "no_pickup_location_notice": "无法拿起至少一件物品",
+        "no_rates_for_country_notice": "找不到适用于该地址的运费。",
+        "no_rates_contact_notice": "联系我们获取更多信息",
+        "free_rate_label": "自由的",
+        "cheapest_rate_label": "最便宜的",
+        "please_enter_your_shipping_information_notice": "请输入您的送货信息。",
+        "estimated_delivery_date": {
+          "one": "%{count} 个工作日",
+          "other": "%{count} 个工作日"
+        },
+        "estimated_delivery_date_range": "%{minimum} 到 %{maximum} 个工作日",
+        "shipping_line_phone_label": "手机号码（必填）",
+        "shipping_line_phone": "快递员可能会使用您的电话号码与您联系。",
+        "other_method": {
+          "zero": "没有其他方法可用",
+          "one": "%{count} 种其他方法可用",
+          "other": "%{count} 种其他方法可用"
+        },
+        "shipping_rate_discounted_amount": "原价：%{original_amount}。新价：%{amount}",
+        "shipping_line_delivery_phone": "您可能会收到有关交货更新的信息。",
+        "optional_shipping_line_delivery_instructions_label": "送货说明（可选）",
+        "shipping_line_delivery_phone_label": "手机号码",
+        "shipping_line_delivery_instructions": "输入所需信息，包括门密码和还车说明。",
+        "local_delivery": "本地交付",
+        "subscription_shipping": "定期购买的运输方式",
+        "shipping_method_one_time_purchase_group_title": "一次性购买",
+        "shipping_method_subscription_group_title": "订阅",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "%{count} 次交付",
+            "other": "%{count} 次交付"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "每天",
+              "other": "每 %{count} 天"
+            },
+            "week": {
+              "one": "每周",
+              "other": "每 %{count} 周"
+            },
+            "month": {
+              "one": "每月",
+              "other": "每 %{count} 个月"
+            },
+            "year": {
+              "one": "每年",
+              "other": "每 %{count} 年"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "每次送货 %{shipping_price}",
+          "prepaid_shipping_price_label": "%{shipping_price} x %{delivery_interval_count} 每次交付",
+          "initial_order_discounted": "%{discounted_shipping_cost} 用于第一次发货，%{frequency_description} 用于后续发货",
+          "prepaid_initial_order_discounted": "初始运费 (%{discounted_shipping_price})%{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "初始运费 (%{discounted_shipping_price})%{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "初始运费 (%{discounted_shipping_price})%{prepaid_delivery_frequency} 加上 %{shipping_price} 每 %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "初始运费 (%{discounted_shipping_price})%{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}) 加上 %{shipping_price} 每 %{billing_cycle}",
+          "shipping_price_included": "包括",
+          "recurring_order_shipping_price": "其次是 %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "包含第一个订单，然后是 %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price}（每次交货的 %{per_delivery_price}）后跟 %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "首单免费",
+            "other": "您的前 %{count} 个订单是免费的"
+          },
+          "free_for_first_n_order": {
+            "one": "对于第一个订单",
+            "other": "对于前 %{count} 个订单"
+          }
+        },
+        "one_time_purchase_shipping": "一次性发货",
+        "estimated_delivery_time": "预计在 %{time} 交货",
+        "estimated_delivery_time_range": "预计交货时间为 %{min_time}–%{max_time}",
+        "arrives_time": "到达：%{time}",
+        "arrives_time_range": "到达：%{min_time}–%{max_time}",
+        "estimated_time": "预计在 %{time} 交货",
+        "estimated_time_range": "计划在 %{min_time} 和 %{max_time} 之间交付",
+        "delivery_date_range": "%{min_time} 到 %{max_time}",
+        "subscription_local_delivery": "本地交付订阅",
+        "subscription_pickup": "订阅收据",
+        "delivery_today": "当天送达（%{time}）",
+        "delivery_tomorrow": "次日送达（%{time}）",
+        "two_day_delivery": "2 天内送达 (%{time})",
+        "delivery": "在 %{time} 交付"
       }
     },
     "email_marketing": {
