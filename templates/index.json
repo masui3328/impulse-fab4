@@ -230,7 +230,7 @@
             "heading": "",
             "textarea": "BED j.w. FORD 23SS",
             "cta_text1": "VIEW PRODUCTS",
-            "cta_link1": "shopify:\/\/collections\/bed-j-w-ford",
+            "cta_link1": "shopify:\/\/collections\/bed-jw-ford",
             "cta_text2": "",
             "cta_link2": "",
             "image": "shopify:\/\/shop_images\/BED23DDTOP.jpg",
@@ -339,7 +339,7 @@
         "template--16206098628823__991c52e9-6076-4e0a-ba3e-e4a69d71a97f-1666576381ef214e13-2": {
           "type": "collection",
           "settings": {
-            "collection": "bed-j-w-ford",
+            "collection": "bed-jw-ford",
             "title": "",
             "focal_point": "center center"
           }
