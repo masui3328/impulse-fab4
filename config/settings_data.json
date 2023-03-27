@@ -217,7 +217,7 @@
           "mode": true,
           "disable_for_account_holders": true,
           "popup_seconds": 5,
-          "popup_days": 10,
+          "popup_days": 7,
           "popup_title": "FAB4 ONLINE STORE",
           "popup_text": "<p>各ブランド発売日の事前告知や、新入荷・予約に関する最新情報などをメール,Instagramにてご案内しております。 ご登録がまだの方は、ぜひご登録ください。<\/p>",
           "image_position": "left",
