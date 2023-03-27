@@ -219,12 +219,12 @@
           "popup_seconds": 5,
           "popup_days": 10,
           "popup_title": "FAB4 ONLINE STORE",
-          "popup_text": "<p>各ブランド発売日の事前告知や、新入荷・予約に関する最新情報などを、ニュースレターにてお届けします。 ご登録がまだの方は、ぜひご登録ください。<\/p>",
+          "popup_text": "<p>各ブランド発売日の事前告知や、新入荷・予約に関する最新情報などをメール,Instagramにてお届けします。 ご登録がまだの方は、ぜひご登録ください。<\/p>",
           "image_position": "left",
-          "show_social_icons": false,
+          "show_social_icons": true,
           "enable_newsletter": true,
-          "button_label": "登録する",
-          "button_link": ""
+          "button_label": "follow us @instagram",
+          "button_link": "https:\/\/www.instagram.com\/fab4.inc\/"
         }
       },
       "collection-header": {
