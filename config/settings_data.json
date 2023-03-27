@@ -221,7 +221,7 @@
           "popup_title": "NEWS LETTER",
           "popup_text": "<p>各ブランド発売日の事前告知や、新入荷・予約に関する最新情報などをメール,Instagramにてご案内しております。 ご登録がまだの方は、ぜひご登録ください。<\/p>",
           "image_position": "left",
-          "show_social_icons": true,
+          "show_social_icons": false,
           "enable_newsletter": true,
           "button_label": "follow us @ instagram",
           "button_link": "https:\/\/www.instagram.com\/fab4.inc\/"
