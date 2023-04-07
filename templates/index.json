@@ -179,6 +179,28 @@
     "promo-grid": {
       "type": "promo-grid",
       "blocks": {
+        "90920b4a-eb37-4c8c-8462-c781d12cf59e": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "kearny",
+            "cta_text1": "VIEW PRODUCTS",
+            "cta_link1": "shopify:\/\/collections\/kearny",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/kearnytop-3s.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 800,
+            "text_size": 200,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
         "promo-1": {
           "type": "advanced",
           "settings": {
@@ -246,35 +268,13 @@
             "boxed": false,
             "framed": false
           }
-        },
-        "90920b4a-eb37-4c8c-8462-c781d12cf59e": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "",
-            "textarea": "kearny",
-            "cta_text1": "VIEW PRODUCTS",
-            "cta_link1": "shopify:\/\/collections\/kearny",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/kearnytop-3s.jpg",
-            "video_url": "",
-            "width": "100",
-            "height": 800,
-            "text_size": 200,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
         }
       },
       "block_order": [
+        "90920b4a-eb37-4c8c-8462-c781d12cf59e",
         "promo-1",
         "promo-0",
-        "fb2b3275-96e6-4004-8082-dcee8323e952",
-        "90920b4a-eb37-4c8c-8462-c781d12cf59e"
+        "fb2b3275-96e6-4004-8082-dcee8323e952"
       ],
       "settings": {
         "full_width": true,
