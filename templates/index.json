@@ -523,7 +523,7 @@
       "disabled": true,
       "settings": {
         "title": "Blog",
-        "blog": "ニュース",
+        "blog": "blog",
         "post_limit": 3,
         "blog_show_tags": false,
         "blog_show_date": true,
