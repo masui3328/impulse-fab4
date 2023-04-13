@@ -337,7 +337,7 @@
       "settings": {
         "per_row": 4,
         "rows": 8,
-        "mobile_scrollable": true,
+        "mobile_scrollable": false,
         "view_all": true,
         "divider": true
       }
