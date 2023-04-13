@@ -529,7 +529,7 @@
         "blog_show_comments": false,
         "blog_show_author": false,
         "view_all": true,
-        "blog_image_size": "landscape",
+        "blog_image_size": "portrait",
         "divider": true
       }
     },
