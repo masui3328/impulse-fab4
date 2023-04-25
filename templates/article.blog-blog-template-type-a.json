@@ -3,7 +3,8 @@
     "main": {
       "type": "article-template",
       "custom_css": [
-        ".article__body {margin: 0 auto; width: 90%; max-width: 640px; border: 1px solid #ccc;}"
+        ".article__body {margin: 0 auto; width: 90%; max-width: 640px;}",
+        ".article__body img {width: 100%;}"
       ],
       "settings": {
         "image_hero": false,
