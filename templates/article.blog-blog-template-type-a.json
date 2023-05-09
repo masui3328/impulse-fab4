@@ -4,7 +4,8 @@
       "type": "article-template",
       "custom_css": [
         ".article__body {margin: 0 auto; width: 90%; max-width: 620px;}",
-        ".article__body img {width: 100%;}"
+        ".article__body img {width: 100%;}",
+        ".article__body p {word-wrap: break-word; overflow-wrap: break-word;}"
       ],
       "settings": {
         "image_hero": false,
