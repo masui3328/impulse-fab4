@@ -61,6 +61,7 @@
     },
     "1661157031576920fc": {
       "type": "hero-video",
+      "disabled": true,
       "settings": {
         "title": "BASICKS SEASON4",
         "title_size": 40,
