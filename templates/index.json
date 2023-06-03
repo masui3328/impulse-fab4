@@ -204,6 +204,7 @@
         },
         "promo-1": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "",
             "heading": "",
