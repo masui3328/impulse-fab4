@@ -473,18 +473,17 @@
             "collection": "other"
           }
         },
+        "b258cedc-f2d8-45e8-b90e-d761b1f816b4": {
+          "type": "collection",
+          "settings": {
+            "collection": "pre-order-products"
+          }
+        },
         "4fbc708b-ab71-4fcd-a2b5-f47d86b4ea29": {
           "type": "collection",
           "disabled": true,
           "settings": {
             "collection": "vintage"
-          }
-        },
-        "b258cedc-f2d8-45e8-b90e-d761b1f816b4": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "anei"
           }
         },
         "8fa249f4-3bc8-4a9c-8b5d-2ab7daafc768": {
@@ -499,8 +498,8 @@
         "1663114070f50d221b-0",
         "1663114070f50d221b-1",
         "6e2f7566-a4fa-4016-a7ad-6a5407386ba5",
-        "4fbc708b-ab71-4fcd-a2b5-f47d86b4ea29",
         "b258cedc-f2d8-45e8-b90e-d761b1f816b4",
+        "4fbc708b-ab71-4fcd-a2b5-f47d86b4ea29",
         "8fa249f4-3bc8-4a9c-8b5d-2ab7daafc768"
       ],
       "settings": {
