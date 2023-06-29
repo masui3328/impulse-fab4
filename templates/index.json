@@ -529,7 +529,7 @@
       "type": "map",
       "settings": {
         "map_title": "FAB4OSAKA",
-        "address": "<p>#101 LHOTSE I, 5-1-15 Toyosaki, Kita-ku, Osaka City, Osaka, Japan<\/p><p>Mon - Sun, 1:00pm - 7:00pm<br\/>Closed on Wednesdays<br\/><\/p>",
+        "address": "<p>#101 LHOTSE I, 5-1-15 Toyosaki, Kita-ku, Osaka City, Osaka, Japan<\/p><p>Mon - Sun, 1:00pm - 7:00pm<br\/>Closed on Wednesdays and Irregular<br\/><\/p>",
         "map_address": "531-0072 大阪府大阪市北区豊崎５丁目１−１５",
         "api_key": "",
         "show_button": true,
@@ -539,7 +539,6 @@
     },
     "16613906970b9d292e": {
       "type": "advanced-content",
-      "disabled": true,
       "blocks": {
         "1661390697aa8f6493-0": {
           "type": "image",
