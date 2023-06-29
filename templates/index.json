@@ -530,16 +530,16 @@
       "disabled": true,
       "settings": {
         "map_title": "FAB4OSAKA",
-        "address": "<p>301 Front St W<br\/>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br\/>Saturday, 8:30am - 10:30pm<br\/>Sunday, 8:30am - 10:30pm<\/p>",
-        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "address": "<p>101 LHOTSE I, 5-1-15 Toyosaki, Kita-ku, Osaka City, Osaka, Japan<\/p><p>Mon - Sun, 1:00pm - 7:00pm<br\/>Closed on Wednesdays<br\/><\/p>",
+        "map_address": "531-0072 大阪府大阪市北区豊崎５丁目１−１５",
         "api_key": "",
         "show_button": true,
+        "background_image": "shopify:\/\/shop_images\/ct2f_2023-05-08_153308.190.jpg",
         "background_image_position": "center center"
       }
     },
     "16613906970b9d292e": {
       "type": "advanced-content",
-      "disabled": true,
       "blocks": {
         "1661390697aa8f6493-0": {
           "type": "image",
