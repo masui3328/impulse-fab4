@@ -44,6 +44,7 @@
     "button_style": "square",
     "icon_weight": "2px",
     "icon_linecaps": "miter",
+    "product_save_amount": false,
     "vendor_enable": true,
     "quick_shop_enable": false,
     "quick_shop_text": "Quick view",
