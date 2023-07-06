@@ -621,7 +621,7 @@
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
-        "divider": true
+        "divider": false
       }
     }
   },
