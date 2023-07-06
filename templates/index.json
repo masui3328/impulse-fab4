@@ -525,6 +525,22 @@
         "divider": true
       }
     },
+    "317f2046-1519-4217-913b-711570589020": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2-0626-kearny.jpg",
+        "image_width": 700,
+        "subtitle": "",
+        "title": "【kearny EXHIBITION】",
+        "text": "<p><\/p><p>会期：2023年8月5日(土) - 2023年8月13日(日)<\/p><p>会場：FAB4OSAKA<\/p><p>住所：大阪府大阪市北区豊崎5丁目1−15<\/p><p>電話：06-6940-7139<\/p>",
+        "button_label": "More Details",
+        "button_link": "shopify:\/\/blogs\/blog\/kearny-uhuy-ii-gravel",
+        "button_style": "primary",
+        "align_text": "left",
+        "layout": "right",
+        "divider": false
+      }
+    },
     "map": {
       "type": "map",
       "settings": {
@@ -607,22 +623,6 @@
         "full_width": true,
         "space_around": true
       }
-    },
-    "317f2046-1519-4217-913b-711570589020": {
-      "type": "text-and-image",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2-0626-kearny.jpg",
-        "image_width": 700,
-        "subtitle": "",
-        "title": "【kearny EXHIBITION】",
-        "text": "<p><\/p><p>会期：2023年8月5日(土) - 2023年8月13日(日)<\/p><p>会場：FAB4OSAKA<\/p><p>住所：大阪府大阪市北区豊崎5丁目1−15<\/p><p>電話：06-6940-7139<\/p>",
-        "button_label": "More Details",
-        "button_link": "shopify:\/\/blogs\/blog\/kearny-uhuy-ii-gravel",
-        "button_style": "primary",
-        "align_text": "left",
-        "layout": "right",
-        "divider": false
-      }
     }
   },
   "order": [
@@ -634,9 +634,9 @@
     "991c52e9-6076-4e0a-ba3e-e4a69d71a97f",
     "1663114070ccadecac",
     "b6257d87-1311-4921-be36-1e09782d149e",
+    "317f2046-1519-4217-913b-711570589020",
     "map",
     "16613906970b9d292e",
-    "1661390776b378ab34",
-    "317f2046-1519-4217-913b-711570589020"
+    "1661390776b378ab34"
   ]
 }
