@@ -616,12 +616,12 @@
         "subtitle": "",
         "title": "【kearny EXHIBITION】",
         "text": "<p><\/p><p>会期：2023年8月5日(土) - 2023年8月13日(日)<\/p><p>会場：FAB4OSAKA<\/p><p>住所：大阪府大阪市北区豊崎5丁目1−15<\/p><p>電話：06-6940-7139<\/p>",
-        "button_label": "",
+        "button_label": "More Details",
         "button_link": "shopify:\/\/blogs\/blog\/kearny-uhuy-ii-gravel",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
-        "divider": false
+        "divider": true
       }
     }
   },
