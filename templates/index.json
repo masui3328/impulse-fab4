@@ -475,6 +475,7 @@
         },
         "b258cedc-f2d8-45e8-b90e-d761b1f816b4": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "pre-order-products"
           }
