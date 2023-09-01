@@ -78,7 +78,6 @@
     },
     "slideshow": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "slideshow-0": {
           "type": "image",
@@ -140,6 +139,7 @@
         "slideshow-1",
         "d3424248-a45c-4d68-90a0-5f31103e43b0"
       ],
+      "disabled": true,
       "settings": {
         "section_height": "750px",
         "mobile_height": "auto",
@@ -151,7 +151,6 @@
     },
     "rich-text": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -171,6 +170,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "align_text": "center",
         "narrow_column": true,
@@ -552,11 +552,11 @@
     "317f2046-1519-4217-913b-711570589020": {
       "type": "text-and-image",
       "settings": {
-        "image": "shopify:\/\/shop_images\/2-0626-kearny.jpg",
+        "image": "shopify:\/\/shop_images\/23-0901-00-bed-top.jpg",
         "image_width": 700,
         "subtitle": "",
-        "title": "【kearny eyewear EXHIBITION】",
-        "text": "<p><\/p><p>会期：2023年8月5日(土) - 2023年8月13日(日)<\/p><p>会場：FAB4OSAKA<\/p><p>住所：大阪府大阪市北区豊崎5丁目1−15<\/p><p>電話：06-6940-7139<\/p>",
+        "title": "BED j.w. FORD           2024 spring \/ summer exhibition　　　 “Last morning”",
+        "text": "<p><\/p><p>会期：2023年9月9日(土) - 2023年9月11日(月)<\/p><p>会場：FAB4OSAKA<\/p><p>住所：大阪府大阪市北区豊崎5丁目1−15<\/p><p>電話：06-6940-7139<\/p>",
         "button_label": "More Details",
         "button_link": "shopify:\/\/blogs\/blog\/kearny-eyewear-exhibition",
         "button_style": "primary",
@@ -579,7 +579,6 @@
     },
     "16613906970b9d292e": {
       "type": "advanced-content",
-      "disabled": true,
       "blocks": {
         "1661390697aa8f6493-0": {
           "type": "image",
@@ -613,6 +612,7 @@
         "fd2af338-3adb-4cde-acea-b397d161a2f9",
         "1661390697aa8f6493-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "space_around": false
@@ -620,7 +620,6 @@
     },
     "1661390776b378ab34": {
       "type": "advanced-content",
-      "disabled": true,
       "blocks": {
         "1661390776fceadb95-0": {
           "type": "image",
@@ -643,6 +642,7 @@
         "1661390776fceadb95-0",
         "1661390776fceadb95-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "space_around": true
