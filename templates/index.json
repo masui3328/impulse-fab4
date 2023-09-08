@@ -226,16 +226,15 @@
         },
         "promo-1": {
           "type": "advanced",
-          "disabled": true,
           "settings": {
             "subheading": "",
             "heading": "",
-            "textarea": "PHEENY 23SS",
+            "textarea": "PHEENY 23AW",
             "cta_text1": "VIEW PRODUCTS",
             "cta_link1": "shopify:\/\/collections\/pheeny",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/PH23SS-01.jpg",
+            "image": "shopify:\/\/shop_images\/20.jpg",
             "video_url": "",
             "width": "100",
             "height": 800,
