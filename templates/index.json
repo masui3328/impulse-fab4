@@ -551,6 +551,7 @@
     },
     "317f2046-1519-4217-913b-711570589020": {
       "type": "text-and-image",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/23-0901-00-bed-top.jpg",
         "image_width": 700,
