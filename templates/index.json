@@ -13,7 +13,7 @@
             "cta_link1": "shopify:\/\/collections\/men",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/04_0e97fafb-de65-442c-a2ac-f8da6d91d519.jpg",
+            "image": "shopify:\/\/shop_images\/54.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -540,8 +540,8 @@
         "b53a282a-0a81-4d73-9856-995d0b691510": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
+            "title_color": "",
+            "alignment": "center",
             "html_area": ""
           }
         }
