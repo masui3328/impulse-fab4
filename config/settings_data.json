@@ -86,7 +86,8 @@
           "1524770014057": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/shopfiy-top-LOGO-black.png",
+              "logo": "shopify:\/\/shop_images\/shopfiy-top-LOGO-gray.png",
+              "logo-inverted": "shopify:\/\/shop_images\/top-left-logo-white.png",
               "desktop_logo_width": 100,
               "mobile_logo_width": 100
             }
