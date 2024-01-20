@@ -447,6 +447,14 @@
             "title": "",
             "focal_point": "center center"
           }
+        },
+        "collection_6i4wa3": {
+          "type": "collection",
+          "settings": {
+            "collection": "kijun",
+            "title": "Kijun",
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
@@ -466,7 +474,8 @@
         "6df9fcd9-a452-493a-b73c-ac823f776333",
         "e43ea799-73c6-4406-8e9a-d3b6d77879b3",
         "55e57b0e-71e7-4f79-9003-3281dc84d8b2",
-        "5df11873-254b-45dc-9e40-7fc2df308e3d"
+        "5df11873-254b-45dc-9e40-7fc2df308e3d",
+        "collection_6i4wa3"
       ],
       "settings": {
         "title": "PICK UP BRAND",
@@ -540,6 +549,7 @@
         "b53a282a-0a81-4d73-9856-995d0b691510": {
           "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
+            "title": "",
             "title_color": "",
             "alignment": "center",
             "html_area": ""
