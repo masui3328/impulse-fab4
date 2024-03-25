@@ -12,33 +12,21 @@
     "promo-grid": {
       "type": "promo-grid",
       "blocks": {
-        "banner": {
-          "type": "banner",
-          "settings": {
-            "heading": "Banner promotion",
-            "text": "Add the details of your promotion in smaller text",
-            "link": "",
-            "label": "Shop now",
-            "image": "shopify:\/\/shop_images\/remagine-brand-top.jpg",
-            "color_tint": "#e95454",
-            "color_tint_opacity": 8,
-            "framed": false
-          }
-        },
-        "advanced": {
+        "advanced_a8J8ER": {
           "type": "advanced",
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
+            "subheading": "",
+            "heading": "remagine (China)",
+            "textarea": "中国を佛山を拠点に置くデザイナーpanda(パンダ)によるフットウェアブランド。ブランド名の “Remagine(リマジン)\"は、\"remember\"（記憶）と \"imagine\"（想像）を組み合わせた造語で、伝統と未来の融合を追求し、両者の間に無限の可能性を探るというブランドのビジョンが込められている。\n\n”remember” は過去を意味し、”imagine” は未来を意味する。そして、その中間にあるのが現在である。私たちは歴史からクラシックな要素を抽出し、未来への想像力と組み合わせることに重点を置き、フットウェア・デザインの無限の可能性を探求している。\n\nこれを実現するため、remagineのデザイナーたちは、伝統的なデザインパターンに常に挑戦し、未来の技術、素材、職人技を製品に取り入れ、クラシックでありながらモダンなフットウェアを生み出している。remagineは伝統と未来を融合させたブランドであり、革新と持続可能性によってフットウェア・デザインの無限の可能性を追求し、消費者に高品質でファッション性の高い製品を提供している。",
+            "cta_text1": "",
             "cta_link1": "",
-            "cta_text2": "Shop All",
+            "cta_text2": "",
             "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/remagine-brand-top_5c1e3136-233d-4e62-90d5-c6ee80a769cd.jpg",
             "video_url": "",
             "width": "100",
-            "height": 500,
-            "text_size": 120,
+            "height": 800,
+            "text_size": 105,
             "text_align": "vertical-center horizontal-center",
             "focal_point": "center",
             "color_accent": "rgba(0,0,0,0)",
@@ -48,10 +36,8 @@
         }
       },
       "block_order": [
-        "banner",
-        "advanced"
+        "advanced_a8J8ER"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "gutter_size": 0,
