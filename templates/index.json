@@ -314,7 +314,7 @@
         "template--16206098628823__991c52e9-6076-4e0a-ba3e-e4a69d71a97f-1666576381ef214e13-0": {
           "type": "collection",
           "settings": {
-            "collection": "anei",
+            "collection": "arthur-hope-del-moon",
             "title": "",
             "focal_point": "center center"
           }
@@ -322,7 +322,7 @@
         "template--16206098628823__991c52e9-6076-4e0a-ba3e-e4a69d71a97f-1666576381ef214e13-1": {
           "type": "collection",
           "settings": {
-            "collection": "basicks",
+            "collection": "anei",
             "title": "",
             "focal_point": "center center"
           }
@@ -330,7 +330,7 @@
         "template--16206098628823__991c52e9-6076-4e0a-ba3e-e4a69d71a97f-1666576381ef214e13-2": {
           "type": "collection",
           "settings": {
-            "collection": "bed-jw-ford",
+            "collection": "basicks",
             "title": "",
             "focal_point": "center center"
           }
@@ -347,7 +347,7 @@
         "920ad78e-0a42-4046-9c9a-5581a69da35f": {
           "type": "collection",
           "settings": {
-            "collection": "kearny",
+            "collection": "bed-jw-ford",
             "title": "",
             "focal_point": "center center"
           }
@@ -355,7 +355,7 @@
         "a2f44680-2c1e-47c9-bff4-53e858112f15": {
           "type": "collection",
           "settings": {
-            "collection": "kheiki",
+            "collection": "kearny",
             "title": "",
             "focal_point": "center center"
           }
@@ -363,7 +363,7 @@
         "collection_6i4wa3": {
           "type": "collection",
           "settings": {
-            "collection": "kijun",
+            "collection": "kheiki",
             "title": "Kijun",
             "focal_point": "center center"
           }
@@ -380,7 +380,7 @@
         "a1e027fe-129a-47fd-a5be-f57361084827": {
           "type": "collection",
           "settings": {
-            "collection": "pheeny",
+            "collection": "kijun",
             "title": "",
             "focal_point": "center center"
           }
@@ -388,7 +388,7 @@
         "9e17e32d-a70d-4c9c-b325-001cabad14fc": {
           "type": "collection",
           "settings": {
-            "collection": "product-twelve",
+            "collection": "pheeny",
             "title": "",
             "focal_point": "center center"
           }
@@ -396,7 +396,7 @@
         "d8635f6f-8899-4984-9c0c-37f99ed6ac52": {
           "type": "collection",
           "settings": {
-            "collection": "sulvam",
+            "collection": "product-twelve",
             "title": "",
             "focal_point": "center center"
           }
@@ -404,7 +404,7 @@
         "95de332d-d178-4c92-9812-5cace769785a": {
           "type": "collection",
           "settings": {
-            "collection": "thee",
+            "collection": "remagine",
             "title": "",
             "focal_point": "center center"
           }
@@ -412,7 +412,7 @@
         "add7098b-3538-4bef-b9a5-2933248bcb38": {
           "type": "collection",
           "settings": {
-            "collection": "thraw",
+            "collection": "sulvam",
             "title": "",
             "focal_point": "center center"
           }
