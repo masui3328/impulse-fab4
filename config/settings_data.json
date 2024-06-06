@@ -207,6 +207,7 @@
         "blocks": {
           "reminder-block": {
             "type": "header",
+            "disabled": true,
             "settings": {
               "reminder_label": "Get 10% off"
             }
