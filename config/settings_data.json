@@ -221,11 +221,12 @@
           "disable_for_account_holders": true,
           "popup_seconds": 5,
           "popup_days": 7,
-          "popup_title": "NEWS LETTER",
-          "popup_text": "<p>各ブランド発売日の事前告知や、新入荷・予約に関する最新情報などをメール,Instagramにてご案内しております。 ご登録がお済みでない方は ぜひこの機会にご登録ください。<\/p>",
+          "popup_title": "FAB4 official Instagram",
+          "popup_text": "<p>各ブランド発売日の事前告知や、新入荷・予約に関する最新情報などをInstagramにてご案内しております。 ご登録がお済みでない方は ぜひこの機会にご登録ください。<\/p>",
+          "popup_image": "shopify:\/\/shop_images\/SNS-ICON-00.jpg",
           "image_position": "left",
           "show_social_icons": false,
-          "enable_newsletter": true,
+          "enable_newsletter": false,
           "button_label": "follow us @ instagram",
           "button_link": "https:\/\/www.instagram.com\/fab4.inc\/"
         }
