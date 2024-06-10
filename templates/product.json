@@ -32,7 +32,7 @@
           "type": "sales_point",
           "settings": {
             "icon": "globe",
-            "text": "Worldwide Shipping"
+            "text": "Worldwide Shipping Available"
           }
         },
         "inventory_status": {
@@ -178,7 +178,6 @@
     },
     "testimonials": {
       "type": "testimonials",
-      "disabled": true,
       "blocks": {
         "testimonials-0": {
           "type": "testimonial",
@@ -213,6 +212,7 @@
         "testimonials-1",
         "testimonials-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "Testimonials",
         "align_text": "center",
