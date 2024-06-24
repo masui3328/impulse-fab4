@@ -442,6 +442,15 @@
             "focal_point": "center center"
           }
         },
+        "collection_egaRkx": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "whyuswires",
+            "title": "WHYUSWIRES",
+            "focal_point": "center center"
+          }
+        },
         "e43ea799-73c6-4406-8e9a-d3b6d77879b3": {
           "type": "collection",
           "settings": {
@@ -465,14 +474,6 @@
             "title": "",
             "focal_point": "center center"
           }
-        },
-        "collection_egaRkx": {
-          "type": "collection",
-          "settings": {
-            "collection": "whyuswires",
-            "title": "WHYUSWIRES",
-            "focal_point": "center center"
-          }
         }
       },
       "block_order": [
@@ -491,10 +492,10 @@
         "add7098b-3538-4bef-b9a5-2933248bcb38",
         "8749286f-3951-4a87-9470-2db7798ed842",
         "6df9fcd9-a452-493a-b73c-ac823f776333",
+        "collection_egaRkx",
         "e43ea799-73c6-4406-8e9a-d3b6d77879b3",
         "55e57b0e-71e7-4f79-9003-3281dc84d8b2",
-        "5df11873-254b-45dc-9e40-7fc2df308e3d",
-        "collection_egaRkx"
+        "5df11873-254b-45dc-9e40-7fc2df308e3d"
       ],
       "settings": {
         "title": "PICK UP BRAND",
