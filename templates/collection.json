@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "collection-header": {
@@ -10,7 +19,6 @@
     },
     "promo-grid": {
       "type": "promo-grid",
-      "disabled": true,
       "blocks": {
         "banner": {
           "type": "banner",
@@ -27,17 +35,17 @@
         "advanced": {
           "type": "advanced",
           "settings": {
-            "subheading": "Limited time",
-            "heading": "Announce your promotion",
-            "textarea": "Include the smaller details of your promotion in text below the title.",
-            "cta_text1": "Shop This",
+            "subheading": "",
+            "heading": "WHYUSWIRES (Seoul \/ South Korea)",
+            "textarea": "“ WHYUSWIRES (ワイアスワイヤーズ) \"は、クリエイティビティとアーバンスタイルが融合する韓国 ソウル の活気あるストリートから生まれました。\n\nリサイクル素材から作られたカスタムメイドの服を専門として、持続可能性へのコミットメントをもってファッションを再定義しています。\n\n私たちの製品は全て、熟練した職人たちの芸術性と献身を体現する、入念なハンドメイド製品です。\n\nストリートウェアのエッセンスを取り入れ、どんな都会でも際立つ独特の美学を誇っています。\nWHYUSWIRESのウェアは、エッジの効いた型にはまらないデザインと実用性を融合させ、大胆かつ機能的なスタイルを作り出している。",
+            "cta_text1": "",
             "cta_link1": "",
-            "cta_text2": "Shop All",
+            "cta_text2": "",
             "cta_link2": "",
             "video_url": "",
             "width": "100",
-            "height": 500,
-            "text_size": 120,
+            "height": 800,
+            "text_size": 105,
             "text_align": "vertical-center horizontal-center",
             "focal_point": "center",
             "color_accent": "rgba(0,0,0,0)",
@@ -51,9 +59,9 @@
         "advanced"
       ],
       "settings": {
-        "full_width": false,
-        "gutter_size": 20,
-        "space_above": true,
+        "full_width": true,
+        "gutter_size": 0,
+        "space_above": false,
         "space_below": false
       }
     },
