@@ -301,6 +301,28 @@
             "boxed": false,
             "framed": false
           }
+        },
+        "advanced_KmtGNi": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "remagine",
+            "cta_text1": "VIEW PRODUCTS",
+            "cta_link1": "shopify:\/\/collections\/remagine",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/top-remagine-0.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 800,
+            "text_size": 200,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "20% 50%",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
         }
       },
       "block_order": [
@@ -308,7 +330,8 @@
         "d7ac9922-875a-4e68-a792-5a0bedc5ec8d",
         "90920b4a-eb37-4c8c-8462-c781d12cf59e",
         "promo-0",
-        "fb2b3275-96e6-4004-8082-dcee8323e952"
+        "fb2b3275-96e6-4004-8082-dcee8323e952",
+        "advanced_KmtGNi"
       ],
       "settings": {
         "full_width": true,
