@@ -23,6 +23,7 @@
       "blocks": {
         "advanced": {
           "type": "advanced",
+          "disabled": true,
           "settings": {
             "subheading": "",
             "heading": "WHYUSWIRES (Seoul \/ South Korea)",
