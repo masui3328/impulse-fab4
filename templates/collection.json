@@ -62,6 +62,7 @@
         "advanced",
         "banner"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "gutter_size": 0,
