@@ -21,29 +21,6 @@
     "promo-grid": {
       "type": "promo-grid",
       "blocks": {
-        "advanced": {
-          "type": "advanced",
-          "disabled": true,
-          "settings": {
-            "subheading": "",
-            "heading": "WHYUSWIRES (Seoul \/ South Korea)",
-            "textarea": "“ WHYUSWIRES (ワイアスワイヤーズ) \"は、クリエイティビティとアーバンスタイルが融合する韓国 ソウル の活気あるストリートから生まれました。\n\nリサイクル素材から作られたカスタムメイドの服を専門として、持続可能性へのコミットメントをもってファッションを再定義しています。\n\n私たちの製品は全て、熟練した職人たちの芸術性と献身を体現する、入念なハンドメイド製品です。\n\nストリートウェアのエッセンスを取り入れ、どんな都会でも際立つ独特の美学を誇っています。\nWHYUSWIRESのウェアは、エッジの効いた型にはまらないデザインと実用性を融合させ、大胆かつ機能的なスタイルを作り出している。",
-            "cta_text1": "",
-            "cta_link1": "",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/WHYUSWIRES-top-mono-00.jpg",
-            "video_url": "",
-            "width": "100",
-            "height": 800,
-            "text_size": 105,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
         "banner": {
           "type": "banner",
           "disabled": true,
@@ -59,7 +36,6 @@
         }
       },
       "block_order": [
-        "advanced",
         "banner"
       ],
       "disabled": true,
