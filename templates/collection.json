@@ -23,7 +23,6 @@
       "blocks": {
         "advanced": {
           "type": "advanced",
-          "disabled": true,
           "settings": {
             "subheading": "",
             "heading": "WHYUSWIRES (Seoul \/ South Korea)",
@@ -62,7 +61,6 @@
         "advanced",
         "banner"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "gutter_size": 0,
