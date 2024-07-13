@@ -468,7 +468,6 @@
         },
         "collection_egaRkx": {
           "type": "collection",
-          "disabled": true,
           "settings": {
             "collection": "whyuswires",
             "title": "WHYUSWIRES",
@@ -477,6 +476,7 @@
         },
         "e43ea799-73c6-4406-8e9a-d3b6d77879b3": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "warder",
             "title": "",
