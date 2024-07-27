@@ -497,6 +497,15 @@
             "title": "",
             "focal_point": "center center"
           }
+        },
+        "collection_HPBxyy": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "youth-of-the-water",
+            "title": "YOUTH OF THE WATER",
+            "focal_point": "center center"
+          }
         }
       },
       "block_order": [
@@ -518,7 +527,8 @@
         "collection_egaRkx",
         "e43ea799-73c6-4406-8e9a-d3b6d77879b3",
         "55e57b0e-71e7-4f79-9003-3281dc84d8b2",
-        "5df11873-254b-45dc-9e40-7fc2df308e3d"
+        "5df11873-254b-45dc-9e40-7fc2df308e3d",
+        "collection_HPBxyy"
       ],
       "settings": {
         "title": "PICK UP BRAND",
