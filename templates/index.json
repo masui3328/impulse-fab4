@@ -235,11 +235,10 @@
         },
         "promo-1": {
           "type": "advanced",
-          "disabled": true,
           "settings": {
             "subheading": "",
             "heading": "",
-            "textarea": "PHEENY 24SS",
+            "textarea": "PHEENY",
             "cta_text1": "VIEW PRODUCTS",
             "cta_link1": "shopify:\/\/collections\/pheeny",
             "cta_text2": "",
