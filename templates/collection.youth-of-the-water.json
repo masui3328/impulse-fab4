@@ -21,24 +21,32 @@
     "promo-grid": {
       "type": "promo-grid",
       "blocks": {
-        "banner": {
-          "type": "banner",
-          "disabled": true,
+        "advanced_fp8nfV": {
+          "type": "advanced",
           "settings": {
-            "heading": "Banner promotion",
-            "text": "Add the details of your promotion in smaller text",
-            "link": "",
-            "label": "Shop now",
-            "color_tint": "#e95454",
-            "color_tint_opacity": 8,
+            "subheading": "",
+            "heading": "YOUTH OF THE WATER",
+            "textarea": "Designer : 上田碧 Ao Ueda \n\nCOMME des GARÇONS（コム デ ギャルソン）で JUNYA WATANABE MAN（ジュンヤ ワタナベ マン）のパタンナーを5年間務めた上田碧が手掛けるメンズウェアブランド。\n\nブランド名である YOUTH OF THE WATER（ユース オブ ザ ウォーター）は、中国唐代の文筆家、陸羽の著書である「茶経」で表現された「華」という言葉を、東京藝術大学の創始者でもある岡倉天心（岡倉覚三）が、著書「The Book of Tea（邦題：『茶の本』）」の中で「YOUTH OF THE WATER」と表現したことに由来する。\n\n当時の茶人たちが「茶」を崇高なものとして捉え、茶と人間とが“対等な関係”を築こうとしている姿。その真摯な姿勢が後の茶の湯文化にも大きな影響を与えたように、ファッションデザインを通じて、「プロダクト」「メーカー」「ユーザー」の3者の間に対等で“より良い関係性”を生み出すことを目指し活動する。",
+            "cta_text1": "",
+            "cta_link1": "",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/YOUTH_OF_THE_WATER_top.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 800,
+            "text_size": 105,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
             "framed": false
           }
         }
       },
       "block_order": [
-        "banner"
+        "advanced_fp8nfV"
       ],
-      "disabled": true,
       "settings": {
         "full_width": true,
         "gutter_size": 0,
