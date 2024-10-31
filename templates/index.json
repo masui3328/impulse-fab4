@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "190dc58f-52f8-4336-b91a-37415cc02272": {
@@ -19,10 +19,10 @@
             "heading": "",
             "textarea": "",
             "cta_text1": "",
-            "cta_link1": "shopify:\/\/collections\/men",
+            "cta_link1": "shopify://collections/men",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/54.jpg",
+            "image": "shopify://shop_images/54.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -41,10 +41,10 @@
             "heading": "",
             "textarea": "",
             "cta_text1": "",
-            "cta_link1": "shopify:\/\/collections\/women",
+            "cta_link1": "shopify://collections/women",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/MENWOMEN-24AWTOP.jpg",
+            "image": "shopify://shop_images/MENWOMEN-24AWTOP.jpg",
             "video_url": "",
             "width": "50",
             "height": 800,
@@ -76,10 +76,10 @@
         "title_size": 40,
         "subheading": "",
         "link_text": "VIEW PRODUCTS",
-        "link": "shopify:\/\/collections\/basicks",
+        "link": "shopify://collections/basicks",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=q8PnRp_jc4Y",
+        "video_url": "https://www.youtube.com/watch?v=q8PnRp_jc4Y",
         "overlay_opacity": 0,
         "section_height": "100vh",
         "mobile_height": "auto"
@@ -95,13 +95,13 @@
             "title": "Two line\ntitle slide.",
             "title_size": 80,
             "subheading": "And optional subtext",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "link_text": "COLLECTION",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/024.jpg",
+            "image": "shopify://shop_images/024.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -113,13 +113,13 @@
             "title": "Two line\ntitle slide.",
             "title_size": 80,
             "subheading": "And optional subtext",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "link_text": "COLLECTION",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "#000000",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/011.jpg",
+            "image": "shopify://shop_images/011.jpg",
             "overlay_opacity": 0,
             "focal_point": "bottom center"
           }
@@ -131,13 +131,13 @@
             "title": "Two line\ntitle slide.",
             "title_size": 80,
             "subheading": "And optional subtext",
-            "link": "shopify:\/\/collections",
+            "link": "shopify://collections",
             "link_text": "COLLECTION",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-bottom horizontal-left",
-            "image": "shopify:\/\/shop_images\/015.jpg",
+            "image": "shopify://shop_images/015.jpg",
             "overlay_opacity": 0,
             "focal_point": "center center"
           }
@@ -171,7 +171,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -189,6 +189,28 @@
     "promo-grid": {
       "type": "promo-grid",
       "blocks": {
+        "d7ac9922-875a-4e68-a792-5a0bedc5ec8d": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "",
+            "textarea": "BASICKS",
+            "cta_text1": "VIEW PRODUCTS",
+            "cta_link1": "shopify://collections/basicks",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify://shop_images/BASICKS_23aw_TOPAD.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 800,
+            "text_size": 200,
+            "text_align": "vertical-center horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
         "advanced_KmtGNi": {
           "type": "advanced",
           "settings": {
@@ -196,10 +218,10 @@
             "heading": "",
             "textarea": "remagine",
             "cta_text1": "VIEW PRODUCTS",
-            "cta_link1": "shopify:\/\/collections\/remagine",
+            "cta_link1": "shopify://collections/remagine",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/top-remagine-shoes.jpg",
+            "image": "shopify://shop_images/top-remagine-shoes.jpg",
             "video_url": "",
             "width": "100",
             "height": 800,
@@ -218,38 +240,16 @@
             "heading": "",
             "textarea": "PHEENY",
             "cta_text1": "VIEW PRODUCTS",
-            "cta_link1": "shopify:\/\/collections\/pheeny",
+            "cta_link1": "shopify://collections/pheeny",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/pheeny-web-24aw-top.jpg",
+            "image": "shopify://shop_images/pheeny-web-24aw-top.jpg",
             "video_url": "",
             "width": "100",
             "height": 800,
             "text_size": 200,
             "text_align": "vertical-center horizontal-center",
             "focal_point": "80% 50%",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
-          }
-        },
-        "d7ac9922-875a-4e68-a792-5a0bedc5ec8d": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "",
-            "heading": "",
-            "textarea": "BASICKS",
-            "cta_text1": "VIEW PRODUCTS",
-            "cta_link1": "shopify:\/\/collections\/basicks",
-            "cta_text2": "",
-            "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/BASICKS_23aw_TOPAD.jpg",
-            "video_url": "",
-            "width": "100",
-            "height": 800,
-            "text_size": 200,
-            "text_align": "vertical-center horizontal-center",
-            "focal_point": "center",
             "color_accent": "rgba(0,0,0,0)",
             "boxed": false,
             "framed": false
@@ -263,10 +263,10 @@
             "heading": "",
             "textarea": "kearny",
             "cta_text1": "VIEW PRODUCTS",
-            "cta_link1": "shopify:\/\/collections\/kearny",
+            "cta_link1": "shopify://collections/kearny",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/kearnytop-3s.jpg",
+            "image": "shopify://shop_images/kearnytop-3s.jpg",
             "video_url": "",
             "width": "100",
             "height": 800,
@@ -286,10 +286,10 @@
             "heading": "",
             "textarea": "sulvam 23SS",
             "cta_text1": "VIEW PRODUCTS",
-            "cta_link1": "shopify:\/\/collections\/sulvam",
+            "cta_link1": "shopify://collections/sulvam",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/sulvam23SS.jpg",
+            "image": "shopify://shop_images/sulvam23SS.jpg",
             "video_url": "",
             "width": "100",
             "height": 800,
@@ -309,10 +309,10 @@
             "heading": "",
             "textarea": "BED j.w. FORD 23SS",
             "cta_text1": "VIEW PRODUCTS",
-            "cta_link1": "shopify:\/\/collections\/bed-jw-ford",
+            "cta_link1": "shopify://collections/bed-jw-ford",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify:\/\/shop_images\/BED23DDTOP.jpg",
+            "image": "shopify://shop_images/BED23DDTOP.jpg",
             "video_url": "",
             "width": "100",
             "height": 800,
@@ -326,9 +326,9 @@
         }
       },
       "block_order": [
+        "d7ac9922-875a-4e68-a792-5a0bedc5ec8d",
         "advanced_KmtGNi",
         "promo-1",
-        "d7ac9922-875a-4e68-a792-5a0bedc5ec8d",
         "90920b4a-eb37-4c8c-8462-c781d12cf59e",
         "promo-0",
         "fb2b3275-96e6-4004-8082-dcee8323e952"
@@ -600,11 +600,12 @@
       "type": "apps",
       "blocks": {
         "b53a282a-0a81-4d73-9856-995d0b691510": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
             "alignment": "center",
+            "background_color": "",
             "html_area": ""
           }
         }
@@ -636,13 +637,13 @@
       "type": "text-and-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/23-0901-00-bed-top.jpg",
+        "image": "shopify://shop_images/23-0901-00-bed-top.jpg",
         "image_width": 700,
         "subtitle": "",
-        "title": "BED j.w. FORD  2024 spring \/ summer exhibition “ Last morning ”",
-        "text": "<p><\/p><p>会期：2023年9月9日(土) - 2023年9月11日(月)<\/p><p>会場：FAB4OSAKA<\/p><p>住所：大阪府大阪市北区豊崎5丁目1−15<\/p><p>電話：06-6940-7139<\/p>",
+        "title": "BED j.w. FORD  2024 spring / summer exhibition “ Last morning ”",
+        "text": "<p></p><p>会期：2023年9月9日(土) - 2023年9月11日(月)</p><p>会場：FAB4OSAKA</p><p>住所：大阪府大阪市北区豊崎5丁目1−15</p><p>電話：06-6940-7139</p>",
         "button_label": "More Details",
-        "button_link": "shopify:\/\/blogs\/blog\/bed-j-w-ford-2024-spring-summer-exhibition-last-morning",
+        "button_link": "shopify://blogs/blog/bed-j-w-ford-2024-spring-summer-exhibition-last-morning",
         "button_style": "primary",
         "align_text": "left",
         "layout": "right",
@@ -653,11 +654,11 @@
       "type": "map",
       "settings": {
         "map_title": "FAB4OSAKA",
-        "address": "<p>#101 LHOTSE I, 5-1-15 Toyosaki, Kita-ku, Osaka City, Osaka, Japan<\/p><p>Mon - Sun, 1:00pm - 7:00pm<br\/>Closed on Wednesdays and Irregular<br\/><\/p>",
+        "address": "<p>#101 LHOTSE I, 5-1-15 Toyosaki, Kita-ku, Osaka City, Osaka, Japan</p><p>MON - FRI, 14:00pm - 19:00pm‎‎‎‎‎‎‎‎‎‎‎　　　　　　　　SAT - SUN, 13:00pm - 19:00pm<br/>Closed on Wednesdays and Irregular<br/></p>",
         "map_address": "531-0072 大阪府大阪市北区豊崎５丁目１−１５",
         "api_key": "",
         "show_button": true,
-        "background_image": "shopify:\/\/shop_images\/KV_11.jpg",
+        "background_image": "shopify://shop_images/KV_11.jpg",
         "background_image_position": "center center"
       }
     },
@@ -677,7 +678,7 @@
           "type": "liquid",
           "disabled": true,
           "settings": {
-            "code": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d1639.8778239720345!2d135.497300813244!3d34.711342619869136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e69a433f4fc5%3A0x1a85e728c91359e6!2sFAB4%20OSAKA!5e0!3m2!1sja!2sjp!4v1688021904360!5m2!1sja!2sjp\" width=\"600\" height=\"450\" style=\"border: 0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"><\/iframe>",
+            "code": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1639.8778239720345!2d135.497300813244!3d34.711342619869136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e69a433f4fc5%3A0x1a85e728c91359e6!2sFAB4%20OSAKA!5e0!3m2!1sja!2sjp!4v1688021904360!5m2!1sja!2sjp\" width=\"600\" height=\"450\" style=\"border: 0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
             "width": "50%",
             "alignment": "center"
           }
@@ -685,7 +686,7 @@
         "1661390697aa8f6493-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>FAB4 OSAKA<\/h2>\n<p>Lhotse I , 5-1-15 Toyosaki, Kita-ku, Osaka city, Japan<br>\n大阪府大阪市北区豊崎５丁目1-15 Lhotse I <\/p>\n<p>Open Hours : 13:00～19:00<br>\nClosed : Wednesday or Irregular<br>\n06 6940 7139<\/p>\n\n<a target=\"_blank\" href=\"https:\/\/www.google.co.jp\/maps\/place\/%E3%80%92531-0072+%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E5%8C%97%E5%8C%BA%E8%B1%8A%E5%B4%8E%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%E2%88%92%EF%BC%91%EF%BC%95\/@34.706818,135.4906692,15.67z\/data=!4m5!3m4!1s0x6000e69a4338abf5:0xb676ac3bc4b1792c!8m2!3d34.7115801!4d135.499915\" class=\"btn btn--secondary btn--small\">MAP<\/a>",
+            "code": "<h2>FAB4 OSAKA</h2>\n<p>Lhotse I , 5-1-15 Toyosaki, Kita-ku, Osaka city, Japan<br>\n大阪府大阪市北区豊崎５丁目1-15 Lhotse I </p>\n<p>Open Hours : 13:00～19:00<br>\nClosed : Wednesday or Irregular<br>\n06 6940 7139</p>\n\n<a target=\"_blank\" href=\"https://www.google.co.jp/maps/place/%E3%80%92531-0072+%E5%A4%A7%E9%98%AA%E5%BA%9C%E5%A4%A7%E9%98%AA%E5%B8%82%E5%8C%97%E5%8C%BA%E8%B1%8A%E5%B4%8E%EF%BC%95%E4%B8%81%E7%9B%AE%EF%BC%91%E2%88%92%EF%BC%91%EF%BC%95/@34.706818,135.4906692,15.67z/data=!4m5!3m4!1s0x6000e69a4338abf5:0xb676ac3bc4b1792c!8m2!3d34.7115801!4d135.499915\" class=\"btn btn--secondary btn--small\">MAP</a>",
             "width": "50%",
             "alignment": "center"
           }
@@ -716,7 +717,7 @@
         "1661390776fceadb95-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>FAB4 KOBE<\/h2><p>3F Thanks BLD 2-5-8 Sannomiyacho Kobe city<br>兵庫県神戸市中央区三宮町2丁目5-8 サンクスビル3F<\/p><p>Open Hours : 13:00～19:00<br>Closed : Irregular<br>078 327 8285<\/p>\n<a target=\"_blank\" href=\"https:\/\/www.google.co.jp\/maps\/place\/Fab4\/@34.6912243,135.1909088,16.79z\/data=!4m5!3m4!1s0x0:0xca27fa313406fed!8m2!3d34.69058!4d135.191613\" class=\"btn btn--secondary btn--small\">MAP<\/a>",
+            "code": "<h2>FAB4 KOBE</h2><p>3F Thanks BLD 2-5-8 Sannomiyacho Kobe city<br>兵庫県神戸市中央区三宮町2丁目5-8 サンクスビル3F</p><p>Open Hours : 13:00～19:00<br>Closed : Irregular<br>078 327 8285</p>\n<a target=\"_blank\" href=\"https://www.google.co.jp/maps/place/Fab4/@34.6912243,135.1909088,16.79z/data=!4m5!3m4!1s0x0:0xca27fa313406fed!8m2!3d34.69058!4d135.191613\" class=\"btn btn--secondary btn--small\">MAP</a>",
             "width": "50%",
             "alignment": "center"
           }
