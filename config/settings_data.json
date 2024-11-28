@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_body_bg": "#ffffff",
@@ -71,14 +71,14 @@
     "cart_type": "drawer",
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
-    "social_facebook_link": "https:\/\/www.facebook.com\/FAB4OSA",
-    "social_twitter_link": "https:\/\/twitter.com\/FAB4_inc",
-    "social_instagram_link": "https:\/\/www.instagram.com\/fab4.inc\/",
-    "favicon": "shopify:\/\/shop_images\/logo-Favicon.png",
+    "social_facebook_link": "https://www.facebook.com/FAB4OSA",
+    "social_twitter_link": "https://twitter.com/FAB4_inc",
+    "social_instagram_link": "https://www.instagram.com/fab4.inc/",
+    "favicon": "shopify://shop_images/logo-Favicon.png",
     "search_type": "product,article,page,collection",
     "show_breadcrumbs": true,
     "show_breadcrumbs_collection_link": true,
-    "checkout_logo_image": "shopify:\/\/shop_images\/LOGO-typeA.png",
+    "checkout_logo_image": "shopify://shop_images/LOGO-typeA.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#ffffff",
@@ -95,8 +95,8 @@
           "1524770014057": {
             "type": "logo",
             "settings": {
-              "logo": "shopify:\/\/shop_images\/shopfiy-top-LOGO-gray.png",
-              "logo-inverted": "shopify:\/\/shop_images\/top-left-logo-white.png",
+              "logo": "shopify://shop_images/shopfiy-top-LOGO-gray.png",
+              "logo-inverted": "shopify://shop_images/top-left-logo-white.png",
               "desktop_logo_width": 100,
               "mobile_logo_width": 100
             }
@@ -104,9 +104,9 @@
           "1524770296206": {
             "type": "announcement",
             "settings": {
-              "text": "FLASH SALE - UP TO 70% OFF -",
+              "text": "BLACK FRIDAY - UP TO 70% OFF -",
               "link_text": "",
-              "link": "shopify:\/\/collections\/flash-sale"
+              "link": "shopify://collections/flash-sale"
             }
           },
           "59b4bb25-cff7-4de8-9074-7e62b778a4f7": {
@@ -174,7 +174,7 @@
             "settings": {
               "show_footer_title": false,
               "title": "MEDIA",
-              "text": "<p><a href=\"https:\/\/www.instagram.com\/fab4.inc\/\" target=\"_blank\" title=\"FAB4 (FAB4KOBE \/ FAB4OSAKA)  STORE INSTAGRAM\">- INSTAGRAM<\/a><\/p><p><a href=\"https:\/\/lin.ee\/wVjE4ZH\" target=\"_blank\" title=\"FAB4 (FAB4KOBE \/ FAB4OSAKA) OFFCIAL LINE ACCOUNT\">- LINE OFFCIAL ACCOUNT<\/a><\/p><p><\/p>",
+              "text": "<p><a href=\"https://www.instagram.com/fab4.inc/\" target=\"_blank\" title=\"FAB4 (FAB4KOBE / FAB4OSAKA)  STORE INSTAGRAM\">- INSTAGRAM</a></p><p><a href=\"https://lin.ee/wVjE4ZH\" target=\"_blank\" title=\"FAB4 (FAB4KOBE / FAB4OSAKA) OFFCIAL LINE ACCOUNT\">- LINE OFFCIAL ACCOUNT</a></p><p></p>",
               "container_width": 23
             }
           },
@@ -183,7 +183,7 @@
             "settings": {
               "show_footer_title": false,
               "title": "NEWSLETTER",
-              "text": "<p>FAB4OSAKA、ONLINE STOREでの商品発売日などをメールにてご案内しております。ご希望の方はご登録ください。  <\/p>",
+              "text": "<p>FAB4OSAKA、ONLINE STOREでの商品発売日などをメールにてご案内しております。ご希望の方はご登録ください。  </p>",
               "container_width": 36
             }
           },
@@ -225,22 +225,20 @@
         "block_order": [
           "reminder-block"
         ],
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
           "mode": true,
           "disable_for_account_holders": false,
           "popup_seconds": 5,
           "popup_days": 5,
           "popup_title": "FAB4 official Instagram",
-          "popup_text": "<p><\/p><p>各ブランド発売日の事前告知や、新入荷・予約に関する最新情報などをInstagramにてご案内しております。 ご登録がお済みでない方は ぜひこの機会にご登録ください。<\/p><p><\/p>",
-          "popup_image": "shopify:\/\/shop_images\/SNS-ICON-00.jpg",
+          "popup_text": "<p></p><p>各ブランド発売日の事前告知や、新入荷・予約に関する最新情報などをInstagramにてご案内しております。 ご登録がお済みでない方は ぜひこの機会にご登録ください。</p><p></p>",
+          "popup_image": "shopify://shop_images/SNS-ICON-00.jpg",
           "image_position": "left",
           "show_social_icons": false,
           "enable_newsletter": false,
           "button_label": "follow us @ instagram",
-          "button_link": "https:\/\/www.instagram.com\/fab4.inc\/"
+          "button_link": "https://www.instagram.com/fab4.inc/"
         }
       },
       "collection-header": {
@@ -260,7 +258,7 @@
             "settings": {
               "enable_image": true,
               "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
               "button_label": "Optional button",
               "button_link": ""
             }
@@ -271,7 +269,7 @@
             "settings": {
               "enable_image": true,
               "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
               "button_label": "Optional button",
               "button_link": ""
             }
@@ -282,7 +280,7 @@
             "settings": {
               "enable_image": true,
               "title": "Site-wide promotion",
-              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+              "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
               "button_label": "Optional button",
               "button_link": ""
             }
@@ -299,21 +297,17 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "9670189827046205946": {
-        "type": "shopify:\/\/apps\/hextom-translate-my-store\/blocks\/app-block\/b927a799-be04-4b97-9efb-5c8f0290a68e",
+        "type": "shopify://apps/hextom-translate-my-store/blocks/app-block/b927a799-be04-4b97-9efb-5c8f0290a68e",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "1804893150726543839": {
-        "type": "shopify:\/\/apps\/nova-multi-currency-converter\/blocks\/app-embed\/a5be3c35-cbd0-46a1-ac3a-1ace57a9c1ce",
+        "type": "shopify://apps/nova-multi-currency-converter/blocks/app-embed/a5be3c35-cbd0-46a1-ac3a-1ace57a9c1ce",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -465,15 +459,13 @@
             "reminder-block": {
               "type": "header",
               "disabled": true,
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
             "reminder-block"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "collection-header": {
           "type": "collection-header",
@@ -572,7 +564,7 @@
               "settings": {
                 "text": "Free shipping",
                 "link_text": "On all orders over $100",
-                "link": "shopify:\/\/collections\/all"
+                "link": "shopify://collections/all"
               }
             },
             "1520888647304": {
@@ -580,7 +572,7 @@
               "settings": {
                 "text": "Hassle-free returns",
                 "link_text": "30-day postage paid returns",
-                "link": "shopify:\/\/collections\/all"
+                "link": "shopify://collections/all"
               }
             }
           },
@@ -621,7 +613,7 @@
               "settings": {
                 "show_footer_title": true,
                 "title": "Sign up and save",
-                "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
+                "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
                 "container_width": 30
               }
             },
@@ -655,7 +647,7 @@
             "popup_seconds": 5,
             "popup_days": 30,
             "popup_title": "Sign up and save",
-            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+            "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.</p>",
             "popup_image": "",
             "enable_newsletter": true,
             "button_label": "Optional button",
@@ -679,7 +671,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -690,7 +682,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -701,7 +693,7 @@
                 "enable_image": true,
                 "image": "",
                 "title": "Site-wide promotion",
-                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+                "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
                 "button_label": "Optional button",
                 "button_link": ""
               }
@@ -815,8 +807,7 @@
           "blocks": {
             "1524768779513": {
               "type": "logo",
-              "settings": {
-              }
+              "settings": {}
             }
           },
           "block_order": [
@@ -837,8 +828,7 @@
           "blocks": {
             "1494292487693": {
               "type": "newsletter",
-              "settings": {
-              }
+              "settings": {}
             },
             "1526406521795": {
               "type": "menu",
@@ -865,8 +855,7 @@
         },
         "newsletter-popup": {
           "type": "newsletter-popup",
-          "settings": {
-          }
+          "settings": {}
         },
         "collection-header": {
           "type": "collection-header",
