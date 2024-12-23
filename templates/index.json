@@ -284,12 +284,12 @@
           "settings": {
             "subheading": "",
             "heading": "",
-            "textarea": "sulvam 23SS",
+            "textarea": "WHYUSWIRES",
             "cta_text1": "VIEW PRODUCTS",
-            "cta_link1": "shopify://collections/sulvam",
+            "cta_link1": "shopify://collections/whyuswires",
             "cta_text2": "",
             "cta_link2": "",
-            "image": "shopify://shop_images/sulvam23SS.jpg",
+            "image": "shopify://shop_images/WHYUSWIRES-tp-00.jpg",
             "video_url": "",
             "width": "100",
             "height": 800,
@@ -606,6 +606,7 @@
             "title_color": "",
             "alignment": "center",
             "background_color": "",
+            "feed_id": "",
             "html_area": ""
           }
         }
