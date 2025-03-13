@@ -22,7 +22,7 @@
     "color_large_image_bg": "#0f0f0f",
     "color_header": "#ffffff",
     "color_header_text": "#808080",
-    "color_announcement": "#c20000",
+    "color_announcement": "#ff6600",
     "color_announcement_text": "#ffffff",
     "color_footer": "#ffffff",
     "color_footer_text": "#808080",
@@ -104,7 +104,7 @@
           "1524770296206": {
             "type": "announcement",
             "settings": {
-              "text": "MORE SALE - UP TO 70% OFF -",
+              "text": "FLASH SALE - UP TO 70% OFF -",
               "link_text": "",
               "link": "shopify://collections/flash-sale"
             }
