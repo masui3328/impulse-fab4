@@ -531,6 +531,7 @@
         "collection_HPBxyy",
         "5df11873-254b-45dc-9e40-7fc2df308e3d"
       ],
+      "disabled": true,
       "settings": {
         "title": "PICK UP BRAND",
         "divider": true,
@@ -605,7 +606,14 @@
           "settings": {
             "title": "",
             "title_color": "",
+            "title_size_v2": 0,
             "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
             "background_color": "",
             "feed_id": "",
             "html_area": ""
@@ -622,6 +630,7 @@
     },
     "b6257d87-1311-4921-be36-1e09782d149e": {
       "type": "blog-posts",
+      "disabled": true,
       "settings": {
         "title": "Blog",
         "blog": "blog",
@@ -654,6 +663,7 @@
     },
     "map": {
       "type": "map",
+      "disabled": true,
       "settings": {
         "map_title": "FAB4OSAKA",
         "address": "<p>#101 LHOTSE I, 5-1-15 Toyosaki, Kita-ku, Osaka City, Osaka, Japan</p><p>MON - SUN, 14:00pm - 19:00pm‎‎‎‎‎‎‎‎‎‎<br/>Closed on Wednesdays and Irregular<br/></p>",
