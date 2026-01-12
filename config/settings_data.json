@@ -112,8 +112,8 @@
           "59b4bb25-cff7-4de8-9074-7e62b778a4f7": {
             "type": "announcement",
             "settings": {
-              "text": "",
-              "link_text": "FLASH COUPON - UP TO 30% OFF",
+              "text": "FLASH COUPON - UP TO 30% OFF",
+              "link_text": "Coupon Code : 12aw25",
               "link": "https://fab4.jp/collections/members-only"
             }
           },
