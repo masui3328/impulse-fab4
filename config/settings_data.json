@@ -111,11 +111,10 @@
           },
           "59b4bb25-cff7-4de8-9074-7e62b778a4f7": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "",
-              "link_text": "30-day postage paid returns",
-              "link": ""
+              "link_text": "FLASH COUPON - UP TO 30% OFF",
+              "link": "https://fab4.jp/collections/members-only"
             }
           },
           "1524770292306": {
