@@ -120,9 +120,9 @@
           "1524770292306": {
             "type": "announcement",
             "settings": {
-              "text": "more sale AW25 - Click here",
-              "link_text": "FLASH COUPON - UP TO 40% OFF",
-              "link": "https://fab4.jp/collections/members-only"
+              "text": "NEW SIGNED UP MEMBERS - EXCLUSIVE COUPONS",
+              "link_text": "JOIN NOW",
+              "link": "/account/register"
             }
           }
         },
@@ -228,7 +228,7 @@
           "mode": true,
           "disable_for_account_holders": false,
           "popup_seconds": 5,
-          "popup_days": 5,
+          "popup_days": 3,
           "popup_title": "FAB4 official Instagram",
           "popup_text": "<p></p><p>各ブランド発売日の事前告知や、新入荷・予約に関する最新情報などをInstagramにてご案内しております。 ご登録がお済みでない方は ぜひこの機会にご登録ください。</p><p></p>",
           "popup_image": "shopify://shop_images/SNS-ICON-01_95fc31cc-a40b-439e-b155-3d5f09973976.jpg",
