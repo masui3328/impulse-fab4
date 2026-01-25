@@ -104,16 +104,8 @@
           "1524770296206": {
             "type": "announcement",
             "settings": {
-              "text": "more sale AW25 - Click here",
-              "link_text": "FLASH COUPON - UP TO 40% OFF",
-              "link": "https://fab4.jp/collections/members-only"
-            }
-          },
-          "59b4bb25-cff7-4de8-9074-7e62b778a4f7": {
-            "type": "announcement",
-            "settings": {
-              "text": "FLASH COUPON - UP TO 40% OFF",
-              "link_text": "Coupon Code : 12aw25",
+              "text": "more sale AW25 - FLASH COUPON - UP TO 40% OFF",
+              "link_text": "SHOP NOW",
               "link": "https://fab4.jp/collections/members-only"
             }
           },
@@ -124,13 +116,21 @@
               "link_text": "JOIN NOW",
               "link": "/account/register"
             }
+          },
+          "59b4bb25-cff7-4de8-9074-7e62b778a4f7": {
+            "type": "announcement",
+            "settings": {
+              "text": "FLASH COUPON - UP TO 40% OFF",
+              "link_text": "Coupon Code : 12aw25",
+              "link": "https://fab4.jp/collections/members-only"
+            }
           }
         },
         "block_order": [
           "1524770014057",
           "1524770296206",
-          "59b4bb25-cff7-4de8-9074-7e62b778a4f7",
-          "1524770292306"
+          "1524770292306",
+          "59b4bb25-cff7-4de8-9074-7e62b778a4f7"
         ],
         "settings": {
           "main_menu_link_list": "main-menu",
