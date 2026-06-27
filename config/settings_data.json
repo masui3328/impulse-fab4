@@ -106,7 +106,7 @@
             "settings": {
               "text": "SUMMER SALE - UP TO 40% OFF",
               "link_text": "",
-              "link": "https://fab4.jp/collections/members-only"
+              "link": "shopify://collections/flash-sale"
             }
           },
           "1524770292306": {
@@ -122,7 +122,7 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "FLASH COUPON - AW25 UP TO 40% OFF",
+              "text": "FLASH COUPON - AW25 UP TO 50% OFF",
               "link_text": "Coupon Code : 12aw25",
               "link": "https://fab4.jp/collections/members-only"
             }
