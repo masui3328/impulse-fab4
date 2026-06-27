@@ -104,13 +104,14 @@
           "1524770296206": {
             "type": "announcement",
             "settings": {
-              "text": "FLASH COUPON - UP TO 40% OFF",
-              "link_text": "COUPON CODE : 12aw25",
+              "text": "SUMMER SALE - UP TO 40% OFF",
+              "link_text": "",
               "link": "https://fab4.jp/collections/members-only"
             }
           },
           "1524770292306": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "NEW SIGNED UP MEMBERS - EXCLUSIVE COUPONS",
               "link_text": "JOIN NOW",
